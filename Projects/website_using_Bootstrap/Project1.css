@@ -1,0 +1,105 @@
+body {
+	background-color: #121212;
+	color: white;
+	font-family: 'Vollkorn', serif;
+}
+
+h2{
+	line-height: 42px;
+}
+
+h1{
+	font-size: 47px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+	/*width: 1290px;*/
+	width: 81%;
+}
+
+.jumbotron h1{
+font-size: 47px;
+font-weight: 700;
+margin-bottom: 0px;
+
+}
+.jumbotron{
+	text-align: center;
+	background-color: #121212;
+	border-bottom: double;
+	padding: 0px 0px 55px 90px;
+	margin: 45px 0 0 0;
+
+}
+
+.mypic{
+	border-radius: 100%; 
+	width: 125px;
+
+}
+.banner_2{
+	text-align: center;
+	font-size: 23px; 
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding-bottom: 30px;
+
+}
+.second_box{
+	margin-bottom: 70px;
+}
+.intro{
+	font-size: 34px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+span{
+	color: yellow;
+}
+
+/*div:nth-of-type(2) h2 + */
+.row h1{
+	text-align: center;
+	font-size:50px;
+	margin: 70px 0 40px 0;
+	font-weight: 700;
+}
+
+.big{
+	padding:26px 20px;
+}
+img{
+	max-width: 100%;
+}
+
+.gbanner{
+	padding-bottom: 20px;
+	padding-top: 15px;
+	font-size: 80%;
+	/*box-sizing: border-box;*/
+}
+
+/*.first_box{
+	padding: 0px 0px 60px 0px;
+	border-bottom: 1px solid white;
+}
+*/
+.first_box{
+	font-size: 2.1rem;
+}
+.first_box h1{
+	text-align: center;
+	font-size:50px;
+	margin: 70px 0 40px 0;
+	font-weight: 700;
+}
+.navbar{
+	background-color: #121212;
+	border: 0px solid #121212;
+	margin-top: 30px;
+	font-size: 120%;
+}
