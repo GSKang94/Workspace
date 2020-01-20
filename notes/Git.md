@@ -12,13 +12,21 @@
 * commit changes.
 * create remote repository.
 * git remote add origin <add https of remote repo.>
-* push changes to github for first time (git push -u origin mastegitr)
+* push changes to github for first time (git push -u origin master)
 * again commit changes and upload your progress with <git push>
 
 ## Generate SSH keys
 
-```git
+```js
 ssh-keygen -t rsa -C "your_email@example.com"
+//copy ssh key
+cat ~/.ssh/id_rsa.pub 
+```
+
+## Force push changes
+
+```git
+git push origin <your_branch_name> --force
 ```
 
 ## .gitignore
@@ -43,8 +51,6 @@ git push origin :<remote_branch_name>
 ```js
 git tag -d <tag_name>
 ```
-
-
 
 ## To fetch a remote PR into your local repo.
 
@@ -158,20 +164,20 @@ git stash apply
 ## Alias
 
 ```js
-alias gst='git status'
-alias gl='git pull'
-alias gp='git push'
-alias gd='git diff | mate'
-alias gau='git add --update'
-alias gc='git commit -v'
-alias gca='git commit -v -a'
-alias gb='git branch'
-alias gba='git branch -a'
-alias gco='git checkout'
-alias gcob='git checkout -b'
-alias gcot='git checkout -t'
-alias gcotb='git checkout --track -b'
-alias glog='git log'
-alias glogp='git log --pretty=format:"%h %s" --graph'
+gst='git status'
+gl='git pull'
+gp='git push'
+gd='git diff | mate'
+gau='git add --update'
+gc='git commit -v'
+gca='git commit -v -a'
+gb='git branch'
+gba='git branch -a'
+gco='git checkout'
+gcob='git checkout -b'
+gcot='git checkout -t'
+gcotb='git checkout --track -b'
+glog='git log'
+glogp='git log --pretty=format:"%h %s" --graph'
 ```
 

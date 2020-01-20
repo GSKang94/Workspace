@@ -1,6 +1,6 @@
 class App extends React.Component {
     render() {
-        let slots = ["🍎", "🍊", "🍒"];
+        let slots = ["🍎", "🍊", "🍐"];
         function randomSlot() {
             let s = slots[Math.floor(Math.random() * slots.length)]
             return s;
