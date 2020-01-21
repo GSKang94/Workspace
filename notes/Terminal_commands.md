@@ -1,6 +1,6 @@
 # Terminal commands
 
-```js
+```css
 @ cd is for home directory.
 
 @ mkdir command is used to make a new directory/folder.

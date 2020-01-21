@@ -10,8 +10,6 @@
 const element = <h1>Hello, world!</h1>;
 ```
 
-
-
 * JSX produces React "elements".
 
 ## Elements
@@ -23,4 +21,15 @@ const element = <h1>Hello, world!</h1>;
   ```jsx
   const element = <h1>Hello, world!</h1>;
   ```
+
+## Default props
+
+* Write it inside your component before render( )
+
+```jsx
+static defaultProps = {
+    <prop_name> :<prop_value>,
+    <prop_name> :<prop_value>
+}
+```
 

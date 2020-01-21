@@ -858,7 +858,6 @@ N.B-- * The return value for `.forEach()` will always be `undefined`
 - This method only work on real arrays whereas for and while loop can iterate anything.
 https://www.youtube.com/watch?v=159EAISAxwg&
 
-
 [https://youtu.be/159EAISAxwg](https://youtu.be/159EAISAxwg)
 
 ![](https://s3.amazonaws.com/codecademy-content/courses/learn-javascript-iterators/iterator+anatomy.svg)
@@ -868,11 +867,13 @@ https://www.youtube.com/watch?v=159EAISAxwg&
 This method is similar to .forEach , the major difference is that .map returns a new array with updated elements.
 
 
-    const numbers = [1, 2, 3, 4, 5]; 
-    const bigNumbers = numbers.map((number) => {
-      return number * 10;
-    });
-    console.log(bigNumbers); // Output: [10, 20, 30, 40, 50]
+```js
+const numbers = [1, 2, 3, 4, 5]; 
+const bigNumbers = numbers.map((number) => {
+  return number * 10;
+});
+console.log(bigNumbers); // Output: [10, 20, 30, 40, 50]
+```
 
 
 ## .filter() Method
