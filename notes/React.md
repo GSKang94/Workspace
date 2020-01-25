@@ -33,3 +33,21 @@ static defaultProps = {
 }
 ```
 
+## Simple component
+
+```react
+class  extends React.Component{
+    render(){
+        return(
+        	<div>
+            	
+            </div>
+        )
+    }
+}
+```
+
+```react
+ReactDOM.render(App,document.getElementById('root'));
+```
+
