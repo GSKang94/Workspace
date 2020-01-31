@@ -45,7 +45,19 @@
 * Started React.js.
 * Studied 136 min.
 
-## 18 Jan 2020
+## 31 Jan 2020
 
-* 
+* Decided to stop distrohopping as it is killing my productive time.
+* Settled with Ubuntu.
+* Discovered front-end mentors.
+
+#### Tomorrow's plan
+
+---
+
+* Resume my React bootcamp.
+* when get bored, start practice on f-e mentors.
+* also improve your typing speed.
+* Journal every day.
+* **lesson **==> Pre-planned days would be only day's I'm growing otherwise I'm losing.
 
