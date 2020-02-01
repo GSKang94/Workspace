@@ -45,7 +45,7 @@
 * Started React.js.
 * Studied 136 min.
 
-## 31 Jan 2020
+## 30 Jan 2020
 
 * Decided to stop distrohopping as it is killing my productive time.
 * Settled with Ubuntu.
@@ -61,3 +61,19 @@
 * Journal every day.
 * **lesson **==> Pre-planned days would be only day's I'm growing otherwise I'm losing.
 
+## 31 Jan 2020
+
+* Finished Pokegame using react. :happy:
+* Revised flexbox and other css properties. :thumbsup:
+* Started learning React-state. :1st_place_medal:
+
+#### Tomorrow's plan
+
+---
+
+- [ ] :star: == **Continue React.** ==:star:
+
+- [ ] Practice typing.
+- [ ] Deposit money.
+- [ ] Clean car & visit simran.
+- [ ] Journal entry. :blue_book:

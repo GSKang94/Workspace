@@ -694,12 +694,16 @@ method constructs and returns a new string which contains the specified number o
 ## .slice( )
 
 - We can use slice method on strings and arrays.
+
 - The **slice()** method returns a shallow copy of a portion of an array into a new array object selected from `begin` to `end` (`end` not included). The original array will not be modified.
+    
+    ```js
     var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
     var citrus = fruits.slice(1, 3);
     // citrus contains ['Orange','Lemon']
-
-We can also make a copy of an entire array. 
+    ```
+    
+    We can also make a copy of an entire array. 
 
 
 ## .splice( )
@@ -880,12 +884,14 @@ console.log(bigNumbers); // Output: [10, 20, 30, 40, 50]
 
 Like .map method, this method also returns a new array however this method filter out certain elements from the original array that are true to condition.
 
-    const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door']; 
-    
-    const shortWords = words.filter((word) => {
-      return word.length < 6;
-    });
-    console.log(shortWords); // Output: ['chair', 'music', 'brick', 'pen', 'door']
+```js
+const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door']; 
+
+const shortWords = words.filter((word) => {
+  return word.length < 6;
+});
+console.log(shortWords); // Output: ['chair', 'music', 'brick', 'pen', 'door']
+```
 
 
 ## .findIndex() Method
@@ -893,20 +899,24 @@ Like .map method, this method also returns a new array however this method filte
 This method is used to find the location of an element(first occurance) in an array.
 **N.B--** It returns `-1` if none of the elements in the array satisfies the condition.
 
-    const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
-    const startsWithS = animals.findIndex(anime => anime[0]==='s')
-    //3
+```js
+const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+const startsWithS = animals.findIndex(anime => anime[0]==='s')
+//3
+```
 
 
 ## .reduce() Method
 
 Tihs method returns a **single value** after iterating through the elements of an array. 
 
-    const numbers = [1, 2, 4, 10];
-    const summedNums = numbers.reduce((accumulator, currentValue) => {
-      return accumulator + currentValue
-    })
-    console.log(summedNums) // Output: 17
+```js
+const numbers = [1, 2, 4, 10];
+const summedNums = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+})
+console.log(summedNums) // Output: 17
+```
 
 
 ## .some() Method
@@ -940,8 +950,6 @@ console.log(array1.every(isBelowThreshold));
 // expected output: true
 ```
 
-
-
 # Loops
 
 “same code sarea te apply krna”
@@ -973,12 +981,15 @@ for (let i = 0; i < animals.length; i++){
 
 ## While Loop
 -  In situations when we want a loop to execute an undetermined number of times, `while` loops are the best choice. For eg. you'll eat `while` you're hungry. 
+    
+    ```js
     // A while loop that prints 1, 2, and 3
     let counterTwo = 1;
     while (counterTwo < 4) {
       console.log(counterTwo);
       counterTwo++;
     }
+    ```
 
 
 ## Do…While Loop
@@ -1004,10 +1015,6 @@ for(let qualities of gagan){
 	console.log(qualities);
 }
 ```
-
-
-
-
 
 ## The break Keyword
 
@@ -1043,19 +1050,21 @@ for (let i = 0; i < 99; i++) {
 N.B-- We need to use quotation marks if we have **space** in our property name(key).
 
 ## Accessing Properties
-    let spaceship = {
-      homePlanet: 'Earth',
-      color: 'silver'
-    };
-    spaceship.homePlanet; // Returns 'Earth',
-    spaceship.color; // Returns 'silver',
+```js
+let spaceship = {
+  homePlanet: 'Earth',
+  color: 'silver'
+};
+spaceship.homePlanet; // Returns 'Earth',
+spaceship.color; // Returns 'silver',
+```
 
 
 ## Bracket Notation
 
 We **must** use Bracket Notation **if**
 
--  ****we have **space** in our property name.
+-  we have **space** in our property name.
 - The property starts with a number.
     let spaceship = {
       'Fuel Type': 'Turbo Fuel',
@@ -1637,4 +1646,9 @@ firstPromiseFunction()
 
 
 
-## 
+### padding a number
+
+```js
+let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
+```
+
