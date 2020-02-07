@@ -51,3 +51,9 @@ class  extends React.Component{
 ReactDOM.render(App,document.getElementById('root'));
 ```
 
+## React script for CRA
+
+```html
+npm install react-scnpm install react-scripts@latestripts@latest
+```
+

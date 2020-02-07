@@ -486,10 +486,9 @@ console.log(2016 - year);
     })();
     ```
 
-    
-
 
 ## Closures
+
 ```js
 function interviewQuestion(job) {
         var a = ' explain UX design'
@@ -528,7 +527,7 @@ function interviewQuestion(job) {
 - Bind:--
 
 — method similar to call().  However, this method does not immediately call a function,  but it creates a copy of it.
-— We can store it somewhere, for example in a variable.  
+— We can store it somewhere, for example in a variable. 
 — It can be useful for creating functions with pre-set arguments  (Currying method).
 — can also be useful when the function needs to be called later in certain events.
 
@@ -696,7 +695,7 @@ method constructs and returns a new string which contains the specified number o
 - We can use slice method on strings and arrays.
 
 - The **slice()** method returns a shallow copy of a portion of an array into a new array object selected from `begin` to `end` (`end` not included). The original array will not be modified.
-    
+  
     ```js
     var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
     var citrus = fruits.slice(1, 3);
@@ -981,7 +980,7 @@ for (let i = 0; i < animals.length; i++){
 
 ## While Loop
 -  In situations when we want a loop to execute an undetermined number of times, `while` loops are the best choice. For eg. you'll eat `while` you're hungry. 
-    
+   
     ```js
     // A while loop that prints 1, 2, and 3
     let counterTwo = 1;
@@ -1435,9 +1434,11 @@ input.addEventListener("keydown", function(){
    }
 })
 ```
-# OOP
+#                               OOP
 ## Constructors
 - Functions that creates an object.
+
+- A constructor is useful when you want to create multiple similar objects with the same properties and methods.
 
 - Constructor acts like a blueprint and used to create **instances** (objects).
 
@@ -1460,7 +1461,7 @@ input.addEventListener("keydown", function(){
   console.log(hobbit.info ())
   ```
 
-  
+  * Learn more : https://css-tricks.com/understanding-javascript-constructors/
 ## Class(ES6)
 
 This is a another method of creating constructor function.

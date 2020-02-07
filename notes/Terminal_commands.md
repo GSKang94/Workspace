@@ -53,6 +53,8 @@ For eg. cp -r old_directory new_directory_name
 @ rm -r command to remove a directory.
 
 @ rm -rf command to remove a directory forcefully.
+    
+@ lsblk to check all the drives attached to machiene.
 ```
 
 
