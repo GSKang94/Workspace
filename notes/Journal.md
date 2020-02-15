@@ -77,3 +77,5 @@
 - [ ] Deposit money.
 - [ ] Clean car & visit simran.
 - [ ] Journal entry. :blue_book:
+
+9 jan

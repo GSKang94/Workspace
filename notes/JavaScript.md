@@ -1,12 +1,10 @@
-# Documentation
-//Methods
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype
-//Standard build-in objects
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
-//Reserved keywords
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords
-//Array methods
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+## JS Cheatsheet
+
+https://mbeaudru.github.io/modern-js-cheatsheet/
+
+## ES6 Cheatsheet
+
+http://www.developer-cheatsheets.com/es6
 
 ## Primitive Datatypes
 

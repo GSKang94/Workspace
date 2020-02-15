@@ -263,21 +263,27 @@ To make them more resposive.
     }
 ## Border-radius
 - It modify the corners of element’s border box.
+
 - 100% is a circle.
+
+    ```css
     div.container {
       border: 3px solid rgb(22, 77, 100);
       border-radius: 5px;
     }
+    ```
 ## Padding
 
 **Padding is the space that’s inside the element between the element and the border.**
 
-    padding-top
-    padding-right
-    padding-bottom
-    padding-left
-    padding: 6px 10px 4px 9px; top,right,bottom and left.
-    padding: 20px 30px; top and bottom.
+```css
+padding-top
+padding-right
+padding-bottom
+padding-left
+padding: 6px 10px 4px 9px; top,right,bottom and left.
+padding: 20px 30px; top and bottom.
+```
 ## Margin
 
 Similar to padding just need to understand the concept of margin.
@@ -299,12 +305,14 @@ Horizontal margins (left and right), like padding, are always displayed and adde
 vertical margins do not add. Instead, the larger of the two vertical margins sets the distance between adjacent elements.
 
 ## Minimum and Maximum Height and Width
-    p {
-      min-width: 300px;
-      max-width: 600px;
-      min-height: 150px;
-      max-height: 300px;
-    }
+```css
+p {
+  min-width: 300px;
+  max-width: 600px;
+  min-height: 150px;
+  max-height: 300px;
+}
+```
 ## Overflow
 
 property controls what happens to content that spills, or overflows, outside its box.
@@ -315,24 +323,33 @@ property controls what happens to content that spills, or overflows, outside its
     p {
       overflow: scroll; 
     }
-## Resetting defaults
+## Resetting defaults / Normalize
 
 It should be my first CSS rule.
 It’ll give me a clean slate to work on.
 
-    * {
-      margin: 0;
-      padding: 0;
-    }
+```css
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+```
 ## Visibility
-    .future {
-      visibility: hidden; or visible;
-    }
+```css
+.future {
+  visibility: hidden; or visible;
+}
+```
 ## The New Box-Model
 - In the default box model, box dimensions are affected by border thickness and padding.
-    * {
-      box-sizing: border-box; (content-box is default)
+    ```css
+    {
+    box-sizing: border-box; (content-box is default)
     }
+    ```
 ----------
 ## Position
 ```css
@@ -367,7 +384,9 @@ The element position will be fixed in the page and the element wont move while s
 ****
 **This property applies one or more shadow to an element.**
 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+```css
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+```
 ## Inline and block-level 
 
 <u>, <em>,<strong> are inline elements.They take little space.
@@ -722,12 +741,14 @@ flex: 1 2 300px;
 
 With media queries, CSS can detect the size of the current screen and apply different CSS styles depending on the width of the screen.
 
-    @media only screen and (max-width : 480px) {
-      body {
-      font-size: 12px;
-      }
-    }
-    This means, when the device is screen, and the max screen width is 480px, only then change the font-size of body element.
+```css
+@media only screen and (max-width : 480px) {
+  body {
+  font-size: 12px;
+  }
+}
+This means, when the device is screen, and the max screen width is 480px, only then change the font-size of body element.
+```
 
 
 ## range
@@ -737,7 +758,7 @@ With media queries, CSS can detect the size of the current screen and apply diff
 
 
 ## operators
-- and ---- code applies when all conditions after ‘and’ operator are met.
+- and ---> code applies when all conditions after ‘and’ operator are met.
 - ,------- it is an ‘OR’ operator opposite to and.
 
 

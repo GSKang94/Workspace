@@ -30,6 +30,10 @@ const element = <h1>Hello, world!</h1>;
 static defaultProps = {
     <prop_name> :<prop_value>,
     <prop_name> :<prop_value>
+}  
+        Or
+Component.defaultProps = {
+    <prop_name> :<prop_value> 
 }
 ```
 
@@ -53,7 +57,19 @@ ReactDOM.render(App,document.getElementById('root'));
 
 ## React script for CRA
 
-```html
+```css
 npm install react-scnpm install react-scripts@latestripts@latest
+```
+
+## propTypes
+
+ Type-checking features to verify that components receive props of the correct type.
+
+```react
+MyComponent.propTypes = { 
+    handleClick: PropTypes.func.isRequired 
+}
+//  PropTypes.func part checks that handleClick is a function.
+//  isRequired tells React that handleClick is a required property for that component.
 ```
 
