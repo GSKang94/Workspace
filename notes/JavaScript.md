@@ -1368,8 +1368,12 @@ click, mouseover, dblclick, keypress, drag
 <p id="demo"></p>
 ```
 
+## onChange
+
+When I change something on input field.
 
 ## Reload page 
+
     button.addEventListener("click", function() {
      window.location.reload();
      });

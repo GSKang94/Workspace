@@ -2,7 +2,7 @@
 
 https://api.jquery.com/
 
-##Selecting Elements
+## Selecting Elements
 
 ### $(“”)
 - It is very similar to querySelectorAll in vanilla.

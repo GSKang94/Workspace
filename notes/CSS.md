@@ -353,25 +353,21 @@ It’ll give me a clean slate to work on.
 ----------
 ## Position
 ```css
-Value: Static(default)
-            Relative
-            Absolute
-            Fixed
-			inherit
+Value: Static(default)    
+            Relative                            top: 50px;
+            Absolute                            left: 20px;
+            Absolute            In the above code, the element will move               Fixed                       down 50px and move right 20px
+            inherit
 ```
 
 
 ```css
-Position: relative; (The element will move relative to its default position.)
-top: 50px;
-left: 20px;
-In the above code, the element will move down 50px and move right 20px.
+'Relative': (The element will move relative to its default position.)
 
-Position: absolute; We can position the element anywhere in the page. This may overshadow other elements.
-The position will be relative to its closest element or parent that is not statically positioned. That means the parent should be positioned other than static.
+'Absolute': locks the element in place relative to its parent container.
+            Parent position :relative;
 
-Position: Fixed;
-The element position will be fixed in the page and the element wont move while scrolling.
+'Fixed': locks an element relative to the browser window and the element            wont move while scrolling.
 ```
 ## Z-index
 -  property specifies the **stack order** of an element.
@@ -401,14 +397,24 @@ We can specify the height and width of these elements.
 
 ## Float
 - If we want to move the element far left or right in the page.
+
 - It will remove any margin between elements.
+
 - Works on static and relative position.
+
 - We must specify the width of the element.
+
 - We can use this to wrap text around an image.
+    
+    ```css
     float: right or left or none
-## Clear
-- When we use the clear property, often elements bump into each other, so  we use this.
-    Clear: left or right or both or none;
+    ```
+    
+    ## clear
+
+When we use the clear property, often elements bump into each other, so  we use this.
+Clear: left or right or both or none;
+
 ----------
 ## Color
     h1 {
@@ -517,14 +523,14 @@ text-decoration: line-through;
 ```
 ## Transform
 
-This property lets us rotate,scale,skew or translate an element.
+* We can scale an element with this.
+
+* This property also lets us rotate,scale,skew or translate an element.
 
 ```css
 transform: rotate(0.5turn);
 //This will rotate an element upside down.
 ```
-
-
 
 # Grid
 

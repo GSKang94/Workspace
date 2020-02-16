@@ -31,7 +31,7 @@ static defaultProps = {
     <prop_name> :<prop_value>,
     <prop_name> :<prop_value>
 }  
-        Or
+  Or anywhere after the component
 Component.defaultProps = {
     <prop_name> :<prop_value> 
 }
@@ -71,5 +71,82 @@ MyComponent.propTypes = {
 }
 //  PropTypes.func part checks that handleClick is a function.
 //  isRequired tells React that handleClick is a required property for that component.
+```
+
+---
+
+## TIL
+
+* **I can write any Javascript directly between render ( ) and return ( ) method.**
+* Write methods before render ( ).
+
+---
+
+## .setstate ( )
+
+* Never modify a React state directly but instead use this method.
+* We write methods between constructor & render.
+
+```js
+this.setState({
+  username: 'Gagan'
+});
+```
+
+## .bind (this)
+
+A class method typically needs to use the **this** keyword so it can access properties on the class (such as `state` and `props`) inside the scope of the method. 
+
+```jsx
+//inside constructor
+this.handleClick=this.handleClick.bind(this);
+//between constructor & render
+handleClick() {
+    this.setState({
+      text: "You clicked!"
+    });
+  }
+//inside render()
+<button onClick = {this.handleClick}>Click Me</button>
+```
+
+## Better `setState ( )`
+
+* Sometimes I might need to know the previous state when updating the state. 
+* But React may batch multiple **setState( )** calls into a single update.
+* I can't rely on the previous value of `this.state` or `this.props` when calculating the next value.
+* I should pass **setState** a function that allows you to access state and props.
+* It guarantees that I am working with the most current values of state and props.
+
+```jsx
+//Wrong code
+this.setState({
+  counter: this.state.counter + this.props.increment
+});
+//Do it right
+this.setState((state, props) => ({
+  counter: state.counter + props.increment
+}));
+```
+
+## Input value
+
+**Scenario:** There is a **input** field on my app and I want to change state by using the **value** of input. Finally, I can render that value on my app.
+
+```jsx
+//empty input 
+this.state = {
+      input: ''
+};
+//getting input value
+handleChange(event) {
+    this.setState({
+      input: event.target.value
+    })
+};
+//input field
+<input value={this.state.input} onChange={this.handleChange}> </input>
+//render
+<p>{this.state.input}</p>
 ```
 
