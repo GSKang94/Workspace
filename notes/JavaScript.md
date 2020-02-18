@@ -1655,3 +1655,6 @@ firstPromiseFunction()
 let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 ```
 
+## event.preventDefault ( )
+
+To prevent the default form submit behavior which will refresh the web page.
