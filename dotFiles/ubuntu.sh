@@ -85,6 +85,9 @@ sudo add-apt-repository ppa:peek-developers/stable
 sudo apt update
 sudo apt install peek
 
+                           #Gdebi
+sudo apt install gdebi
+
                            #Node.js
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -127,8 +130,8 @@ gnome-shell-extension-tool -e dash-to-panel
 #cp ../img/lock.jpg ~/lock.jpg
 dconf load /org/gnome/ < ../../settings.dconf
 
-
-
+#Reupdate system
+sudo apt-get update && sudo apt-get upgrade
 
 
 

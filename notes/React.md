@@ -79,6 +79,8 @@ MyComponent.propTypes = {
 
 * **I can write any Javascript directly between render ( ) and return ( ) method.**
 * Write methods before render ( ).
+*  There is *unidirectional data flow*. State flows in one direction down the tree of your application's components, from the stateful parent component to child components.
+* Principle of separating state logic from UI logic is one of React's key principles.
 
 ---
 
