@@ -1,0 +1,298 @@
+[control-center]
+last-panel='keyboard'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'Sundry', 'YaST']
+
+[desktop/app-folders/folders/Sundry]
+apps=['alacarte.desktop', 'authconfig.desktop', 'ca.desrt.dconf-editor.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'nm-connection-editor.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-printer.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+categories=['X-GNOME-Sundry']
+name='X-GNOME-Sundry.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['org.gnome.baobab.desktop', 'deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'org.gnome.FileRoller.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Screenshot.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/singh/Pictures/1291098-dark-minimal-wallpaper-1920x1080-tablet.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+show-desktop-icons=false
+
+[desktop/calendar]
+show-weekdate=false
+
+[desktop/datetime]
+automatic-timezone=true
+
+[desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[desktop/interface]
+clock-format='12h'
+clock-show-date=false
+cursor-theme='capitaine-cursors-r3'
+enable-animations=true
+enable-hot-corners=true
+font-name='Ubuntu 14'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+monospace-font-name='Ubuntu Mono 16'
+show-battery-percentage=true
+
+[desktop/notifications]
+application-children=['update-manager', 'org-gnome-software', 'google-chrome', 'gnome-shell-extension-prefs']
+
+[desktop/notifications/application/gnome-shell-extension-prefs]
+application-id='gnome-shell-extension-prefs.desktop'
+
+[desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/notifications/application/update-manager]
+application-id='update-manager.desktop'
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+disable-microphone=false
+old-files-age=uint32 14
+recent-files-max-age=30
+remove-old-temp-files=true
+remove-old-trash-files=true
+report-technical-problems=true
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/singh/.local/share/backgrounds/2020-02-19-17-34-34-1291099-dark-minimal-wallpaper-1920x1080-for-hd.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/search-providers]
+disabled=['org.gnome.Software.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.seahorse.Application.desktop']
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 0
+
+[desktop/sound]
+allow-volume-above-100-percent=true
+
+[desktop/wm/keybindings]
+activate-window-menu=@as []
+move-to-monitor-left=['<Primary><Shift>Left']
+move-to-monitor-right=['<Primary><Shift>Right']
+move-to-workspace-down=['<Primary><Shift>Down']
+move-to-workspace-up=['<Primary><Shift>Up']
+switch-to-workspace-down=['<Primary>Down']
+switch-to-workspace-up=['<Primary>Up']
+switch-windows=['<Alt>space']
+switch-windows-backward=['<Shift><Alt>space']
+
+[desktop/wm/preferences]
+action-middle-click-titlebar='minimize'
+button-layout=':close'
+
+[eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[evince/default]
+window-ratio=(1.1209150326797386, 0.71212121212121215)
+
+[evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[gedit/plugins]
+active-plugins=['filebrowser']
+
+[gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/singh/Workspace/dotFiles'
+
+[gedit/preferences/editor]
+editor-font='Fira Code 15'
+scheme='dracula'
+use-default-font=false
+wrap-last-split-mode='word'
+
+[gedit/preferences/ui]
+show-tabs-mode='auto'
+statusbar-visible=false
+
+[gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[gnome-system-monitor]
+current-tab='disks'
+maximized=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(700, 500, 26, 23)
+
+[gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=15
+sort-order=0
+
+[mutter]
+attach-modal-dialogs=false
+center-new-windows=true
+edge-tiling=false
+workspaces-only-on-primary=false
+
+[nautilus/icon-view]
+default-zoom-level='large'
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(890, 543)
+maximized=false
+sidebar-width=192
+
+[settings-daemon/peripherals/touchscreen]
+orientation-lock=true
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(49.844345619942409, -97.102459499999995)
+night-light-temperature=uint32 3071
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+terminal=['<Alt>period']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Primary><Shift><Alt>z'
+command='systemctl suspend'
+name='Suspend'
+
+[settings-daemon/plugins/power]
+idle-dim=false
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-type='nothing'
+
+[settings-daemon/plugins/xsettings]
+hinting='slight'
+
+[shell]
+app-picker-view=uint32 1
+disable-user-extensions=false
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'ubuntu-dock@ubuntu.com', 'dash-to-panel@jderose9.github.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'typora.desktop', 'code.desktop']
+had-bluetooth-devices-setup=true
+
+[shell/extensions/dash-to-panel]
+appicon-margin=7
+appicon-padding=4
+dot-position='BOTTOM'
+hotkeys-overlay-combo='TEMPORARILY'
+intellihide=true
+intellihide-behaviour='FOCUSED_WINDOWS'
+intellihide-hide-from-windows=true
+intellihide-pressure-threshold=160
+intellihide-pressure-time=1000
+intellihide-show-in-fullscreen=true
+intellihide-use-pressure=true
+isolate-monitors=true
+isolate-workspaces=true
+location-clock='STATUSRIGHT'
+panel-position='BOTTOM'
+panel-size=47
+show-status-menu-all-monitors=false
+status-icon-padding=6
+taskbar-position='LEFTPANEL'
+tray-padding=2
+window-preview-padding=3
+window-preview-size=150
+window-preview-title-font-color='#dddddd'
+
+[shell/extensions/desktop-icons]
+show-home=false
+show-trash=false
+
+[shell/extensions/extendedgestures]
+down-three-action='switch-workspace'
+left-three-action='overview'
+right-three-action='overview'
+up-three-action='show-desktop'
+up-three-swipes=true
+
+[shell/extensions/gsconnect]
+devices=@as []
+id='6167f435-6803-403c-ad9e-2975601e8f4b'
+name='coder'
+
+[shell/extensions/gsconnect/device/d9c666ccf428854e]
+incoming-capabilities=['kdeconnect.battery.request', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.photo.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://10.0.0.241:1716'
+name='PH-1'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.photo', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+supported-plugins=['battery', 'clipboard', 'contacts', 'findmyphone', 'mpris', 'notification', 'photo', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
+[shell/extensions/user-theme]
+name='vimix-dark-ruby'
+
+[software]
+check-timestamp=int64 1582114312
+
+[system/location]
+enabled=true
+
+[terminal/legacy/keybindings]
+copy='<Primary>c'
+paste='<Primary>v'
+
+[terminal/legacy/profiles:]
+default='7769a63b-d032-4c45-8aa1-4c28a9033c0f'
+list=['7769a63b-d032-4c45-8aa1-4c28a9033c0f']
+
+[terminal/legacy/profiles:/:7769a63b-d032-4c45-8aa1-4c28a9033c0f]
+allow-bold=true
+background-color='#0e0e10101919'
+bold-color='#fffffafaf4f4'
+bold-color-same-as-fg=true
+font='MesloLGS NF 14'
+foreground-color='#fffffafaf4f4'
+highlight-background-color='#'
+highlight-colors-set=false
+highlight-foreground-color='#'
+palette=['#232323232323', '#ffff00000f0f', '#8c8ce1e10b0b', '#ffffb9b90000', '#00008d8df8f8', '#6d6d4343a6a6', '#0000d8d8ebeb', '#ffffffffffff', '#444444444444', '#ffff27274040', '#ababe1e15b5b', '#ffffd2d24242', '#00009292ffff', '#9a9a5f5febeb', '#6767fffff0f0', '#ffffffffffff']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Argonaut'
