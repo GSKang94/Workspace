@@ -1,9 +1,8 @@
-#!/bin/bash
-#sudo su
+
 # update system
 sudo apt-get update && sudo apt-get upgrade
 
-#install ZSH
+#install ZSH & Git
 sudo apt-get install zsh git -y
 
 #make ZSH default
@@ -71,6 +70,15 @@ sudo add-apt-repository 'deb https://typora.io/linux ./'
 sudo apt-get update
 # install typora
 sudo apt-get install typora
+
+                         #SPOTIFY
+
+#Add key
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
+#Add repo.
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+#install
+sudo apt-get update && sudo apt-get install spotify-client
 
                            #PEEK
 sudo add-apt-repository ppa:peek-developers/stable
