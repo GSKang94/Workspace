@@ -1,4 +1,19 @@
+sudo apt autoremove
 
+curl
+
+mkdir .local/share/gedit && mkdir .local/share/gedit/styles
+
+mv dracula.xml ../../../.local/share/gedit/styles/
+
+
+
+
+mv .ssh ../../../
+
+
+
+mv .zshrc .bashrc .gitconfig .aliases ../../../
 # update system
 sudo apt-get update && sudo apt-get upgrade
 
