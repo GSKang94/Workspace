@@ -150,3 +150,9 @@ sudo apt-get update && sudo apt-get upgrade
 
 
 
+
+dconf dump / > full-backup
+dconf load / < full-backup
+
+
+
