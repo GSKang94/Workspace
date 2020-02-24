@@ -1,8 +1,8 @@
 ## git workflow
 
 * Make SSH key in you local and remote machine.
-* git config --global user.name 'git_username'
-* git config --global user.email 'my_email'
+* git config --global user.name 'GSingh1994'
+* git config --global user.email 'singh.gagandeep0034@gmail.com'
 * init. a git repo in local machine.
 * create files.
 * create a branch.
@@ -18,7 +18,7 @@
 ## Generate SSH keys
 
 ```js
-ssh-keygen -t rsa -C "your_email@example.com"
+ssh-keygen -t rsa -C "singh.gagandeep0034@gmail.com"
 //copy ssh key
 cat ~/.ssh/id_rsa.pub 
 ```
