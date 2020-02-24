@@ -1,24 +1,27 @@
-sudo apt autoremove
-
-curl
-
-mkdir .local/share/gedit && mkdir .local/share/gedit/styles
-
-mv dracula.xml ../../../.local/share/gedit/styles/
-
-
-
-
-mv .ssh ../../../
-
-
-
-mv .zshrc .bashrc .gitconfig .aliases ../../../
 # update system
 sudo apt-get update && sudo apt-get upgrade
 
+#Git
+git config --global user.name 'GSingh1994'
+
+git config --global user.email 'singh.gagandeep0034@gmail.com'
+
+ssh-keygen -t rsa -C "singh.gagandeep0034@gmail.com"
+
+cat ~/.ssh/id_rsa.pub 
+
+#gedit theme
+mkdir .local/share/gedit && mkdir .local/share/gedit/styles
+
+cd Downloads/Workspace/dotfiles
+
+cp dracula.xml ../../../.local/share/gedit/styles/
+
+#aliases
+cp .aliases ../../../
+
 #install ZSH & Git
-sudo apt-get install zsh git -y
+sudo apt-get install curl zsh git -y
 
 #make ZSH default
 chsh -s $(which zsh)
@@ -35,7 +38,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 #Powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+#My Alias file
+source $HOME/.aliases
+
+sudo apt autoremove
                           #CHROME
 
 #Download and install the key
@@ -116,10 +126,7 @@ sudo apt install fonts-firacode
 
                            #Cleanup
 #remove evolution
-sudo ln -snf /dev/null  org.gnome.evolution.dataserver.AddressBook.service\n
-sudo ln -snf /dev/null  org.gnome.evolution.dataserver.Calendar.service\n
-sudo ln -snf /dev/null  org.gnome.evolution.dataserver.Sources.service\n
-sudo ln -snf /dev/null  org.gnome.evolution.dataserver.UserPrompter.service\n
+
 
 #remove snapd
 sudo apt purge snapd
@@ -132,27 +139,15 @@ sudo apt purge gnome-software
 # install gnome shell integration
 sudo apt install chrome-gnome-shell
 
-# GNOME extension to move bar to bottom
-sudo apt install -y gnome-tweaks chrome-gnome-shell
-git clone https://github.com/home-sweet-gnome/dash-to-panel.git panel
-cd panel && make install
-cd ..
-rm -rf panel
-gnome-shell-extension-tool -e dash-to-panel
-
-# Set up the desktop environment
-#cp ../img/desktop.jpg ~/desktop.jpg
-#cp ../img/lock.jpg ~/lock.jpg
-dconf load /org/gnome/ < ../../settings.dconf
 
 #Reupdate system
 sudo apt-get update && sudo apt-get upgrade
 
+#backup config
+dconf dump / > Ubuntu-backup
 
-
-
-dconf dump / > full-backup
-dconf load / < full-backup
+#restore config
+dconf load / < Ubuntu-backup
 
 
 
