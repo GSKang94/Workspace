@@ -152,4 +152,14 @@ dconf dump / > Ubuntu-backup
 dconf load / < Ubuntu-backup
 
 
+# Backup icons & themes
+tar -cvpf custom-icons.tar.gz ~/.icons
+
+tar -cvpf custom-themes.tar.gz ~/.themes
+
+#restore icons & themes
+tar --extract --file custom-icons.tar.gz -C ~/ --strip-components=2
+
+tar --extract --file custom-themes.tar.gz -C ~/ --strip-components=2
+
 
