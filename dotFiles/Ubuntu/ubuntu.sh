@@ -121,9 +121,13 @@ sudo apt-get install -y nodejs
 
                             #TLDR
 sudo npm install -g tldr
+ 
+                            #FFF & transmission
+sudo apt install fonts-firacode transmission
 
-                            #FFF
-sudo apt install fonts-firacode
+
+                             #video player
+xdg-open apt://totem
 
 
                            #Cleanup

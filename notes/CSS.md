@@ -75,15 +75,17 @@ king of all selectors but we need to avoid it.
 We require chaining when HTML element has two or more CSS selectors at the same time.
 
 ## Descendant selectors
-    In HTML
-    <ul class='main-list'>
-      <li> ... </li>
-      <li> ... </li>
-    </ul>
-    In CSS
-    .main-list li {
-    color: blue;
-    }
+```css
+In HTML
+<ul class='main-list'>
+  <li> ... </li>
+  <li> ... </li>
+</ul>
+In CSS
+.main-list li {
+color: blue;
+}
+```
 
 
 ## Attribute selector
@@ -405,7 +407,7 @@ We can specify the height and width of these elements.
 - We must specify the width of the element.
 
 - We can use this to wrap text around an image.
-    
+  
     ```css
     float: right or left or none
     ```
