@@ -46,8 +46,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 #My Alias file
 source $HOME/.aliases
-
-sudo apt autoremove
                           #CHROME
 
 #Download and install the key
