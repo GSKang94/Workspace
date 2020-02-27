@@ -72,10 +72,7 @@ sudo npm install -g tldr
 
 
                            #STREAMIO
-git clone https://github.com/alexandru-balan/Stremio-Install-Scripts.git 
-cd Stremio-Install-Scripts 
-chmod 755 installStremioSolus.sh 
-./installStremioSolus.sh
+git clone https://github.com/alexandru-balan/Stremio-Install-Scripts.git && cd Stremio-Install-Scripts && chmod 755 installStremioSolus.sh && ./installStremioSolus.sh
 
 
 #backup config
@@ -94,4 +91,14 @@ tar -cvpf custom-themes.tar.gz ~/.themes
 tar --extract --file custom-icons.tar.gz -C ~/ --strip-components=2
 
 tar --extract --file custom-themes.tar.gz -C ~/ --strip-components=2
+
+
+#
+sudo mv /usr/lib/evolution-data-server /usr/lib/evolution-data-server-disabled\n
+
+sudo mv /usr/lib/evolution /usr/lib/evolution-disabled\n
+
+
+
+
 
