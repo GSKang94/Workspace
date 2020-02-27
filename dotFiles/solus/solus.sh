@@ -1,8 +1,28 @@
 # update system
 sudo eopkg up
 
-#install ZSH & Git
-sudo eopkg install -y zsh git wget
+#install ZSH,  Git, vscode, menulibre, fonts, font-viewer
+sudo eopkg it -y zsh git wget vscode menulibre firacode-ttf gnome-font-viewer peek
+
+#generate ssh key
+git config --global user.name 'GSingh1994'
+
+git config --global user.email 'singh.gagandeep0034@gmail.com'
+
+ssh-keygen -t rsa -C "singh.gagandeep0034@gmail.com"
+
+cat ~/.ssh/id_rsa.pub 
+
+#gedit theme
+cd
+mkdir .local/share/gedit && mkdir .local/share/gedit/styles
+
+cd Workspace/dotFiles/solus
+
+cp dracula.xml ../../../.local/share/gedit/styles/
+
+#aliases
+cp .aliases ../../../
 
 #install Oh my ZSH
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
@@ -16,6 +36,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 #Powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
+# Finale
 nano .zshrc
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -35,9 +56,6 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/getsolus/3rd-par
 
 sudo eopkg it spotify*.eopkg;sudo rm spotify*.eopkg
 
-                          #VSCODE
-
-sudo eopkg install vscode
 
                            #SLACK
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/getsolus/3rd-party/master/network/im/slack-desktop/pspec.xml
@@ -48,20 +66,9 @@ sudo eopkg it slack-desktop*.eopkg;sudo rm slack-desktop*.eopkg
 
 xdg-open https://typora.io/linux/Typora-linux-x64.tar.gz
 
-                           #PEEK
-sudo eopkg it peek
-
-                         #Menulibre
-sudo eopkg install menulibre
-
-                           #Node.js (already with vscode)
-#sudo eopkg install nodejs
 
                             #TLDR
 sudo npm install -g tldr
-
-                            #FFF
-sudo eopkg install font-firacode-ttf
 
 
                            #STREAMIO
@@ -76,4 +83,15 @@ dconf dump / > Solus-backup
 
 #restore config
 dconf load / < Solus-backup
+
+
+# Backup icons & themes
+tar -cvpf custom-icons.tar.gz ~/.icons
+
+tar -cvpf custom-themes.tar.gz ~/.themes
+
+#restore icons & themes
+tar --extract --file custom-icons.tar.gz -C ~/ --strip-components=2
+
+tar --extract --file custom-themes.tar.gz -C ~/ --strip-components=2
 

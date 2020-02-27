@@ -127,10 +127,6 @@ sudo apt install fonts-firacode transmission
                              #video player
 xdg-open apt://totem
 
-                              #taskbook
-sudo npm install --global taskbook
-
-
                            #Cleanup
 #remove evolution
 
