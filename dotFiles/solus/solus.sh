@@ -2,7 +2,7 @@
 sudo eopkg up
 
 #install ZSH,  Git, vscode, menulibre, fonts, font-viewer
-sudo eopkg it -y zsh git wget vscode menulibre firacode-ttf gnome-font-viewer peek
+sudo eopkg it -y zsh git wget vscode menulibre font-firacode-ttf gnome-font-viewer peek
 
 #generate ssh key
 git config --global user.name 'GSingh1994'
@@ -44,6 +44,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $HOME/.aliases
+
+#emoji-support
+cd Workspace/dotfiles/solus/emoji-support
+mv fontconfig ../../../../.config/
+mv .fonts ../../../../
+
+fc-cache -f -v
 
                           #CHROME
 
@@ -97,8 +104,5 @@ tar --extract --file custom-themes.tar.gz -C ~/ --strip-components=2
 sudo mv /usr/lib/evolution-data-server /usr/lib/evolution-data-server-disabled\n
 
 sudo mv /usr/lib/evolution /usr/lib/evolution-disabled\n
-
-
-
 
 

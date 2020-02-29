@@ -138,8 +138,43 @@ alignment='end'
 name='Raven Trigger'
 position=5
 
+[com/solus-project/budgie-panel/applets/{d9a0ec64-5a93-11ea-be8e-8f75b9264423}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d9a598fe-5a93-11ea-be8e-8f75b9264423}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d9ae381a-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='System Tray'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d9b22862-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='Status Indicator'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d9b5060e-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='User Indicator'
+position=2
+
+[com/solus-project/budgie-panel/applets/{d9b5b78e-5a93-11ea-be8e-8f75b9264423}]
+alignment='center'
+name='Clock'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d9b668a0-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='Raven Trigger'
+position=3
+
 [com/solus-project/budgie-panel/instance/budgie-menu/{a5250d4e-5566-11ea-a14d-a194bc2a2f14}]
-menu-compact=true
+menu-compact=false
 menu-icon='/home/gagan/Pictures/Budgie.png'
 
 [com/solus-project/budgie-panel/instance/icon-tasklist/{a528fa58-5566-11ea-a14d-a194bc2a2f14}]
@@ -149,8 +184,11 @@ restrict-to-workspace=true
 [com/solus-project/budgie-panel/instance/icon-tasklist/{d1a9689e-55dc-11ea-953d-6fafb54b77d0}]
 pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'firefox.desktop', 'io.github.GnomeMpv.desktop', 'rhythmbox.desktop', 'google-chrome.desktop']
 
+[com/solus-project/budgie-panel/instance/icon-tasklist/{d9a598fe-5a93-11ea-be8e-8f75b9264423}]
+restrict-to-workspace=true
+
 [com/solus-project/budgie-panel/panels/{a520feac-5566-11ea-a14d-a194bc2a2f14}]
-applets=['a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'a540b2d8-5566-11ea-a14d-a194bc2a2f14', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', 'a54170f6-5566-11ea-a14d-a194bc2a2f14', 'a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', 'a5362002-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14']
+applets=['a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'a540b2d8-5566-11ea-a14d-a194bc2a2f14', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', 'a54170f6-5566-11ea-a14d-a194bc2a2f14', 'a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14', 'a5362002-5566-11ea-a14d-a194bc2a2f14']
 autohide='intelligent'
 enable-shadow=false
 location='bottom'
@@ -165,6 +203,12 @@ transparency='none'
 
 [com/solus-project/budgie-panel/panels/{d31dd760-581a-11ea-9350-bd9751eb98b1}]
 applets=['d3411c70-581a-11ea-9350-bd9751eb98b1', 'd336e318-581a-11ea-9350-bd9751eb98b1', 'd34075fe-581a-11ea-9350-bd9751eb98b1', 'd3367446-581a-11ea-9350-bd9751eb98b1', 'd33f672c-581a-11ea-9350-bd9751eb98b1', 'd3287832-581a-11ea-9350-bd9751eb98b1', 'd33ba506-581a-11ea-9350-bd9751eb98b1', 'd3230b36-581a-11ea-9350-bd9751eb98b1']
+location='bottom'
+size=39
+transparency='none'
+
+[com/solus-project/budgie-panel/panels/{d99ccec2-5a93-11ea-be8e-8f75b9264423}]
+applets=['d9b668a0-5a93-11ea-be8e-8f75b9264423', 'd9b22862-5a93-11ea-be8e-8f75b9264423', 'd9ae381a-5a93-11ea-be8e-8f75b9264423', 'd9a598fe-5a93-11ea-be8e-8f75b9264423', 'd9b5b78e-5a93-11ea-be8e-8f75b9264423', 'd9a0ec64-5a93-11ea-be8e-8f75b9264423', 'd9b5060e-5a93-11ea-be8e-8f75b9264423']
 location='bottom'
 size=39
 transparency='none'
@@ -325,14 +369,17 @@ check-updates=false
 last-checked=int64 1582371073
 
 [org/gnome/control-center]
-last-panel='user-accounts'
+last-panel='bluetooth'
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/gagan/Pictures/Wallpapers/1291098-dark-minimal-wallpaper-1920x1080-tablet.jpg'
-primary-color='#000000'
-secondary-color='#000000'
+picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-28-19-59-24-1291098-dark-minimal-wallpaper-1920x1080-tablet.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -365,11 +412,12 @@ remove-old-trash-files=true
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-22-06-12-57-1291099-dark-minimal-wallpaper-1920x1080-for-hd.jpg'
+picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-28-19-59-13-1291099-dark-minimal-wallpaper-1920x1080-for-hd.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
 [org/gnome/desktop/search-providers]
+disable-external=true
 sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
 
 [org/gnome/desktop/session]
@@ -400,7 +448,7 @@ migrated=true
 network-monitor-gio-name=''
 
 [org/gnome/gedit/plugins]
-active-plugins=['filebrowser', 'modelines']
+active-plugins=['modelines', 'filebrowser']
 
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
@@ -445,9 +493,10 @@ default-zoom-level='large'
 [org/gnome/nautilus/preferences]
 default-folder-viewer='icon-view'
 search-filter-time-type='last_modified'
+search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-geometry='890x550+130+136'
+geometry='844x466+283+188'
 maximized=false
 
 [org/gnome/nm-applet]
@@ -462,6 +511,10 @@ ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/67450cdd-d407-48ce-99d2-daca5bdc4edb]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/91c05287-1e82-4fba-b557-365d12b47cfd]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
