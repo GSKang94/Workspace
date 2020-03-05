@@ -14,7 +14,6 @@ ssh-keygen -t rsa -C "singh.gagandeep0034@gmail.com"
 cat ~/.ssh/id_rsa.pub 
 
 #gedit theme
-cd
 mkdir .local/share/gedit && mkdir .local/share/gedit/styles
 
 cd Workspace/dotFiles/solus
@@ -46,7 +45,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $HOME/.aliases
 
 #emoji-support
-cd Workspace/dotfiles/solus/emoji-support
+cd Workspace/dotFiles/solus/emoji-support
 mv fontconfig ../../../../.config/
 mv .fonts ../../../../
 

@@ -1,6 +1,6 @@
 ## JS Cheatsheet
 
-https://mbeaudru.github.io/modern-js-cheatsheet/
+https://mbeaudru.github.io/modern-js-cheatsheet/ 
 
 ## ES6 Cheatsheet
 

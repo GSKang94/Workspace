@@ -57,7 +57,7 @@ ReactDOM.render(App,document.getElementById('root'));
 
 ## React script for CRA
 
-```css
+```javascript
 npm install react-scnpm install react-scripts@latestripts@latest
 ```
 
