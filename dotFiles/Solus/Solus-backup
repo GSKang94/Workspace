@@ -1,0 +1,798 @@
+[apps/seahorse/listing]
+sidebar-width=170
+
+[apps/seahorse/windows/key-manager]
+height=476
+width=600
+
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/gnome/desktop/wm/keybindings/switch-to-workspace-left'
+saved-view='/org/gnome/desktop/wm/keybindings/switch-to-workspace-left'
+show-warning=false
+window-height=500
+window-is-maximized=true
+window-width=556
+
+[com/solus-project/budgie-panel]
+confirm-remove-applet=false
+migration-level=1
+panels=['a520feac-5566-11ea-a14d-a194bc2a2f14']
+
+[com/solus-project/budgie-panel/applets/{2d25f758-5567-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='Separator'
+position=2
+
+[com/solus-project/budgie-panel/applets/{a5250d4e-5566-11ea-a14d-a194bc2a2f14}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[com/solus-project/budgie-panel/applets/{a528fa58-5566-11ea-a14d-a194bc2a2f14}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[com/solus-project/budgie-panel/applets/{a5362002-5566-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='System Tray'
+position=0
+
+[com/solus-project/budgie-panel/applets/{a53bead2-5566-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='Status Indicator'
+position=1
+
+[com/solus-project/budgie-panel/applets/{a53fec86-5566-11ea-a14d-a194bc2a2f14}]
+alignment='center'
+name='User Indicator'
+position=1
+
+[com/solus-project/budgie-panel/applets/{a540b2d8-5566-11ea-a14d-a194bc2a2f14}]
+alignment='center'
+name='Clock'
+position=0
+
+[com/solus-project/budgie-panel/applets/{a54170f6-5566-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='Raven Trigger'
+position=3
+
+[com/solus-project/budgie-panel/applets/{d1a3e7b6-55dc-11ea-953d-6fafb54b77d0}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d1a9689e-55dc-11ea-953d-6fafb54b77d0}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d1bcc4b6-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='System Tray'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d1bd4850-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Notifications'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d1c392c8-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Status Indicator'
+position=2
+
+[com/solus-project/budgie-panel/applets/{d1ca5f7c-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='User Indicator'
+position=3
+
+[com/solus-project/budgie-panel/applets/{d1cb3294-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Clock'
+position=4
+
+[com/solus-project/budgie-panel/applets/{d1cbe3ce-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Raven Trigger'
+position=5
+
+[com/solus-project/budgie-panel/applets/{d3230b36-581a-11ea-9350-bd9751eb98b1}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d3287832-581a-11ea-9350-bd9751eb98b1}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d3367446-581a-11ea-9350-bd9751eb98b1}]
+alignment='end'
+name='System Tray'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d336e318-581a-11ea-9350-bd9751eb98b1}]
+alignment='end'
+name='Notifications'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d33ba506-581a-11ea-9350-bd9751eb98b1}]
+alignment='end'
+name='Status Indicator'
+position=2
+
+[com/solus-project/budgie-panel/applets/{d33f672c-581a-11ea-9350-bd9751eb98b1}]
+alignment='end'
+name='User Indicator'
+position=3
+
+[com/solus-project/budgie-panel/applets/{d34075fe-581a-11ea-9350-bd9751eb98b1}]
+alignment='end'
+name='Clock'
+position=4
+
+[com/solus-project/budgie-panel/applets/{d3411c70-581a-11ea-9350-bd9751eb98b1}]
+alignment='end'
+name='Raven Trigger'
+position=5
+
+[com/solus-project/budgie-panel/applets/{d9a0ec64-5a93-11ea-be8e-8f75b9264423}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d9a598fe-5a93-11ea-be8e-8f75b9264423}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d9ae381a-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='System Tray'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d9b22862-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='Status Indicator'
+position=1
+
+[com/solus-project/budgie-panel/applets/{d9b5060e-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='User Indicator'
+position=2
+
+[com/solus-project/budgie-panel/applets/{d9b5b78e-5a93-11ea-be8e-8f75b9264423}]
+alignment='center'
+name='Clock'
+position=0
+
+[com/solus-project/budgie-panel/applets/{d9b668a0-5a93-11ea-be8e-8f75b9264423}]
+alignment='end'
+name='Raven Trigger'
+position=3
+
+[com/solus-project/budgie-panel/instance/budgie-menu/{a5250d4e-5566-11ea-a14d-a194bc2a2f14}]
+menu-compact=false
+menu-icon='/home/gagan/Pictures/Budgie.png'
+
+[com/solus-project/budgie-panel/instance/icon-tasklist/{a528fa58-5566-11ea-a14d-a194bc2a2f14}]
+pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'menulibre-typora.desktop']
+restrict-to-workspace=true
+
+[com/solus-project/budgie-panel/instance/icon-tasklist/{d1a9689e-55dc-11ea-953d-6fafb54b77d0}]
+pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'firefox.desktop', 'io.github.GnomeMpv.desktop', 'rhythmbox.desktop', 'google-chrome.desktop']
+
+[com/solus-project/budgie-panel/instance/icon-tasklist/{d9a598fe-5a93-11ea-be8e-8f75b9264423}]
+restrict-to-workspace=true
+
+[com/solus-project/budgie-panel/panels/{a520feac-5566-11ea-a14d-a194bc2a2f14}]
+applets=['a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'a540b2d8-5566-11ea-a14d-a194bc2a2f14', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', 'a54170f6-5566-11ea-a14d-a194bc2a2f14', 'a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14', 'a5362002-5566-11ea-a14d-a194bc2a2f14']
+autohide='intelligent'
+enable-shadow=false
+location='bottom'
+size=53
+transparency='dynamic'
+
+[com/solus-project/budgie-panel/panels/{d1a11838-55dc-11ea-953d-6fafb54b77d0}]
+applets=['d1bd4850-55dc-11ea-953d-6fafb54b77d0', 'd1cb3294-55dc-11ea-953d-6fafb54b77d0', 'd1ca5f7c-55dc-11ea-953d-6fafb54b77d0', 'd1c392c8-55dc-11ea-953d-6fafb54b77d0', 'd1bcc4b6-55dc-11ea-953d-6fafb54b77d0', 'd1cbe3ce-55dc-11ea-953d-6fafb54b77d0', 'd1a9689e-55dc-11ea-953d-6fafb54b77d0', 'd1a3e7b6-55dc-11ea-953d-6fafb54b77d0']
+location='bottom'
+size=39
+transparency='none'
+
+[com/solus-project/budgie-panel/panels/{d31dd760-581a-11ea-9350-bd9751eb98b1}]
+applets=['d3411c70-581a-11ea-9350-bd9751eb98b1', 'd336e318-581a-11ea-9350-bd9751eb98b1', 'd34075fe-581a-11ea-9350-bd9751eb98b1', 'd3367446-581a-11ea-9350-bd9751eb98b1', 'd33f672c-581a-11ea-9350-bd9751eb98b1', 'd3287832-581a-11ea-9350-bd9751eb98b1', 'd33ba506-581a-11ea-9350-bd9751eb98b1', 'd3230b36-581a-11ea-9350-bd9751eb98b1']
+location='bottom'
+size=39
+transparency='none'
+
+[com/solus-project/budgie-panel/panels/{d99ccec2-5a93-11ea-be8e-8f75b9264423}]
+applets=['d9b668a0-5a93-11ea-be8e-8f75b9264423', 'd9b22862-5a93-11ea-be8e-8f75b9264423', 'd9ae381a-5a93-11ea-be8e-8f75b9264423', 'd9a598fe-5a93-11ea-be8e-8f75b9264423', 'd9b5b78e-5a93-11ea-be8e-8f75b9264423', 'd9a0ec64-5a93-11ea-be8e-8f75b9264423', 'd9b5060e-5a93-11ea-be8e-8f75b9264423']
+location='bottom'
+size=39
+transparency='none'
+
+[com/solus-project/budgie-raven]
+allow-volume-overdrive=true
+show-mic-input-widget=false
+
+[com/solus-project/budgie-wm]
+attach-modal-dialogs=false
+button-layout='appmenu:minimize,maximize,close'
+caffeine-mode=false
+center-windows=true
+edge-tiling=false
+
+[com/solus-project/software-center]
+check-updates=false
+last-checked=int64 1582371073
+
+[org/gnome/apps/seahorse/listing]
+sidebar-width=170
+
+[org/gnome/apps/seahorse/windows/key-manager]
+height=476
+width=600
+
+[org/gnome/ca/desrt/dconf-editor]
+saved-pathbar-path='/org/gnome/desktop/wm/keybindings/move-to-monitor-right'
+saved-view='/org/gnome/desktop/wm/keybindings/'
+show-warning=false
+window-height=500
+window-is-maximized=true
+window-width=540
+
+[org/gnome/com/solus-project/budgie-panel]
+confirm-remove-applet=false
+migration-level=1
+panels=['a520feac-5566-11ea-a14d-a194bc2a2f14']
+
+[org/gnome/com/solus-project/budgie-panel/applets/{2d25f758-5567-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='Separator'
+position=2
+
+[org/gnome/com/solus-project/budgie-panel/applets/{a5250d4e-5566-11ea-a14d-a194bc2a2f14}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[org/gnome/com/solus-project/budgie-panel/applets/{a528fa58-5566-11ea-a14d-a194bc2a2f14}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[org/gnome/com/solus-project/budgie-panel/applets/{a5362002-5566-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='System Tray'
+position=0
+
+[org/gnome/com/solus-project/budgie-panel/applets/{a53bead2-5566-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='Status Indicator'
+position=1
+
+[org/gnome/com/solus-project/budgie-panel/applets/{a53fec86-5566-11ea-a14d-a194bc2a2f14}]
+alignment='center'
+name='User Indicator'
+position=1
+
+[org/gnome/com/solus-project/budgie-panel/applets/{a540b2d8-5566-11ea-a14d-a194bc2a2f14}]
+alignment='center'
+name='Clock'
+position=0
+
+[org/gnome/com/solus-project/budgie-panel/applets/{a54170f6-5566-11ea-a14d-a194bc2a2f14}]
+alignment='end'
+name='Raven Trigger'
+position=3
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1a3e7b6-55dc-11ea-953d-6fafb54b77d0}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1a9689e-55dc-11ea-953d-6fafb54b77d0}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1bcc4b6-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='System Tray'
+position=0
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1bd4850-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Notifications'
+position=1
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1c392c8-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Status Indicator'
+position=2
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1ca5f7c-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='User Indicator'
+position=3
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1cb3294-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Clock'
+position=4
+
+[org/gnome/com/solus-project/budgie-panel/applets/{d1cbe3ce-55dc-11ea-953d-6fafb54b77d0}]
+alignment='end'
+name='Raven Trigger'
+position=5
+
+[org/gnome/com/solus-project/budgie-panel/instance/budgie-menu/{a5250d4e-5566-11ea-a14d-a194bc2a2f14}]
+menu-compact=true
+menu-icon='/home/gagan/Pictures/Budgie.png'
+
+[org/gnome/com/solus-project/budgie-panel/instance/icon-tasklist/{a528fa58-5566-11ea-a14d-a194bc2a2f14}]
+pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'menulibre-typora.desktop']
+restrict-to-workspace=true
+
+[org/gnome/com/solus-project/budgie-panel/instance/icon-tasklist/{d1a9689e-55dc-11ea-953d-6fafb54b77d0}]
+pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'firefox.desktop', 'io.github.GnomeMpv.desktop', 'rhythmbox.desktop', 'google-chrome.desktop']
+
+[org/gnome/com/solus-project/budgie-panel/panels/{a520feac-5566-11ea-a14d-a194bc2a2f14}]
+applets=['a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'a540b2d8-5566-11ea-a14d-a194bc2a2f14', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', 'a54170f6-5566-11ea-a14d-a194bc2a2f14', 'a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14', 'a5362002-5566-11ea-a14d-a194bc2a2f14']
+autohide='intelligent'
+enable-shadow=false
+location='bottom'
+size=53
+transparency='dynamic'
+
+[org/gnome/com/solus-project/budgie-panel/panels/{d1a11838-55dc-11ea-953d-6fafb54b77d0}]
+applets=['d1bd4850-55dc-11ea-953d-6fafb54b77d0', 'd1cb3294-55dc-11ea-953d-6fafb54b77d0', 'd1ca5f7c-55dc-11ea-953d-6fafb54b77d0', 'd1c392c8-55dc-11ea-953d-6fafb54b77d0', 'd1bcc4b6-55dc-11ea-953d-6fafb54b77d0', 'd1cbe3ce-55dc-11ea-953d-6fafb54b77d0', 'd1a9689e-55dc-11ea-953d-6fafb54b77d0', 'd1a3e7b6-55dc-11ea-953d-6fafb54b77d0']
+location='bottom'
+size=39
+transparency='none'
+
+[org/gnome/com/solus-project/budgie-raven]
+allow-volume-overdrive=true
+show-mic-input-widget=false
+
+[org/gnome/com/solus-project/budgie-wm]
+attach-modal-dialogs=false
+button-layout='appmenu:minimize,maximize,close'
+caffeine-mode=false
+center-windows=true
+edge-tiling=false
+
+[org/gnome/com/solus-project/software-center]
+check-updates=false
+last-checked=int64 1582371073
+
+[org/gnome/control-center]
+last-panel='bluetooth'
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-28-19-59-24-1291098-dark-minimal-wallpaper-1920x1080-tablet.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+clock-format='12h'
+cursor-theme='breeze_cursors'
+font-name='Noto Sans 12'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Plata-Noir-Compact'
+icon-theme='Papirus-Dark'
+monospace-font-name='MesloLGS NF 13'
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[org/gnome/desktop/peripherals/mouse]
+natural-scroll=false
+
+[org/gnome/desktop/peripherals/touchpad]
+natural-scroll=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+old-files-age=uint32 14
+remove-old-temp-files=true
+remove-old-trash-files=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-28-19-59-13-1291099-dark-minimal-wallpaper-1920x1080-for-hd.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/search-providers]
+disable-external=true
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
+event-sounds=true
+theme-name='__custom'
+
+[org/gnome/desktop/wm/keybindings]
+activate-window-menu=@as []
+move-to-monitor-left=['<Control><Shift>Left']
+move-to-monitor-right=['<Control><Shift>Right']
+move-to-workspace-left=['<Control><Alt>Left']
+move-to-workspace-right=['<Control><Alt>Right']
+switch-to-workspace-left=['<Control>Left']
+switch-to-workspace-right=['<Control>Right']
+switch-windows=['<Alt>space']
+switch-windows-backward=['<Shift><Alt>space']
+
+[org/gnome/desktop/wm/preferences]
+action-middle-click-titlebar='minimize'
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/gagan/Workspace/dotFiles/solus'
+
+[org/gnome/gedit/preferences/editor]
+scheme='dracula'
+wrap-last-split-mode='word'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+statusbar-visible=false
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(800, 854)
+state=76672
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+maximized=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(700, 500, 2123, 387)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/mutter]
+attach-modal-dialogs=false
+center-new-windows=true
+dynamic-workspaces=true
+edge-tiling=false
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='large'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+geometry='844x466+283+188'
+maximized=false
+
+[org/gnome/nm-applet]
+disable-connected-notifications=true
+
+[org/gnome/nm-applet/eap/2785203f-6a2b-4c8c-98ed-7fe513dacc0b]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/299db71b-d642-4564-9c16-660fe48f8f86]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/67450cdd-d407-48ce-99d2-daca5bdc4edb]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/91c05287-1e82-4fba-b557-365d12b47cfd]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/org/gnome/control-center]
+last-panel='user-accounts'
+
+[org/gnome/org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gagan/Pictures/Wallpapers/1291098-dark-minimal-wallpaper-1920x1080-tablet.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/org/gnome/desktop/interface]
+clock-format='12h'
+cursor-theme='breeze_cursors'
+font-name='Noto Sans 12'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Plata-Noir-Compact'
+icon-theme='Papirus-Dark'
+monospace-font-name='MesloLGS NF 13'
+show-battery-percentage=false
+
+[org/gnome/org/gnome/desktop/peripherals/mouse]
+natural-scroll=false
+
+[org/gnome/org/gnome/desktop/peripherals/touchpad]
+natural-scroll=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/org/gnome/desktop/privacy]
+old-files-age=uint32 14
+remove-old-temp-files=true
+remove-old-trash-files=true
+
+[org/gnome/org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-22-06-12-57-1291099-dark-minimal-wallpaper-1920x1080-for-hd.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
+event-sounds=true
+theme-name='__custom'
+
+[org/gnome/org/gnome/desktop/wm/keybindings]
+activate-window-menu=@as []
+move-to-monitor-left=['<Control><Shift>Left']
+move-to-monitor-right=['<Control><Shift>Right']
+move-to-workspace-left=['<Control>Left']
+move-to-workspace-right=['<Control>Right']
+switch-windows=['<Alt>space']
+switch-windows-backward=['<Shift><Alt>space']
+
+[org/gnome/org/gnome/desktop/wm/preferences]
+action-middle-click-titlebar='minimize'
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/org/gnome/gedit/plugins]
+active-plugins=['filebrowser', 'modelines']
+
+[org/gnome/org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/gagan/Workspace/dotFiles'
+
+[org/gnome/org/gnome/gedit/preferences/editor]
+scheme='dracula'
+wrap-last-split-mode='word'
+
+[org/gnome/org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+statusbar-visible=false
+
+[org/gnome/org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/org/gnome/gnome-system-monitor]
+current-tab='processes'
+maximized=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(700, 500, 2123, 387)
+
+[org/gnome/org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/org/gnome/mutter]
+attach-modal-dialogs=false
+center-new-windows=true
+dynamic-workspaces=true
+edge-tiling=false
+
+[org/gnome/org/gnome/nautilus/icon-view]
+default-zoom-level='large'
+
+[org/gnome/org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/org/gnome/nautilus/window-state]
+geometry='890x550+358+145'
+maximized=false
+
+[org/gnome/org/gnome/nm-applet]
+disable-connected-notifications=true
+
+[org/gnome/org/gnome/nm-applet/eap/2785203f-6a2b-4c8c-98ed-7fe513dacc0b]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/org/gnome/nm-applet/eap/299db71b-d642-4564-9c16-660fe48f8f86]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(49.820900000000002, -97.032200000000003)
+night-light-temperature=uint32 3670
+
+[org/gnome/org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[org/gnome/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Alt>period'
+command='gnome-terminal'
+name='gnome-terminal'
+
+[org/gnome/org/gnome/settings-daemon/plugins/power]
+idle-dim=false
+sleep-inactive-ac-timeout=1200
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1200
+sleep-inactive-battery-type='nothing'
+
+[org/gnome/org/gnome/settings-daemon/plugins/xsettings]
+hinting='slight'
+overrides={'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'menu:minimize,maximize,close'>}
+
+[org/gnome/org/gnome/system/location]
+enabled=true
+
+[org/gnome/org/gnome/terminal/legacy/keybindings]
+copy='<Primary>c'
+paste='<Primary>v'
+
+[org/gnome/org/gnome/terminal/legacy/profiles:]
+list=['63ddecd9-1784-452d-ac74-3aad49590816']
+
+[org/gnome/org/gnome/terminal/legacy/profiles:/:63ddecd9-1784-452d-ac74-3aad49590816]
+allow-bold=true
+background-color='#000000000000'
+bold-color='#ffffffffffff'
+bold-color-same-as-fg=true
+foreground-color='#ffffffffffff'
+highlight-background-color='#'
+highlight-colors-set=false
+highlight-foreground-color='#'
+palette=['#000000000000', '#ffff55555555', '#5555ffff5555', '#ffffffff5555', '#55555555ffff', '#ffff5555ffff', '#5555ffffffff', '#bbbbbbbbbbbb', '#555555555555', '#ffff55555555', '#5555ffff5555', '#ffffffff5555', '#55555555ffff', '#ffff5555ffff', '#5555ffffffff', '#ffffffffffff']
+scrollbar-policy='never'
+use-system-font=true
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Dark Pastel'
+
+[org/gnome/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+scrollbar-policy='never'
+use-transparent-background=false
+
+[org/gnome/org/gtk/settings/file-chooser]
+clock-format='12h'
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=187
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(398, 198)
+window-size=(804, 438)
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(49.820900000000002, -97.032200000000003)
+night-light-temperature=uint32 3670
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Alt>period'
+command='gnome-terminal'
+name='gnome-terminal'
+
+[org/gnome/settings-daemon/plugins/power]
+idle-dim=false
+sleep-inactive-ac-timeout=1200
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1200
+sleep-inactive-battery-type='nothing'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+hinting='slight'
+overrides={'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'menu:minimize,maximize,close'>}
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gnome/terminal/legacy/keybindings]
+copy='<Primary>c'
+next-tab='<Primary>period'
+paste='<Primary>v'
+prev-tab='<Primary>comma'
+
+[org/gnome/terminal/legacy/profiles:]
+default='63ddecd9-1784-452d-ac74-3aad49590816'
+list=['63ddecd9-1784-452d-ac74-3aad49590816']
+
+[org/gnome/terminal/legacy/profiles:/:63ddecd9-1784-452d-ac74-3aad49590816]
+allow-bold=true
+background-color='#000000000000'
+bold-color='#ffffffffffff'
+bold-color-same-as-fg=true
+foreground-color='#ffffffffffff'
+highlight-background-color='#'
+highlight-colors-set=false
+highlight-foreground-color='#'
+palette=['#000000000000', '#ffff55555555', '#5555ffff5555', '#ffffffff5555', '#55555555ffff', '#ffff5555ffff', '#5555ffffffff', '#bbbbbbbbbbbb', '#555555555555', '#ffff55555555', '#5555ffff5555', '#ffffffff5555', '#55555555ffff', '#ffff5555ffff', '#5555ffffffff', '#ffffffffffff']
+scrollbar-policy='never'
+use-system-font=true
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Dark Pastel'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+scrollbar-policy='never'
+use-transparent-background=false
+
+[org/gtk/settings/file-chooser]
+clock-format='12h'
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=187
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(398, 198)
+window-size=(804, 438)
