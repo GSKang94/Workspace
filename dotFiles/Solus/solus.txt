@@ -5,23 +5,19 @@ sudo eopkg up
 sudo eopkg it -y zsh git wget vscode menulibre font-firacode-ttf gnome-font-viewer peek
 
 #generate ssh key
-git config --global user.name 'GSingh1994'
-
-git config --global user.email 'singh.gagandeep0034@gmail.com'
-
-ssh-keygen -t rsa -C "singh.gagandeep0034@gmail.com"
+git config --global user.name 'GSingh1994' && git config --global user.email 'singh.gagandeep0034@gmail.com' && ssh-keygen -t rsa -C "singh.gagandeep0034@gmail.com"
 
 cat ~/.ssh/id_rsa.pub 
 
 #gedit theme
 mkdir .local/share/gedit && mkdir .local/share/gedit/styles
 
-cd Workspace/dotFiles/Common
+cd dotFiles/Common
 
-cp dracula.xml ../../../.local/share/gedit/styles/
+cp dracula.xml ~/.local/share/gedit/styles/
 
 #aliases
-cp .aliases ../../../
+cp .aliases ~/
 
 #install Oh my ZSH
 cd
@@ -38,7 +34,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 # Finale
-nano .zshrc
+gedit .zshrc
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
