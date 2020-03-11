@@ -1030,13 +1030,15 @@ for (let i = 0; i < 99; i++) {
 
 
 ## The Continue keyword
-    var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
-    
-    for (var i = 0; i < john.length; i++) {
-        if (typeof john[i] !== 'string') continue;
-        console.log(john[i]);
-    }
-    // john smith designer blue 
+```js
+var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+
+for (var i = 0; i < john.length; i++) {
+    if (typeof john[i] !== 'string') continue;
+    console.log(john[i]);
+}
+// john smith designer blue 
+```
 # Objects
 - Objects store collections of *key-value* pairs.
 - Objects are mutable.
@@ -1076,12 +1078,14 @@ We **must** use Bracket Notation **if**
 - By doing this, we can replace the previous held value .
 - Or we can add a new property.
 ## Delete operator
-    const spaceship = {
-      'Fuel Type': 'Turbo Fuel',
-      homePlanet: 'Earth',
-      mission: 'Explore the universe' 
-    };
-    delete spaceship.mission;  // Removes the mission property
+```js
+const spaceship = {
+  'Fuel Type': 'Turbo Fuel',
+  homePlanet: 'Earth',
+  mission: 'Explore the universe' 
+};
+delete spaceship.mission;  // Removes the mission property
+```
 
 
 ## Destructuring objects(es6)

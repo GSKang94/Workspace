@@ -236,24 +236,35 @@ The above example would create two radio buttons named as
 
 
 ## Textarea tag
-    <textarea>rows="10" columns="10"</textarea>
+```html
+<textarea>rows="10" columns="10"</textarea>
+```
 ## Checkboxes
 - Type of input
+
 - It is similar to Radio buttons.
+
 - There is no need to make relation in name attribute.
+    
+    ```html
     <label for="love">
-      <input id="love" type="checkbox" name="personality">
+      <input id="love" type="checkbox" name="personality"/>
       Loving
     </label>
+    ```
 ## Check by default
 
 just put “checked” inside input element.
 
-    <input type="radio" name="test-name" checked>
+```html
+<input type="radio" name="test-name" checked>
+```
 ## Select tag
-    <select name="">
-      <option></option>
-    </select>
+```html
+<select name="">
+  <option></option>
+</select>
+```
 ----------
 ## <div> tag
 

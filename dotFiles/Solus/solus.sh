@@ -51,6 +51,43 @@ cd Workspace/dotFiles/Solus/emoji-support
 cp -r fontconfig ../../../../.config/
 cp -r .fonts ../../../../
 
+
+#backup config
+dconf dump / > Solus-backup
+
+#restore config
+dconf load / < Solus-backup
+
+# Powertop
+sudo eopkg it powertop
+sudo powertop -c
+sudo powertop auto-tune
+#Call powertop auto-tune automatically at boot time
+cat << EOF | sudo tee /etc/systemd/system/powertop.service
+[Unit]
+Description=PowerTOP auto tune
+
+[Service]
+Type=idle
+Environment="TERM=dumb"
+ExecStart=/usr/sbin/powertop --auto-tune
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
+systemctl enable powertop.service
+
+#Flathub repo
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# Disable evolution-alarm-notify
+sudo mv /usr/lib/evolution-data-server /usr/lib/evolution-data-server-disabled\n
+
+sudo mv /usr/lib/evolution /usr/lib/evolution-disabled\n
+
                           #CHROME
 
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/getsolus/3rd-party/master/network/web/browser/google-chrome-stable/pspec.xml
@@ -79,29 +116,4 @@ sudo npm install -g tldr
 
                            #STREAMIO
 git clone https://github.com/alexandru-balan/Stremio-Install-Scripts.git && cd Stremio-Install-Scripts && chmod 755 installStremioSolus.sh && ./installStremioSolus.sh
-
-
-#backup config
-dconf dump / > Solus-backup
-
-#restore config
-dconf load / < Solus-backup
-
-
-# Backup icons & themes
-tar -cvpf custom-icons.tar.gz ~/.icons
-
-tar -cvpf custom-themes.tar.gz ~/.themes
-
-#restore icons & themes
-tar --extract --file custom-icons.tar.gz -C ~/ --strip-components=2
-
-tar --extract --file custom-themes.tar.gz -C ~/ --strip-components=2
-
-
-#
-sudo mv /usr/lib/evolution-data-server /usr/lib/evolution-data-server-disabled\n
-
-sudo mv /usr/lib/evolution /usr/lib/evolution-disabled\n
-
 
