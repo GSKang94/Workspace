@@ -92,23 +92,25 @@ for choice in $choices; do
         echo "Your ssh key has been copied to clipboard"
         ;;
     10)
-        #install Oh my ZSH & plugins
-        echo "Installing Oh-my-ZSH"
-        sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-
+#zsh plugins
         echo "installing zsh-autosuggestions"
         git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
         echo "installing zsh-syntax-highlighting"
         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+#powerlevel10K
         echo "installing Powerlevel10k theme"
         git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+ #install Oh my ZSH 
+        echo "Installing Oh-my-ZSH"
+        sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
         ;;
     11)
         #Move files
         echo "Moving files"
-        cp -r ~/dotFiles/Common/gedit ~/.local/share/ || cp .aliases .zshrc ~/ || cp img/* ~/Pictures
+        cp -r ~/dotFiles/Common/gedit ~/.local/share/ && cp ~/dotFiles/Common/.aliases ~/ && cp ~/dotFiles/Common/.zshrc ~/ && cp ~/dotFiles/Common/img/* ~/Pictures
         ;;
     12)
 
@@ -170,9 +172,9 @@ for choice in $choices; do
         ;;
     22)
         echo "Removing unwanted programs"
-        sudo eopkg rm hexchat libreoffice-common firefox thunderbird gparted gnome-photos rhythmbox baobab
-        sudo eopkg rmo
-        sudo flatpak uninstall --unused
+        sudo eopkg rm hexchat libreoffice-common firefox thunderbird gparted gnome-photos rhythmbox baobab-y
+        sudo eopkg rmo -y
+        sudo flatpak uninstall --unused -y
         ;;
     23)
         echo "Restore config"
@@ -182,6 +184,7 @@ for choice in $choices; do
     24)
         echo "Backing up ....."
         dconf dump / >Solus-backup
+        echo "Backup Complete"
         ;;
     25)
         echo "Installing app-outlet"

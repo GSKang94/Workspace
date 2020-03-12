@@ -21,7 +21,7 @@ panels=['a520feac-5566-11ea-a14d-a194bc2a2f14']
 [com/solus-project/budgie-panel/applets/{2d25f758-5567-11ea-a14d-a194bc2a2f14}]
 alignment='end'
 name='Separator'
-position=2
+position=4
 
 [com/solus-project/budgie-panel/applets/{a5250d4e-5566-11ea-a14d-a194bc2a2f14}]
 alignment='start'
@@ -44,19 +44,54 @@ name='Status Indicator'
 position=1
 
 [com/solus-project/budgie-panel/applets/{a53fec86-5566-11ea-a14d-a194bc2a2f14}]
-alignment='center'
+alignment='end'
 name='User Indicator'
-position=1
+position=3
 
-[com/solus-project/budgie-panel/applets/{a540b2d8-5566-11ea-a14d-a194bc2a2f14}]
-alignment='center'
-name='Clock'
+[com/solus-project/budgie-panel/applets/{aa48aace-6434-11ea-b718-843a4b458990}]
+alignment='end'
+name='Calendar'
+position=2
+
+[com/solus-project/budgie-panel/applets/{b879b1a6-642f-11ea-a620-0b0a4c2ca59c}]
+alignment='start'
+name='Budgie Menu'
 position=0
 
-[com/solus-project/budgie-panel/applets/{a54170f6-5566-11ea-a14d-a194bc2a2f14}]
+[com/solus-project/budgie-panel/applets/{b87e9af4-642f-11ea-a620-0b0a4c2ca59c}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[com/solus-project/budgie-panel/applets/{b8895ab6-642f-11ea-a620-0b0a4c2ca59c}]
+alignment='end'
+name='System Tray'
+position=0
+
+[com/solus-project/budgie-panel/applets/{b889ad7c-642f-11ea-a620-0b0a4c2ca59c}]
+alignment='end'
+name='Notifications'
+position=1
+
+[com/solus-project/budgie-panel/applets/{b88d4888-642f-11ea-a620-0b0a4c2ca59c}]
+alignment='end'
+name='Status Indicator'
+position=2
+
+[com/solus-project/budgie-panel/applets/{b890438a-642f-11ea-a620-0b0a4c2ca59c}]
+alignment='end'
+name='User Indicator'
+position=3
+
+[com/solus-project/budgie-panel/applets/{b8910784-642f-11ea-a620-0b0a4c2ca59c}]
+alignment='end'
+name='Clock'
+position=4
+
+[com/solus-project/budgie-panel/applets/{b891d970-642f-11ea-a620-0b0a4c2ca59c}]
 alignment='end'
 name='Raven Trigger'
-position=3
+position=5
 
 [com/solus-project/budgie-panel/applets/{d1a3e7b6-55dc-11ea-953d-6fafb54b77d0}]
 alignment='start'
@@ -175,7 +210,7 @@ position=3
 
 [com/solus-project/budgie-panel/instance/budgie-menu/{a5250d4e-5566-11ea-a14d-a194bc2a2f14}]
 menu-compact=false
-menu-icon='/home/gagan/Pictures/Budgie.png'
+menu-icon='/home/singh/Pictures/Budgie.png'
 
 [com/solus-project/budgie-panel/instance/icon-tasklist/{a528fa58-5566-11ea-a14d-a194bc2a2f14}]
 pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'menulibre-typora.desktop']
@@ -188,12 +223,18 @@ pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'firefox.des
 restrict-to-workspace=true
 
 [com/solus-project/budgie-panel/panels/{a520feac-5566-11ea-a14d-a194bc2a2f14}]
-applets=['a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'a540b2d8-5566-11ea-a14d-a194bc2a2f14', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', 'a54170f6-5566-11ea-a14d-a194bc2a2f14', 'a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14', 'a5362002-5566-11ea-a14d-a194bc2a2f14']
+applets=['a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'aa48aace-6434-11ea-b718-843a4b458990', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', 'a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', 'a5362002-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14']
 autohide='intelligent'
 enable-shadow=false
 location='bottom'
 size=53
 transparency='dynamic'
+
+[com/solus-project/budgie-panel/panels/{b8758f04-642f-11ea-a620-0b0a4c2ca59c}]
+applets=['b889ad7c-642f-11ea-a620-0b0a4c2ca59c', 'b891d970-642f-11ea-a620-0b0a4c2ca59c', 'b879b1a6-642f-11ea-a620-0b0a4c2ca59c', 'b88d4888-642f-11ea-a620-0b0a4c2ca59c', 'b87e9af4-642f-11ea-a620-0b0a4c2ca59c', 'b8910784-642f-11ea-a620-0b0a4c2ca59c', 'b8895ab6-642f-11ea-a620-0b0a4c2ca59c', 'b890438a-642f-11ea-a620-0b0a4c2ca59c']
+location='bottom'
+size=39
+transparency='none'
 
 [com/solus-project/budgie-panel/panels/{d1a11838-55dc-11ea-953d-6fafb54b77d0}]
 applets=['d1bd4850-55dc-11ea-953d-6fafb54b77d0', 'd1cb3294-55dc-11ea-953d-6fafb54b77d0', 'd1ca5f7c-55dc-11ea-953d-6fafb54b77d0', 'd1c392c8-55dc-11ea-953d-6fafb54b77d0', 'd1bcc4b6-55dc-11ea-953d-6fafb54b77d0', 'd1cbe3ce-55dc-11ea-953d-6fafb54b77d0', 'd1a9689e-55dc-11ea-953d-6fafb54b77d0', 'd1a3e7b6-55dc-11ea-953d-6fafb54b77d0']
@@ -215,7 +256,10 @@ transparency='none'
 
 [com/solus-project/budgie-raven]
 allow-volume-overdrive=true
+show-calendar-widget=false
 show-mic-input-widget=false
+show-mpris-widget=false
+show-sound-output-widget=false
 
 [com/solus-project/budgie-wm]
 attach-modal-dialogs=false
@@ -369,12 +413,12 @@ check-updates=false
 last-checked=int64 1582371073
 
 [org/gnome/control-center]
-last-panel='bluetooth'
+last-panel='display'
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-28-19-59-24-1291098-dark-minimal-wallpaper-1920x1080-tablet.jpg'
+picture-uri='file:///home/singh/.local/share/backgrounds/2020-03-12-02-39-25-wall1.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -394,7 +438,7 @@ gtk-im-module='gtk-im-context-simple'
 gtk-theme='Plata-Noir-Compact'
 icon-theme='Papirus-Dark'
 monospace-font-name='MesloLGS NF 13'
-show-battery-percentage=true
+show-battery-percentage=false
 toolkit-accessibility=false
 
 [org/gnome/desktop/peripherals/mouse]
@@ -412,7 +456,7 @@ remove-old-trash-files=true
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/gagan/.local/share/backgrounds/2020-02-28-19-59-13-1291099-dark-minimal-wallpaper-1920x1080-for-hd.jpg'
+picture-uri='file:///home/singh/.local/share/backgrounds/2020-03-12-02-39-30-wall2.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -453,10 +497,13 @@ active-plugins=['modelines', 'filebrowser']
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/gagan/Workspace/dotFiles/solus'
+virtual-root='file:///home/singh/Workspace/dotFiles/Solus'
 
 [org/gnome/gedit/preferences/editor]
+display-line-numbers=true
+editor-font='Monospace 14'
 scheme='dracula'
+use-default-font=false
 wrap-last-split-mode='word'
 
 [org/gnome/gedit/preferences/ui]
@@ -467,8 +514,8 @@ statusbar-visible=false
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(800, 854)
-state=76672
+size=(1071, 329)
+state=87168
 
 [org/gnome/gnome-system-monitor]
 current-tab='processes'
@@ -496,7 +543,7 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-geometry='844x466+283+188'
+geometry='903x484+151+242'
 maximized=false
 
 [org/gnome/nm-applet]
@@ -515,6 +562,10 @@ ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/91c05287-1e82-4fba-b557-365d12b47cfd]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/b9bd25b2-3150-4499-a5e7-e7a9cc1a8f24]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -726,7 +777,7 @@ window-size=(804, 438)
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
 night-light-last-coordinates=(49.820900000000002, -97.032200000000003)
-night-light-temperature=uint32 3670
+night-light-temperature=uint32 3130
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
@@ -794,5 +845,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(398, 198)
+window-position=(575, 298)
 window-size=(804, 438)
