@@ -213,7 +213,7 @@ menu-compact=false
 menu-icon='/home/singh/Pictures/Budgie.png'
 
 [com/solus-project/budgie-panel/instance/icon-tasklist/{a528fa58-5566-11ea-a14d-a194bc2a2f14}]
-pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'menulibre-typora.desktop']
+pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'menulibre-typora.desktop', 'vscode-oss.desktop']
 restrict-to-workspace=true
 
 [com/solus-project/budgie-panel/instance/icon-tasklist/{d1a9689e-55dc-11ea-953d-6fafb54b77d0}]
@@ -272,6 +272,9 @@ edge-tiling=false
 check-updates=false
 last-checked=int64 1582371073
 
+[com/uploadedlobster/peek]
+persist-window-geometry=(565, 246, 791, 514)
+
 [org/gnome/apps/seahorse/listing]
 sidebar-width=170
 
@@ -286,6 +289,12 @@ show-warning=false
 window-height=500
 window-is-maximized=true
 window-width=540
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=false
+window-position=(1938, 175)
+window-size=(799, 522)
 
 [org/gnome/com/solus-project/budgie-panel]
 confirm-remove-applet=false
@@ -413,7 +422,7 @@ check-updates=false
 last-checked=int64 1582371073
 
 [org/gnome/control-center]
-last-panel='display'
+last-panel='power'
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
@@ -421,6 +430,9 @@ picture-options='zoom'
 picture-uri='file:///home/singh/.local/share/backgrounds/2020-03-12-02-39-25-wall1.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
 
 [org/gnome/desktop/datetime]
 automatic-timezone=true
@@ -465,7 +477,7 @@ disable-external=true
 sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
 
 [org/gnome/desktop/session]
-idle-delay=uint32 300
+idle-delay=uint32 0
 
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
@@ -486,6 +498,10 @@ switch-windows-backward=['<Shift><Alt>space']
 [org/gnome/desktop/wm/preferences]
 action-middle-click-titlebar='minimize'
 button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
 
 [org/gnome/evolution-data-server]
 migrated=true
@@ -514,8 +530,8 @@ statusbar-visible=false
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(1071, 329)
-state=87168
+size=(1256, 751)
+state=43908
 
 [org/gnome/gnome-system-monitor]
 current-tab='processes'
@@ -543,7 +559,7 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-geometry='903x484+151+242'
+geometry='903x484+1691+380'
 maximized=false
 
 [org/gnome/nm-applet]
@@ -791,8 +807,8 @@ name='gnome-terminal'
 idle-dim=false
 sleep-inactive-ac-timeout=1200
 sleep-inactive-ac-type='nothing'
-sleep-inactive-battery-timeout=1200
-sleep-inactive-battery-type='nothing'
+sleep-inactive-battery-timeout=1800
+sleep-inactive-battery-type='suspend'
 
 [org/gnome/settings-daemon/plugins/xsettings]
 hinting='slight'
@@ -845,5 +861,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(575, 298)
+window-position=(554, 284)
 window-size=(804, 438)

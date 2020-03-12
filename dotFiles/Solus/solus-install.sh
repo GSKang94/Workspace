@@ -26,7 +26,8 @@ options=(0 "System update" off
     22 "Cleaning" off
     23 "Restore backup" off
     24 "Make Backup" off
-    25 "App-outlet" off)
+    25 "App-outlet" off
+    26 "Typora" off)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 clear
 for choice in $choices; do
@@ -189,7 +190,9 @@ for choice in $choices; do
     25)
         echo "Installing app-outlet"
         xdg-open https://github.com/app-outlet/app-outlet/releases/download/v1.3.2/App.Outlet-1.3.2.AppImage
-
-;;
+        ;;
+    26)
+       echo "fetching typora"
+       xdg-open https://typora.io/linux/Typora-linux-x64.tar.gz
     esac
 done

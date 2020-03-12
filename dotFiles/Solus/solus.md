@@ -1,7 +1,4 @@
-# Powertop
-sudo eopkg it powertop
-sudo powertop -c
-sudo powertop auto-tune
+
 #Call powertop auto-tune automatically at boot time
 cat << EOF | sudo tee /etc/systemd/system/powertop.service
 [Unit]
