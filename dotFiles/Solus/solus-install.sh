@@ -25,7 +25,8 @@ options=(0 "System update" off
     21 "Zoom" off
     22 "Cleaning" off
     23 "Restore backup" off
-    24 "Make Backup" off)
+    24 "Make Backup" off
+    25 "App-outlet" off)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 clear
 for choice in $choices; do
@@ -182,5 +183,10 @@ for choice in $choices; do
         echo "Backing up ....."
         dconf dump / >Solus-backup
         ;;
+    25)
+        echo "Installing app-outlet"
+        xdg-open https://github.com/app-outlet/app-outlet/releases/download/v1.3.2/App.Outlet-1.3.2.AppImage
+
+;;
     esac
 done
