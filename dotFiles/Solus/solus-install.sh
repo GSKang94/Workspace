@@ -16,8 +16,8 @@ options=(0 "System update" off
     12 "Google Chrome" off
     13 "Spotify" off
     14 "Slack" off
-    15 "Typora" off
-    16 "tdr" off
+    15 "transmission" off
+    16 "tldr" off
     17 "Add Cantaloupe and flathub repo" off
     18 "Stremio" off
     19 "Teamviewer" off
@@ -57,12 +57,12 @@ for choice in $choices; do
     4)
         #Install menulibre
         echo "Installing menulibre"
-        sudo eopkg it -y menulibre
+        sudo eopkg it -y menulibre 
         ;;
 
     5)
         #Install Fonts & emojis
-        sudo eopkg it -y font-firacode-ttf gnome-font-viewer
+        sudo eopkg it -y font-firacode-ttf
         echo "Adding emoji-support"
         #emoji-support
         cd ~/dotFiles/Solus/emoji-support && cp -r fontconfig ~/.config/ && cp -r .fonts ~/
@@ -129,17 +129,14 @@ for choice in $choices; do
         sudo rm spotify*.eopkg -y
         ;;
     14)
-
         #Slack
         sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/getsolus/3rd-party/master/network/im/slack-desktop/pspec.xml -y
         sudo eopkg it slack-desktop*.eopkg -y
         sudo rm slack-desktop*.eopkg -y
         ;;
     15)
-
-        #Typora
-        echo "opening browser"
-        xdg-open https://typora.io/linux/Typora-linux-x64.tar.gz
+        echo "You're a filthy pirate"
+	sudo eopkg it transmission
         ;;
     16)
         #TLDR
@@ -185,6 +182,7 @@ for choice in $choices; do
     24)
         echo "Backing up ....."
         dconf dump / >Solus-backup
+	cd ~/ && cp .aliases Workspace/dotFiles/Common/
         echo "Backup Complete"
         ;;
     25)

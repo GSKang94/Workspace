@@ -1,6 +1,5 @@
 alias c="clear"
-alias n="nnn"
-alias update="sudo eopkg up"
+
 alias gac="git add * && git commit -a -m "
 mkcd () {
   mkdir "$1"
@@ -9,3 +8,9 @@ mkcd () {
 alias h="history"
 
 alias G="gedit"
+
+alias up="sudo eopkg up"
+
+alias rmo="sudo eopg rmo"
+
+alias solus="cd Workspace/dotFiles/Solus && ./solus-install.sh"

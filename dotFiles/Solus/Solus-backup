@@ -3,7 +3,7 @@ sidebar-width=170
 
 [apps/seahorse/windows/key-manager]
 height=476
-width=600
+width=656
 
 [ca/desrt/dconf-editor]
 saved-pathbar-path='/org/gnome/desktop/wm/keybindings/switch-to-workspace-left'
@@ -32,11 +32,6 @@ position=0
 alignment='start'
 name='Icon Task List'
 position=1
-
-[com/solus-project/budgie-panel/applets/{a5362002-5566-11ea-a14d-a194bc2a2f14}]
-alignment='end'
-name='System Tray'
-position=0
 
 [com/solus-project/budgie-panel/applets/{a53bead2-5566-11ea-a14d-a194bc2a2f14}]
 alignment='end'
@@ -92,6 +87,11 @@ position=4
 alignment='end'
 name='Raven Trigger'
 position=5
+
+[com/solus-project/budgie-panel/applets/{c369d242-6503-11ea-a740-843a4b458990}]
+alignment='end'
+name='System Tray'
+position=0
 
 [com/solus-project/budgie-panel/applets/{d1a3e7b6-55dc-11ea-953d-6fafb54b77d0}]
 alignment='start'
@@ -223,7 +223,7 @@ pinned-launchers=['solus-sc.desktop', 'org.gnome.Nautilus.desktop', 'firefox.des
 restrict-to-workspace=true
 
 [com/solus-project/budgie-panel/panels/{a520feac-5566-11ea-a14d-a194bc2a2f14}]
-applets=['a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'aa48aace-6434-11ea-b718-843a4b458990', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', 'a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', 'a5362002-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14']
+applets=['a53bead2-5566-11ea-a14d-a194bc2a2f14', 'a53fec86-5566-11ea-a14d-a194bc2a2f14', 'a528fa58-5566-11ea-a14d-a194bc2a2f14', '2d25f758-5567-11ea-a14d-a194bc2a2f14', 'c369d242-6503-11ea-a740-843a4b458990', 'a5250d4e-5566-11ea-a14d-a194bc2a2f14', 'aa48aace-6434-11ea-b718-843a4b458990']
 autohide='intelligent'
 enable-shadow=false
 location='bottom'
@@ -422,7 +422,7 @@ check-updates=false
 last-checked=int64 1582371073
 
 [org/gnome/control-center]
-last-panel='power'
+last-panel='keyboard'
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
@@ -430,6 +430,7 @@ picture-options='zoom'
 picture-uri='file:///home/singh/.local/share/backgrounds/2020-03-12-02-39-25-wall1.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
+show-desktop-icons=false
 
 [org/gnome/desktop/calendar]
 show-weekdate=false
@@ -507,16 +508,28 @@ use-background-color=true
 migrated=true
 network-monitor-gio-name=''
 
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
 [org/gnome/gedit/plugins]
 active-plugins=['modelines', 'filebrowser']
 
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/singh/Workspace/dotFiles/Solus'
+virtual-root='file:///home/singh'
 
 [org/gnome/gedit/preferences/editor]
-display-line-numbers=true
+display-line-numbers=false
 editor-font='Monospace 14'
 scheme='dracula'
 use-default-font=false
@@ -531,14 +544,14 @@ bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
 size=(1256, 751)
-state=43908
+state=87168
 
 [org/gnome/gnome-system-monitor]
-current-tab='processes'
+current-tab='resources'
 maximized=false
 show-dependencies=false
 show-whose-processes='user'
-window-state=(700, 500, 2123, 387)
+window-state=(700, 500, 121, 267)
 
 [org/gnome/gnome-system-monitor/disktreenew]
 col-6-visible=true
@@ -553,13 +566,18 @@ edge-tiling=false
 [org/gnome/nautilus/icon-view]
 default-zoom-level='large'
 
+[org/gnome/nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency']
+default-visible-columns=['name', 'size', 'date_modified']
+
 [org/gnome/nautilus/preferences]
 default-folder-viewer='icon-view'
 search-filter-time-type='last_modified'
 search-view='list-view'
+show-image-thumbnails='never'
 
 [org/gnome/nautilus/window-state]
-geometry='903x484+1691+380'
+geometry='903x484+193+245'
 maximized=false
 
 [org/gnome/nm-applet]
@@ -796,12 +814,17 @@ night-light-last-coordinates=(49.820900000000002, -97.032200000000003)
 night-light-temperature=uint32 3130
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Alt>period'
 command='gnome-terminal'
 name='gnome-terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Primary><Shift><Alt>z'
+command='systemctl suspend'
+name='Suspend'
 
 [org/gnome/settings-daemon/plugins/power]
 idle-dim=false
@@ -853,7 +876,7 @@ use-transparent-background=false
 clock-format='12h'
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=187
@@ -861,5 +884,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(554, 284)
+window-position=(329, 449)
 window-size=(804, 438)
