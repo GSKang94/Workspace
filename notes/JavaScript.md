@@ -12,10 +12,10 @@ http://www.developer-cheatsheets.com/es6
 - **Numbers:** 3,   -3,   3.4
 
   ```js
-  // 3 + 4   ,     3*4    ,    3/4   ,  3   %   4 (modulo operator use to  find remainder)
-  // N.B-- In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by `2`.
-  // + , - etc. are called arithmetic operators.
-  // Decimal numbers are known as floats..
+   3 + 4   ,     3*4    ,    3/4   ,  3   %   4 (modulo operator use to  find remainder)
+   N.B-- In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by `2`.
+   + , - etc. are called arithmetic operators.
+   Decimal numbers are known as floats..
   ```
 
 

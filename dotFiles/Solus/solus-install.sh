@@ -170,18 +170,18 @@ for choice in $choices; do
         ;;
     22)
         echo "Removing unwanted programs"
-        sudo eopkg rm hexchat libreoffice-common firefox thunderbird gparted gnome-photos rhythmbox baobab-y
+        sudo eopkg rm hexchat libreoffice-common firefox thunderbird gparted gnome-photos rhythmbox baobab -y
         sudo eopkg rmo -y
         sudo flatpak uninstall --unused -y
         ;;
     23)
         echo "Restore config"
-        dconf load / <Solus-backup
+        dconf load / < Solus-backup
         echo "Backup-restored"
         ;;
     24)
         echo "Backing up ....."
-        dconf dump / >Solus-backup
+        dconf dump / > Solus-backup
 	cd ~/ && cp .aliases Workspace/dotFiles/Common/
         echo "Backup Complete"
         ;;
