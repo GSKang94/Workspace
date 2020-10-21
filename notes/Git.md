@@ -1,5 +1,7 @@
 ## git workflow
 
+[Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
 * Make SSH key in you local and remote machine.
 * git config --global user.name 'GSingh1994'
 * git config --global user.email 'singh.gagandeep0034@gmail.com'
