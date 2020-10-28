@@ -215,20 +215,22 @@ In above declaration, Color is property and blue is value of declaration.
       opacity: 0.5;
     }
 ## Background Image
-    p {
-      background-image: url("#"); or url(relative path);
-    }
-    N.B If the image is small, then it will tile across the page. To avoid this we can specify -- 
-      background-repeat: no-repeat;
-    N.B If we want to streach the photo across the whole page, we can specify --
-    background-size: cover;
-    Common code-snippet for responsive design:
-    body {
-      background-image: url('#');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
+```css
+p {
+  background-image: url("#"); or url(relative path);
+}
+N.B If the image is small, then it will tile across the page. To avoid this we can specify -- 
+  background-repeat: no-repeat;
+N.B If we want to streach the photo across the whole page, we can specify --
+background-size: cover;
+Common code-snippet for responsive design:
+body {
+  background-image: url('#');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+```
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1533789591058_Screenshot+from+2018-08-08+23-39-15.png)
 
 ## percentage%
@@ -419,21 +421,53 @@ Clear: left or right or both or none;
 
 ----------
 ## Color
-    h1 {
-      color: red;
-      background-color: blue;
-    }
+```css
+h1 {
+  color: red;
+  background-color: blue;
+}
+```
 ## Hex colors
-    color: #000; (for black)
+```css
+color: #000; (for black)
+```
 ## RGB colors
-    color: rgb(139, 69, 19);
+```css
+color: rgb(139, 69, 19);
+```
 ## HSL Colors
-    color: hsl(240, 100%, 80%);
+```css
+color: hsl(240, 100%, 80%);
+```
 ## Opacity or Alpha
-    opacity: 0.8;
-    color: rgba(139, 69, 19, 0.6);
-    background-color: hsla((240, 100%, 80%, 0.1);
+```css
+opacity: 0.8;
+color: rgba(139, 69, 19, 0.6);
+background-color: hsla((240, 100%, 80%, 0.1);
+```
 ----------
+# Variables
+
+```css
+## Declaring a variable
+
+element {
+  --main-bg-color: brown;
+}
+                       <=OR=>
+:root {
+  --main-bg-color: brown;
+}
+
+## Using the variable
+
+element {
+  background-color: var(--main-bg-color);
+}
+```
+
+
+
 # Typography
 
 The art of arranging text on a page.
@@ -634,6 +668,8 @@ grid-area: 5 / 2 / 7 / 4
 
 # Flexbox
 
+[FreecodeCamp cheatsheet](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/)
+
 ![img](https://cdn-images-1.medium.com/max/1250/1*UJ54WLMke5RQ4gZcFDxTvQ.png)
 
 Complete guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -653,8 +689,6 @@ Complete guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 ## Flex-direction
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1542139246883_image.png)
-
 ```css
 flex-direction: column; | row (default) | column-reverse | row-reverse
 ```
@@ -691,15 +725,9 @@ By default, flex items are laid out in the source order. However, the `order` pr
 
 Element alignment along the **main axis.**
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1542143949575_image.png)
-
 ## Align-items
 
 Element alignment along the **Cross axis.**
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1542145416520_image.png)
-
-
 
 ## Align-content
 
@@ -707,13 +735,9 @@ This aligns a flex container's lines within when there is extra space in the **c
 **N.B--** Only  work with the multiple lines of code.
 It determines the spacing between lines, while `**align-items**` determines how the items as a whole are aligned within the container. When there is only one line, `**align-content**` has no effect.
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1542146157783_image.png)
-
 ## Align-self
 
 This allows the default alignment to be overridden for **individual** flex items.
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1542166491832_image.png)
 
     align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
@@ -727,8 +751,6 @@ This defines the default size of an element before the remaining space is distri
 ## flex-grow
 
 decide how to deal with the extra space available. 
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1542236631746_image.png)
 
 ## flex-shrink
 
@@ -760,9 +782,11 @@ This means, when the device is screen, and the max screen width is 480px, only t
 
 
 ## range
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
-        /* rule set for 320px - 480px */
-    }
+```css
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* rule set for 320px - 480px */
+}
+```
 
 
 ## operators
@@ -781,10 +805,13 @@ The `orientation` media feature detects if the page has more width than height. 
 
 
 ## Breakpoints
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_30BA4BBBED604306AB4FA41680B21155654D0DAD6F3CC668E98E1E1FCA03C7A4_1542306058619_image.png)
-
 ## element: first-of-type
-    to select the first element among many.
-    div:first-of-type {
-    }
+```css
+to select the first element among many.
+div:first-of-type {
+}
+```
 
+# Animation
+
+[Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
