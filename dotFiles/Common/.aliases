@@ -11,6 +11,8 @@ alias G="gedit"
 
 alias up="sudo eopkg up"
 
-alias rmo="sudo eopg rmo"
+alias rmo="sudo eopkg rmo"
 
 alias solus="cd Workspace/dotFiles/Solus && ./solus-install.sh"
+
+alias code="code-oss"

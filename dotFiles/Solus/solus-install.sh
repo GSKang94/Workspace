@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo eopkg it dialog
 cmd=(dialog --separate-output --checklist "Please Select Software you want to install:" 22 76 16)
-options=(0 "System update" off
+options=(
+    0 "System update" off
     1 "zsh & wget" off # any option can be set to default to "on"
     2 "Git" off
     3 "VScode" off
@@ -38,7 +39,7 @@ for choice in $choices; do
         sudo eopkg up -y
         ;;
     1)
-        #install ZSH & wget
+        #install ZSH & wget 
         echo "Installing zsh & wget"
         sudo eopkg it -y zsh wget
         ;;
@@ -63,9 +64,9 @@ for choice in $choices; do
     5)
         #Install Fonts & emojis
         sudo eopkg it -y font-firacode-ttf
-        echo "Adding emoji-support"
+        #echo "Adding emoji-support"
         #emoji-support
-        cd ~/dotFiles/Solus/emoji-support && cp -r fontconfig ~/.config/ && cp -r .fonts ~/
+        #cd ~/dotFiles/Solus/emoji-support && cp -r fontconfig ~/.config/ && cp -r .fonts ~/
         fc-cache -f -v
         ;;
     6)
@@ -93,25 +94,27 @@ for choice in $choices; do
         echo "Your ssh key has been copied to clipboard"
         ;;
     10)
-#zsh plugins
+         #install Oh my ZSH 
+        echo "Installing Oh-my-ZSH"
+        sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+         #zsh plugins
         echo "installing zsh-autosuggestions"
         git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
         echo "installing zsh-syntax-highlighting"
         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-#powerlevel10K
+	#powerlevel10K
         echo "installing Powerlevel10k theme"
-        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
- #install Oh my ZSH 
-        echo "Installing Oh-my-ZSH"
-        sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
         ;;
     11)
         #Move files
         echo "Moving files"
-        cp -r ~/dotFiles/Common/gedit ~/.local/share/ && cp ~/dotFiles/Common/.aliases ~/ && cp ~/dotFiles/Common/.zshrc ~/ && cp ~/dotFiles/Common/img/* ~/Pictures
+        cp -r ~/dotFiles/Common/gedit ~/.local/share/ && cp ~/dotFiles/Common/.aliases ~/ && cp ~/dotFiles/Common/img/* ~/Pictures
+        #&& cp ~/dotFiles/Common/.zshrc ~/ 
         ;;
     12)
 
@@ -170,7 +173,7 @@ for choice in $choices; do
         ;;
     22)
         echo "Removing unwanted programs"
-        sudo eopkg rm hexchat libreoffice-common firefox thunderbird gparted gnome-photos rhythmbox baobab -y
+        sudo eopkg rm hexchat libreoffice-common firefox thunderbird gparted gnome-photos rhythmbox baobab x-clip -y
         sudo eopkg rmo -y
         sudo flatpak uninstall --unused -y
         ;;
