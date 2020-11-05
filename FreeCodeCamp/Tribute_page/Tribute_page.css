@@ -1,10 +1,6 @@
-body{
-    background-color: black;
-    color: cornsilk;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 * {
-    border: 1px solid whitesmoke;
+    /* border: 1px solid black; */
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -12,26 +8,42 @@ body{
             box-sizing: border-box;
   }
 
+#img-div{
+    border: red solid 1.5px;
+    padding: 1.5rem;
+    background-color: honeydew;
+    width: 80%;
+    text-align: center;
+}
 img{
-    width:30rem;
+    width:50rem;
 }
 
 main{
+    background-color: gainsboro;
     height: 150vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    /* align-content: center; */
+    justify-content: space-around;
+    align-items: center;
 }
 
 header{
+    background-color: honeydew;
     border: brown solid 2px;
+    width: 80%;
     text-align: center;
-    /* padding : 1.5rem; */
-    height: 10rem;
-    /* align-self: center; */
+    flex-basis: 10rem;
+    font-family: 'Itim', cursive;
 }
 
-header .banner{
-    padding-top: 2.5rem;
+header #title{
+    border: green solid 2px;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+header #subtitle{
+    font-size: 1rem;
+    padding: 0.5rem;
 }
