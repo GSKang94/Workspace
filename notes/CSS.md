@@ -92,20 +92,24 @@ color: blue;
 
 This selector matches and style elements with a specific attribute value.
 
-    input [type='radio'] {
-      margin: 20px 0px 20px 0px;
-    }
-    another example
-    a[href="http//:www.google.com"]{
-    color: blue;
-    }
+```css
+input [type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
+another example
+a[href="http//:www.google.com"]{
+color: blue;
+}
+```
 
 
 ## Adjacent selector
-    /* I want bold the p element that immidiately come after an image*/
-    img + p {
-    font-style: bold;
-    }
+```css
+/* I want bold the p element that immidiately come after an image*/
+img + p {
+font-style: bold;
+}
+```
 
 
 ## nth of type
