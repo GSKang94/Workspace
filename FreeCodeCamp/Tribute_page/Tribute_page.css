@@ -8,23 +8,12 @@
             box-sizing: border-box;
   }
 
-#img-div{
-    border: red solid 1.5px;
-    padding: 1.5rem;
-    background-color: honeydew;
-    width: 80%;
-    text-align: center;
-}
-img{
-    width:50rem;
-}
-
 main{
     background-color: gainsboro;
-    height: 150vh;
+    /* height: 190vh; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
 }
 
@@ -32,13 +21,13 @@ header{
     background-color: honeydew;
     border: brown solid 2px;
     width: 80%;
+    padding: 1rem;
     text-align: center;
-    flex-basis: 10rem;
     font-family: 'Itim', cursive;
+    margin: 2rem;
 }
 
 header #title{
-    border: green solid 2px;
     font-size: 3rem;
     padding: 1.5rem;
 }
@@ -47,3 +36,31 @@ header #subtitle{
     font-size: 1rem;
     padding: 0.5rem;
 }
+
+#img-div{
+    border: red solid 1.5px;
+    padding-top: 3.5rem;
+    background-color: honeydew;
+    width: 80%;
+    text-align: center;
+}
+img{
+    width:40rem;
+}
+
+#tribute-info{
+    text-align: center;
+}
+
+#tribute{
+    margin: 1rem;
+    width:80%;
+    background-color: honeydew;
+    font-size: 1.3rem;
+}
+li{
+    background-color: khaki;
+    margin: 1rem;
+}
+
+
