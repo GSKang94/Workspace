@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
 * {
-    /* border: 1px solid black; */
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -9,58 +10,71 @@
   }
 
 main{
-    background-color: gainsboro;
-    /* height: 190vh; */
+    background-color: #ec524b;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
 header{
-    background-color: honeydew;
-    border: brown solid 2px;
-    width: 80%;
-    padding: 1rem;
+    background-color: #214252;
+    width: 100%;
+    padding-bottom: 1.6rem;
     text-align: center;
     font-family: 'Itim', cursive;
-    margin: 2rem;
+    margin-bottom: 2rem;
+    color: lavender;
 }
 
-header #title{
+#title{
     font-size: 3rem;
     padding: 1.5rem;
 }
 
-header #subtitle{
-    font-size: 1rem;
+#subtitle{
+    font-size: 2rem;
+    font-weight: 100;
     padding: 0.5rem;
 }
 
 #img-div{
-    border: red solid 1.5px;
-    padding-top: 3.5rem;
-    background-color: honeydew;
-    width: 80%;
+    padding-top: 2.5rem;
+    background-color: #ec524b;
+    width: 95%;
     text-align: center;
 }
 img{
-    width:40rem;
+    width:50rem;
+}
+
+
+#tribute{
+    margin: 1rem;
+    width:100%;
+    background-color: #edc988;
+    font-family: 'Tajawal', sans-serif;
 }
 
 #tribute-info{
     text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #ffd57e;
 }
-
-#tribute{
-    margin: 1rem;
-    width:80%;
-    background-color: honeydew;
-    font-size: 1.3rem;
+#timeline{
+    padding-top: 2rem;
+    font-size: 1.6rem;
+    width: 80%;
+     margin: 0 auto;
+}
+ul{
+    list-style-type: none;
 }
 li{
-    background-color: khaki;
     margin: 1rem;
+    line-height: 1.5em;
+    border-bottom: #ec524b 1.6px dotted;
 }
 
 
