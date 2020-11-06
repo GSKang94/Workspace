@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -47,7 +48,7 @@ img{
 }
 
 #img-caption{
-    font-size: 1.2rem;
+    font-size: 1em;
 }
 
 
@@ -58,6 +59,10 @@ img{
     font-family: 'Tajawal', sans-serif;
 }
 
+span{
+    font-size: 2rem;
+    font-weight: bold;
+}
 #tribute-info{
     text-align: center;
     padding-top: 1.5rem;
@@ -65,6 +70,13 @@ img{
     font-weight: 500;
     background-color: #ffd57e;
 }
+
+@media all and (max-width: 480px) {
+    #timeline{
+        padding-top: 1rem;
+        font-size: 0.5rem;
+    }
+ }
 #timeline{
     padding-top: 2rem;
     font-size: 1.6rem;
@@ -77,9 +89,9 @@ ul{
 
 li{
     margin: 1rem;
-    line-height: 1.5em;
-    border-bottom: #ec524b 1.6px dotted;
-    margin-bottom: 2rem;
+    line-height: 1.3em;
+    border-bottom: #ec524b 1.8px dotted;
+    margin-bottom: 1.5rem;
 }
 
 footer{
