@@ -38,13 +38,16 @@ header{
 }
 
 #img-div{
-    padding-top: 2.5rem;
-    background-color: #ec524b;
     width: 95%;
     text-align: center;
 }
 img{
-    width:50rem;
+    width:60rem;
+    max-width:100%;
+}
+
+#img-caption{
+    font-size: 1.2rem;
 }
 
 
@@ -71,10 +74,18 @@ img{
 ul{
     list-style-type: none;
 }
+
 li{
     margin: 1rem;
     line-height: 1.5em;
     border-bottom: #ec524b 1.6px dotted;
+    margin-bottom: 2rem;
+}
+
+footer{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Itim', cursive;
 }
 
 
