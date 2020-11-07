@@ -71,11 +71,6 @@ span{
     background-color: #ffd57e;
 }
 
-@media all and (max-width: 480px) {
-    #timeline{
-        padding-top: 1rem;
-        font-size: 0.5rem;
-    }
  }
 #timeline{
     padding-top: 2rem;
