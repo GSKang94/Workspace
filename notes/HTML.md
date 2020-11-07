@@ -168,24 +168,33 @@ Example: radio, text, password, color etc.
 
 self closing (like img)
 
-    <input type =”text”>
+```html
+<input type =”text”>
+```
 
 
 ## Placeholder 
 
 (text inside the field)
 
-    <input type="text" placeholder="theis placeholder text">
+```html
+<input type="text" placeholder="theis placeholder text">
+```
 
 
 ## Label tag
 - Add label to the input boxes.
+
 - Make a small container.
+
 - Better accessibility.
+    
+    ```html
     <label>
       username:
       <input type="text" placeholder="username">
     </label>
+    ```
 ## ADD accessibility
 
 it is considered as best practice to set a  for attribute on the label element. Also an id attribute should be set inside input element. value of for = id. This practice is must for assistive technologies.
@@ -245,7 +254,7 @@ The above example would create two radio buttons named as
 - It is similar to Radio buttons.
 
 - There is no need to make relation in name attribute.
-    
+  
     ```html
     <label for="love">
       <input id="love" type="checkbox" name="personality"/>
