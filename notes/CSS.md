@@ -784,8 +784,21 @@ With media queries, CSS can detect the size of the current screen and apply diff
 This means, when the device is screen, and the max screen width is 480px, only then change the font-size of body element.
 ```
 
+```css
+                                 CHEATSHEET
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    code
+  }
+
+@media only screen and (min-width: 479px) and (max-width: 979px) {
+   code
+}
+```
+
+
 
 ## range
+
 ```css
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     /* rule set for 320px - 480px */
