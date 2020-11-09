@@ -4,60 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="index.css"> -->
-    <title>Portfolio</title>
+    <title>Server</title>
     <style>
         body {
-            color: #222;
-            background: #fff;
+            background-color: black;
+            color: white;
         }
 
         a {
-            color: #0033cc;
+            text-decoration: none;
         }
-
-        /* Dark Mode styles */
-        body.dark-theme {
-            color: #eee;
-            background: #121212;
-        }
-
-        body.dark-theme a {
-            color: #809fff;
-        }
-
-        /* dark mode snippet end */
     </style>
 </head>
 
-<body class="dark-theme || light-theme">
-    <button class="btn-toggle">Toggle Dark Mode</button>
-
-    <h1>My projects on FreeCodeCamp</h1>
-    <ul>
-        <li>
-            <a href="Tribute_page/Tribute_page.html" target="_self" rel="noopener noreferrer">Tribute_page</a>
-        </li>
-        <li>
-            <a href="Survey_Form/Survey_Form.html" target="_self" rel="noopener noreferrer">Survey form</a>
-        </li>
-    </ul>
-
-    <!-- Dark mode button -->
+<body>
+    <h1>
+        <a href="/homepage/home.html" target="_self" rel="noopener noreferrer">Home</a>
+    </h1>
 </body>
-
-<!-- <script type="text/javascript" src="index.js"></script> -->
-<script>
-    // dark mode 
-    // Select the button
-    const btn = document.querySelector('.btn-toggle');
-    // Listen for a click on the button
-    btn.addEventListener('click', function () {
-        // Then toggle (add/remove) the .dark-theme class to the body
-        document.body.classList.toggle('dark-theme');
-    })
-// dark mode end
-
-</script>
 
 </html>
