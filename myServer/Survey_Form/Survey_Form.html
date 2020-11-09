@@ -11,8 +11,8 @@
 <body>
     <div id="container">
         <div id='form-header'>
-            <h1 id="title">Title of Survey form</h1>
-            <p id="description">Some description</p>
+            <h1 id="title">Website Feedback form</h1>
+            <p id="description">Thank you for your time.</p>
         </div>
         <form action="" id="survey-form">
             <label for="name-label">Name</label>
@@ -22,43 +22,42 @@
             <input id="email" type="email" placeholder="Enter your email" required>
 
             <label for="number-label">Age</label>
-            <input id="number" min="18" max="40" type="number" placeholder="Age">
+            <input id="number" min="18" max="40" type="number" placeholder="(optional)">
 
-            <label for="dropdown-label">Some Dropdown</label>
+            <label for="dropdown-label">Your current role?</label>
             <select id="dropdown">
                 <option value="">select one</option>
-                <option value="a">a</option>
-                <option value="b">b</option>
-                <option value="b">b</option>
-                <option value="d">d</option>
-                <option value="x">x</option>
+                <option value="Front-end dev.">Front-end dev.</option>
+                <option value="Back-end dev.">Back-end dev.</option>
+                <option value="Full-stack dev.">Full-stack dev.</option>
+                <option value="Other">Other</option>
             </select>
             <div id="boxes">
-                <p>Title of checkboxes</p>
+                <p>Suggestions ::></p>
                 <label for="check1"> <input id="check1" name="check1" type="checkbox">
-                    aafdaf
+                    Change Layout
                 </label>
 
                 <label for="check2">
                     <input id="check2" name="check1" type="checkbox">
-                    basdsadsa
+                    DRY code
                 </label>
 
                 <label for="check3">
                     <input id="check3" name="check1" type="checkbox">
-                    vxzcxzc
+                    Responsive site
                 </label>
 
                 <label for="check4">
                     <input id="check4" name="check1" type="checkbox">
-                    wqwewqe
+                    More accessible
                 </label>
 
             </div>
 
             <label for="comments">Additional comments</label>
 
-            <textarea name="comments" id="comments" cols="20" rows="05"></textarea>
+            <textarea name="comments" id="comments" cols="74" rows="05"></textarea>
 
             <button id="submit" type="submit">Submit</button>
 

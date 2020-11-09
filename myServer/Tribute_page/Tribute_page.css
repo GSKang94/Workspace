@@ -84,11 +84,14 @@ ul{
 
 li{
     margin: 1rem;
-    line-height: 1.6rem;
+    /* line-height: 1.9rem; */
     border-bottom: #ec524b 1.8px dotted;
     margin-bottom: 1.5rem;
 }
 
+u{
+    text-decoration: underline dotted #214252;
+}
 footer{
     padding-bottom: 1rem;
     font-size: 1.5rem;
