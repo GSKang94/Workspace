@@ -38,6 +38,18 @@ body{
     margin-bottom: 2rem;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    #survey-form{
+        width: 95%;
+    }
+  }
+
+@media only screen and (min-width: 479px) and (max-width: 979px) {
+    #survey-form{
+        width: 80%;
+    }
+}
+
 input{
     width: 100%;
     height: 2rem;
