@@ -1,0 +1,55 @@
+/* normalise */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+/* nav bar */
+#header{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+  }
+
+#header-img{
+      width: 7rem;
+      padding-left: 0;
+  }
+#nav-bar{
+    padding: 1rem 0;
+}
+
+.nav-link{
+    display: inline;
+    padding-right: 6rem;
+}
+
+/* form */
+
+#form{
+    
+    width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
+#title{
+    padding: 1.1em;
+}
+
+#subtitle{
+    padding-bottom: 1rem;
+}
+
+#email{
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+/* grid */
+#container{
+    border: 2px red solid;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
