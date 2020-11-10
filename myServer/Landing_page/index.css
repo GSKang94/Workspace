@@ -6,6 +6,11 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+
+body{
+    background-color: #e6d5b8;
+    color: #1c2b2d;
+}
 /* nav bar */
 #header{
       display: flex;
@@ -15,7 +20,7 @@
 
 #header-img{
       width: 7rem;
-      padding-left: 0;
+      /* padding-left: 0; */
   }
 #nav-bar{
     padding: 1rem 0;
@@ -29,13 +34,14 @@
 /* form */
 
 #form{
-    
-    width: 40rem;
+    font-size: 1.8rem;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 7rem;
 }
 #title{
-    padding: 1.1em;
+    padding-bottom: 0.8rem;
 }
 
 #subtitle{
@@ -45,6 +51,7 @@
 #email{
     width: 40%;
     margin-bottom: 1rem;
+    height: 2rem;
 }
 
 
@@ -70,14 +77,45 @@
     display: block;
     margin-bottom: 2.6rem; 
     margin-left: 1em;
+    color: white;
 }
 
 #video{
     display: block;
     width:25%;
     margin: 0 auto;
+    margin-bottom: 2.5rem;
 }
 
+#container2{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.box{
+    text-align: center;
+    border: 2px solid #1f6f8b;
+    margin: 1rem;
+}
+
+.box-heading{
+    font-weight: bolder;
+    background-color: #1f6f8b;
+    padding: 1rem;
+}
+
+.box-main{
+    padding: 1rem 2rem;
+}
+
+.button{
+    width: 30%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: turquoise;
+    /* color: thistle; */
+}
 
 
 
