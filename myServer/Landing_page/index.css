@@ -47,9 +47,71 @@
     margin-bottom: 1rem;
 }
 
-/* grid */
+
+
 #container{
+    /* border: hotpink solid 2px; */
+    margin: 0 auto;
+    display: grid;
+    margin-top: 4rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 10% 90%;
+    width: 40%;
+    grid-column-gap: 2.5rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+#icons{
+    grid-row: 1/5;
+}
+
+.svg{
+    width:70%;
+    display: block;
+    margin-bottom: 2.6rem; 
+    margin-left: 1em;
+}
+
+
+
+
+
+
+/* grid */
+
+/* #container{
+    width: 80%;
+    height: 20rem;
+    margin: 0 auto;
     border: 2px red solid;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 1rem;
+    background-color: grey; */
+    /* align-content: space-evenly; */
+    /* align-content: space-between; */
+/* } */
+/* 
+.svg{
+    width: 4rem; */
+    /* padding: 1rem; */
+    /* padding-bottom: 1rem;
+    padding-left: 1rem; */
 }
+/* #icons{
+    grid-row: 1/5;
+    border: 2px black solid;
+    
+} */
+/* #icons{ */
+    /* font-size: 2.5rem;
+    line-height: 5rem; */
+    /* grid-row: 1/5; */
+    /* width: 2rem; */
+    /* justify-content: space-between; */
+/* } */
+
+
+
