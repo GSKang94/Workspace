@@ -72,6 +72,12 @@
     margin-left: 1em;
 }
 
+#video{
+    display: block;
+    width:25%;
+    margin: 0 auto;
+}
+
 
 
 
