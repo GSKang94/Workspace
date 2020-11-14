@@ -19,7 +19,6 @@ body{
 #header{
       display: flex;
       justify-content: space-between;
-      /* margin-bottom: 1rem; */
       background-color: #f05454;
       position: sticky;
       top: 0;
@@ -182,3 +181,97 @@ footer{
  footer div{
      margin-right: 3rem;
  }
+
+
+ @media only screen and (min-width: 320px) and (max-width: 479px) {
+  #header-img{
+      height: 3rem;
+        width: 6rem;
+    }
+  #nav-bar{
+      padding: 0.5rem 0;
+  }
+  
+  .nav-link{
+      padding: 0.5rem;
+      margin-right: 0.5rem;
+  }
+  a{
+      font-size: 1.5rem;
+  }
+    
+    /* ********* */
+    
+    #form{
+        font-size: 1.3rem;
+        width: 80%;
+        margin-top: 4rem;
+    }
+
+    #subtitle{
+        margin-bottom: 2.1rem;
+    }
+    
+    #email{
+        width: 60%;
+        /* margin-bottom: 1rem; */
+    }
+    
+    /* **************** */
+    #container{
+        margin-top: 4rem;
+        width: 80%;
+        grid-column-gap: 2.8rem;
+        /* padding-top: 1rem; */
+        font-size: 1.2rem;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .svg{
+        width:100%;
+        margin: 0 0 5rem 1em;
+    }
+    /* ************ */
+    #video{
+        width:75%;
+    }
+
+    /* ********* */
+    #container2{
+        width: 100%;
+    }
+    .box{
+        border: 0.5px solid #f6830f;
+        margin: 0.3rem;
+        padding-bottom: 0.6rem;
+    }
+    .box-heading{
+        padding: 0.4rem;
+        font-size: 1em;
+    }
+    .box-main{
+        padding: 0.7rem 0.7rem;
+        font-size: 0.8rem;
+    }
+    .button{
+        width: 70%;
+        padding: 0.3rem;
+        font-size: 0.8rem;
+        border: 0 none;
+    }
+
+/* **************** */
+footer{
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}
+
+ footer div{
+     margin-right: 1rem;
+ }
+
+  }
+
+/* @media only screen and (min-width: 479px) and (max-width: 979px) {
+   
+} */

@@ -360,6 +360,15 @@ It’ll give me a clean slate to work on.
     ```
 ----------
 ## Position
+
+```css
+To fix nav-bar at top:
+position: sticky;
+top: 0;
+```
+
+
+
 ```css
 Value: Static(default)    
             Relative                            top: 50px;
