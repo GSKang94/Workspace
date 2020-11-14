@@ -4,6 +4,18 @@ https://learn-the-web.algonquindesign.ca/topics/css-selectors-units-cheat-sheet/
 
 https://adam-marsden.co.uk/css-cheat-sheet
 
+## Tips
+
+* Hide white space on right side of page
+
+  ```css
+  body{
+      overflow-x: hidden;
+  }
+  ```
+
+* 
+
 ## inline style in  HTML
     <p style="color:red; font-size:20 px;">
 ## <style> Tag in HTML
