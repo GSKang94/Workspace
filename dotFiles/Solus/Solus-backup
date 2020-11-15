@@ -6,8 +6,8 @@ height=476
 width=656
 
 [ca/desrt/dconf-editor]
-saved-pathbar-path='/org/gnome/desktop/wm/keybindings/switch-windows'
-saved-view='/org/gnome/desktop/wm/keybindings/'
+saved-pathbar-path='/org/gnome/desktop/wm/keybindings/switch-to-workspace-right'
+saved-view='/org/gnome/desktop/wm/keybindings/switch-to-workspace-right'
 show-warning=false
 window-height=647
 window-is-maximized=false
@@ -31,22 +31,17 @@ position=2
 [com/solus-project/budgie-panel/applets/{0bddb304-2232-11eb-a273-4c34882c2356}]
 alignment='end'
 name='Spacer'
-position=10
+position=8
 
 [com/solus-project/budgie-panel/applets/{4c90bf44-208a-11eb-b74b-4c34882c2356}]
 alignment='end'
 name='Calendar'
-position=8
+position=6
 
 [com/solus-project/budgie-panel/applets/{57c444b4-2231-11eb-a273-4c34882c2356}]
 alignment='center'
 name='Workspace Switcher'
 position=0
-
-[com/solus-project/budgie-panel/applets/{67dfb8de-2230-11eb-aa57-4c34882c2356}]
-alignment='end'
-name='Caffeine'
-position=4
 
 [com/solus-project/budgie-panel/applets/{7242aa7e-2231-11eb-a273-4c34882c2356}]
 alignment='end'
@@ -58,11 +53,6 @@ alignment='end'
 name='Spacer'
 position=1
 
-[com/solus-project/budgie-panel/applets/{b16fb020-2231-11eb-a273-4c34882c2356}]
-alignment='end'
-name='Spacer'
-position=3
-
 [com/solus-project/budgie-panel/applets/{c124476e-207a-11eb-9985-57597f45b249}]
 alignment='start'
 name='Budgie Menu'
@@ -71,22 +61,22 @@ position=0
 [com/solus-project/budgie-panel/applets/{c13279b0-207a-11eb-9985-57597f45b249}]
 alignment='end'
 name='System Tray'
-position=6
+position=4
 
 [com/solus-project/budgie-panel/applets/{c13689a6-207a-11eb-9985-57597f45b249}]
 alignment='end'
 name='Status Indicator'
-position=7
+position=5
 
 [com/solus-project/budgie-panel/applets/{c139ed44-207a-11eb-9985-57597f45b249}]
 alignment='end'
 name='User Indicator'
-position=9
+position=7
 
 [com/solus-project/budgie-panel/applets/{eb9c410a-2231-11eb-a273-4c34882c2356}]
 alignment='end'
 name='Spacer'
-position=5
+position=3
 
 [com/solus-project/budgie-panel/instance/budgie-menu/{c124476e-207a-11eb-9985-57597f45b249}]
 menu-compact=true
@@ -102,9 +92,6 @@ show-all-windows-on-click=false
 [com/solus-project/budgie-panel/instance/spacer/{a46dc632-2231-11eb-a273-4c34882c2356}]
 size=5
 
-[com/solus-project/budgie-panel/instance/spacer/{b16fb020-2231-11eb-a273-4c34882c2356}]
-size=5
-
 [com/solus-project/budgie-panel/instance/spacer/{eb9c410a-2231-11eb-a273-4c34882c2356}]
 size=5
 
@@ -112,7 +99,7 @@ size=5
 spacing=4
 
 [com/solus-project/budgie-panel/panels/{c11f1b36-207a-11eb-9985-57597f45b249}]
-applets=['0bddb304-2232-11eb-a273-4c34882c2356', 'a46dc632-2231-11eb-a273-4c34882c2356', '04d2a2f0-2231-11eb-a273-4c34882c2356', 'c139ed44-207a-11eb-9985-57597f45b249', '7242aa7e-2231-11eb-a273-4c34882c2356', 'b16fb020-2231-11eb-a273-4c34882c2356', '04135224-208d-11eb-aa60-4c34882c2356', 'eb9c410a-2231-11eb-a273-4c34882c2356', 'c13279b0-207a-11eb-9985-57597f45b249', 'c13689a6-207a-11eb-9985-57597f45b249', '4c90bf44-208a-11eb-b74b-4c34882c2356', '57c444b4-2231-11eb-a273-4c34882c2356', '67dfb8de-2230-11eb-aa57-4c34882c2356', 'c124476e-207a-11eb-9985-57597f45b249']
+applets=['c13689a6-207a-11eb-9985-57597f45b249', '04d2a2f0-2231-11eb-a273-4c34882c2356', 'c124476e-207a-11eb-9985-57597f45b249', '04135224-208d-11eb-aa60-4c34882c2356', 'c139ed44-207a-11eb-9985-57597f45b249', 'eb9c410a-2231-11eb-a273-4c34882c2356', '7242aa7e-2231-11eb-a273-4c34882c2356', '0bddb304-2232-11eb-a273-4c34882c2356', 'c13279b0-207a-11eb-9985-57597f45b249', 'a46dc632-2231-11eb-a273-4c34882c2356', '57c444b4-2231-11eb-a273-4c34882c2356', '4c90bf44-208a-11eb-b74b-4c34882c2356']
 autohide='none'
 dock-mode=false
 location='top'
@@ -137,6 +124,17 @@ edge-tiling=false
 check-updates=false
 last-checked=int64 1604706216
 
+[io/github/gnome-mpv]
+settings-migrated=true
+
+[io/github/gnome-mpv/window-state]
+height=315
+playlist-width=250
+show-controls=true
+show-playlist=false
+volume=1.0
+width=480
+
 [net/launchpad/plank/docks/dock1]
 alignment='center'
 auto-pinning=true
@@ -159,6 +157,13 @@ unhide-delay=0
 zoom-enabled=true
 zoom-percent=150
 
+[org/gnome/Disks]
+image-dir-uri='file:///home/g/Documents'
+
+[org/gnome/MultiWriter]
+filename='/home/g/Downloads/retropie-buster-4.7.1-rpi4_400.img'
+show-warning=false
+
 [org/gnome/calendar]
 active-view='month'
 window-maximized=false
@@ -166,7 +171,7 @@ window-position=(550, 353)
 window-size=(1009, 569)
 
 [org/gnome/control-center]
-last-panel='network'
+last-panel='keyboard'
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
@@ -198,6 +203,7 @@ numlock-state=false
 
 [org/gnome/desktop/peripherals/touchpad]
 natural-scroll=true
+speed=-0.13571428571428568
 two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/privacy]
@@ -228,15 +234,22 @@ theme-name='__custom'
 
 [org/gnome/desktop/wm/keybindings]
 activate-window-menu=@as []
+begin-resize=['<Alt>8']
 switch-applications=['<Alt>space']
 switch-applications-backward=['<Shift><Alt>space']
+switch-to-workspace-left=['<Super><Alt>Left']
+switch-to-workspace-right=['<Super><Alt>Right']
 
 [org/gnome/desktop/wm/preferences]
 action-middle-click-titlebar='minimize'
 action-right-click-titlebar='none'
 button-layout='appmenu:minimize,maximize,close'
-num-workspaces=3
+num-workspaces=2
 titlebar-font='Clear Sans Bold 11'
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
 
 [org/gnome/epiphany]
 ask-for-default=false
@@ -255,8 +268,8 @@ active-plugins=['filebrowser']
 
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
-tree-view=true
-virtual-root='file:///home/g/Workspace/dotFiles/Solus'
+tree-view=false
+virtual-root='file:///run/media/g/RECALBOX'
 
 [org/gnome/gedit/preferences/editor]
 auto-indent=true
@@ -309,16 +322,25 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-geometry='963x539+328+272'
+geometry='967x573+306+240'
 maximized=false
 
 [org/gnome/nm-applet]
 disable-connected-notifications=true
+disable-disconnected-notifications=true
 suppress-wireless-networks-available=true
+
+[org/gnome/nm-applet/eap/641034fd-ad1e-37b1-a34e-f54d4a31c26d]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/aaeeb302-481e-4e6c-925c-e9cb86b04c6f]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-temperature=uint32 2500
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
@@ -348,27 +370,7 @@ paste='<Primary>v'
 
 [org/gnome/terminal/legacy/profiles:]
 default='744ed507-4e1f-4c22-9aa5-d185fbde5543'
-list=['744ed507-4e1f-4c22-9aa5-d185fbde5543', '0e98c49a-0c34-4686-aa5e-8b462654b823']
-
-[org/gnome/terminal/legacy/profiles:/:0e98c49a-0c34-4686-aa5e-8b462654b823]
-allow-bold=true
-background-color='#131313131313'
-background-transparency-percent=2
-bold-color='#d6d6dbdbe5e5'
-bold-color-same-as-fg=true
-font='MesloLGS NF 14'
-foreground-color='#d6d6dbdbe5e5'
-highlight-background-color='#'
-highlight-colors-set=true
-highlight-foreground-color='#'
-palette=['#1f1f1f1f1f1f', '#f8f811111818', '#2d2dc5c55e5e', '#ececbaba0f0f', '#2a2a8484d2d2', '#4e4e5a5ab7b7', '#10108181d6d6', '#d6d6dbdbe5e5', '#d6d6dbdbe5e5', '#dede35352e2e', '#1d1dd3d36161', '#f3f3bdbd0909', '#10108181d6d6', '#53535050b9b9', '#0f0f7d7ddbdb', '#ffffffffffff']
-scrollbar-policy='never'
-use-system-font=false
-use-theme-background=false
-use-theme-colors=true
-use-theme-transparency=false
-use-transparent-background=true
-visible-name='Brogrammer'
+list=['744ed507-4e1f-4c22-9aa5-d185fbde5543']
 
 [org/gnome/terminal/legacy/profiles:/:744ed507-4e1f-4c22-9aa5-d185fbde5543]
 allow-bold=true
@@ -385,7 +387,7 @@ palette=['#232323232323', '#ffff00000f0f', '#8c8ce1e10b0b', '#ffffb9b90000', '#0
 scrollbar-policy='never'
 use-system-font=false
 use-theme-background=false
-use-theme-colors=false
+use-theme-colors=true
 use-theme-transparency=false
 use-transparent-background=true
 visible-name='Argonaut'
@@ -398,7 +400,7 @@ visible-name='Unnamedd'
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=true
+show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=189
@@ -406,7 +408,7 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(555, 272)
+window-position=(556, 203)
 window-size=(809, 475)
 
 [org/ubuntubudgie/plugins/takeabreak]
@@ -414,3 +416,6 @@ awaketime=25
 mode='lock'
 paused=true
 sleeptime=5
+
+[system/proxy]
+mode='none'
