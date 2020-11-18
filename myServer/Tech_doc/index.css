@@ -57,10 +57,14 @@
     margin-left: 14em;
     padding: 1em;
     width: 100%;
-    background-color: #34626c;
+    /* background-color: #34626c; */
     color: blanchedalmond;
+    /* height: 100%; */
+    /* position: static; */
 }
-
+zero-md{
+    height: 200%;
+}
 
 
 

@@ -14,9 +14,25 @@ https://adam-marsden.co.uk/css-cheat-sheet
   }
   ```
 
-* 
+* Remove bullet from ul
+
+  ```css
+  list-style-type: none;
+  ```
+
+
+* Increase size on hover
+
+  ```css
+  -webkit-transform: scale(1.2);
+  ```
+
+  
+
+
 
 ## inline style in  HTML
+
     <p style="color:red; font-size:20 px;">
 ## <style> Tag in HTML
 - Must be placed inside the head element.
@@ -352,6 +368,8 @@ It’ll give me a clean slate to work on.
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -390,15 +408,22 @@ Value: Static(default)
 ```
 
 
-```css
-'Relative': (The element will move relative to its default position.)
 
-'Absolute': locks the element in place relative to its parent container.
-            Parent position :relative;
+* **Relative**: (The element will move relative to its default position.)
+  * It limits the scope of absolutely positioned child elements. Any element that is a child of the relatively positioned element can be absolutely positioned within that block. 
+  * [CSS Tricks](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/#relative)
 
-'Fixed': locks an element relative to the browser window and the element            wont move while scrolling.
-```
+* **Absolute**: locks the element in place relative to its parent container.
+              Parent position :relative;
+
+  ​         [CSS Tricks](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/#relative)
+
+* **Fixed**: locks an element relative to the browser window and the element  wont move while scrolling.
+
+  
+
 ## Z-index
+
 -  property specifies the **stack order** of an element.
 -  An element with greater stack order is always in front of an element with a lower stack order.
     z-index only works on positioned elements 
