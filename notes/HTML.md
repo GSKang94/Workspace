@@ -188,7 +188,7 @@ self closing (like img)
 - Make a small container.
 
 - Better accessibility.
-    
+  
     ```html
     <label>
       username:

@@ -183,3 +183,10 @@ glog='git log'
 glogp='git log --pretty=format:"%h %s" --graph'
 ```
 
+# SYMLINKS
+
+```css
+Ander ja k awaj marni ji
+ln -s ../../notes ./
+```
+

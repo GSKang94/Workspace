@@ -34,11 +34,11 @@ https://adam-marsden.co.uk/css-cheat-sheet
 ## inline style in  HTML
 
     <p style="color:red; font-size:20 px;">
-## <style> Tag in HTML
+## style Tag in HTML
 - Must be placed inside the head element.
 
 
-## <Link> element
+## Link element
 - used to link HTML with CSS
 - Must be placed inside head tag of HTML
     <link

@@ -52,59 +52,14 @@
 }
 
 
-
 #main-doc #main-content{
     margin-left: 14em;
-    padding: 1em;
+    padding: 2em;
     width: 100%;
-    /* background-color: #34626c; */
-    color: blanchedalmond;
-    /* height: 100%; */
-    /* position: static; */
-}
-zero-md{
-    height: 200%;
+    background-color: #e6d5b8;
+    overflow-x: hidden;
 }
 
-
-
-
-
-
-  /* body{
-      background-color: black;
-  }
-
-#navbar{
-    background-color: gray;
-    display: flex;
-    flex-direction: column; */
-    /* width: 15%; */
-    /* margin-right: 80em; */
-    /* height: 100%; */
-    /* justify-content: space-between; */
-/* } */
-
-/* header{
-    font-size: 2em;
-    margin-left: 1.5em;
-}
-
-.nav-link{
-    padding: 1em;
-    font-size: 1.5em;
-    list-style-type: none;
-    border-top: 1px solid black;
-     */
-    /* display: inline; */
-/* }
-
-.nav-link a{
-    text-decoration: none;
-    color: black;
-}
-
-#main-content{
-    color: blanchedalmond;
-    margin-left: 20em;
+/* zero-md p{
+    font-size: 4em;
 } */
