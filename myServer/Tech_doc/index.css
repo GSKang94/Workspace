@@ -60,6 +60,7 @@
     width: 100%;
     background-color:#ffefa0;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
 
