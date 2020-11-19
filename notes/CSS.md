@@ -53,7 +53,7 @@ essential to learn responsive design.
 
 - **px----** are the hard coded values of size.
 - **em----** represents the size of the base font being used. For example, if the base font of a browser is 16 pixels (which is normally the default size of text in a browser), then 1 em is equal to 16 pixels. 2 ems would equal 32 pixels, and so on.
-- **rem----**stands for *root em*. It acts similar to em, but instead of checking parent elements to size font, it checks the *root element*. The root element is the `<html>` tag.
+- **rem----** stands for *root em*. It acts similar to em, but instead of checking parent elements to size font, it checks the *root element*. The root element is the `<html>` tag.
     To change root font:
     html {
     font-size: 20px; (16 is default)
@@ -878,3 +878,6 @@ div:first-of-type {
 # Animation
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyOTg5MTA2Nl19
+-->
