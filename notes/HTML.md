@@ -1,4 +1,4 @@
-## Cheat sheet
+## Cheat sheet                                                       [Edit](https://stackedit.io/app#providerId=githubWorkspace&owner=GSingh1994&repo=Workspace&branch=master&path=notes/)                       
 
 http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
@@ -380,6 +380,6 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2OTU3ODE5LC0xNzk2NTQ4MDkwLDM3OD
-M5Nzk2Nl19
+eyJoaXN0b3J5IjpbMjA2ODU4Nzg4OSw4MDY5NTc4MTksLTE3OT
+Y1NDgwOTAsMzc4Mzk3OTY2XX0=
 -->
