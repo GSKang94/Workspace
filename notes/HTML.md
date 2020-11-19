@@ -3,6 +3,8 @@
 http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
 
+<button name="button" onclick="http://www.google.com">Click me</button>
+
 - **HTML** provides structure to the content.
 
 **Boiler-plate** 
@@ -380,6 +382,6 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODU4Nzg4OSw4MDY5NTc4MTksLTE3OT
-Y1NDgwOTAsMzc4Mzk3OTY2XX0=
+eyJoaXN0b3J5IjpbLTc3MzIzODM0MSwyMDY4NTg3ODg5LDgwNj
+k1NzgxOSwtMTc5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
