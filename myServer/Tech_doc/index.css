@@ -49,6 +49,8 @@
 .nav-link:hover{
     background-color: #fd8c04;
     -webkit-transform: scale(1.04);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
 
 
@@ -58,5 +60,33 @@
     width: 100%;
     background-color:#ffefa0;
     overflow-x: hidden;
+}
 
+
+/* @media only screen and (min-width: 320px) and (max-width: 479px) {
+    code
+  } */
+
+@media only screen and (min-width: 479px) and (max-width: 979px) {
+    #main-doc #navbar{
+        width: 8.4em;
+    }
+    
+    #navbar header{
+        font-size: 1em;
+        padding: 1em 0em 0.9em 2.2em;
+        background-color: #ec5858;
+    }
+   
+    
+    #navbar .nav-link{
+        padding:1.5em 0.1em;
+        font-size: 1em;
+    }
+    
+    
+    #main-doc #main-content{
+        margin-left: 8.4em;
+        padding: 1.2em;
+    }
 }
