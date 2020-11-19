@@ -24,8 +24,7 @@ http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 - ALL **METADATA** ELEMENTS GOES INSIDE HEAD ELEMENT.
 
      Metadata is information about the page that isn't displayed directly on the web page. 
-
-- **Tags**<main></main>
+     
 ----------
 ## Attribute
 ```html
@@ -381,5 +380,6 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY1NDgwOTAsMzc4Mzk3OTY2XX0=
+eyJoaXN0b3J5IjpbODA2OTU3ODE5LC0xNzk2NTQ4MDkwLDM3OD
+M5Nzk2Nl19
 -->
