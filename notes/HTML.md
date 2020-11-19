@@ -207,9 +207,9 @@ it is considered as best practice to set a  for attribute on the label element. 
 
 ## Form Validation
 * make text fields require to fill before submitting the form.
-    <input type="text" required>
+    ```<input type="text" required>```
 * We can also change the data type.
-    <input type="email">
+    ```<input type="email">```
     
 ## submit button
 ```html
@@ -381,7 +381,7 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDU1MzM1MSw0NTIxMjc0ODMsMjA2OD
+eyJoaXN0b3J5IjpbMjA3Mjg2ODY1OSw0NTIxMjc0ODMsMjA2OD
 U4Nzg4OSw4MDY5NTc4MTksLTE3OTY1NDgwOTAsMzc4Mzk3OTY2
 XX0=
 -->
