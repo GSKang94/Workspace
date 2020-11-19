@@ -63,8 +63,9 @@ Video not supported <!-- in case browser fail to play the video-->
 <a href=”hyperlink or file path” target=”value”>name of link</a>
 ```
 
-**href** means Hyperlink Reference.
-target values=_blank(new window or tab> **N.B** Always add rel=”noopener noreferrer”
+* **href** means Hyperlink Reference.
+* target values=_blank(new window or tab>
+*  **N.B** Always add rel=”noopener noreferrer”
                           _self( open in same frame)
                          _parent( open in parent frame)
                          _top( open in full body of windows)
@@ -380,5 +381,5 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4Mzk3OTY2XX0=
+eyJoaXN0b3J5IjpbLTE3OTY1NDgwOTAsMzc4Mzk3OTY2XX0=
 -->
