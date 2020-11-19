@@ -5,7 +5,7 @@ http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
 - **HTML** provides structure to the content.
 
-**Boiler-plate** Test word
+**Boiler-plate** 
 
 ```html
 <!DOCTYPE html>
@@ -380,5 +380,5 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgzNzAwMTRdfQ==
+eyJoaXN0b3J5IjpbMzc4Mzk3OTY2XX0=
 -->
