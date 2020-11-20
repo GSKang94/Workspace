@@ -26,9 +26,7 @@ https://adam-marsden.co.uk/css-cheat-sheet
   ```css
   -webkit-transform: scale(1.2);
   ```
-
   
-
 
 
 ## inline style in  HTML
@@ -879,5 +877,5 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg5MTA2Nl19
+eyJoaXN0b3J5IjpbLTMxNzkyMzEwMiwtMTI5ODkxMDY2XX0=
 -->
