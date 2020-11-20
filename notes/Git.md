@@ -2,6 +2,10 @@
 
 [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
+### Stash changes and apply to new branch
+```css
+
+
 * Make SSH key in you local and remote machine.
 * git config --global user.name 'GSingh1994'
 * git config --global user.email 'singh.gagandeep0034@gmail.com'
@@ -190,3 +194,6 @@ Ander ja k awaj marni ji
 ln -s ../../notes ./
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5MzgxNjkxNDhdfQ==
+-->
