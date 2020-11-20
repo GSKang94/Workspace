@@ -28,6 +28,25 @@ https://adam-marsden.co.uk/css-cheat-sheet
   ```
   
 
+## Custom scrollbar
+```css
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+```
+
 
 ## inline style in  HTML
 
@@ -877,5 +896,5 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzkyMzEwMiwtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
 -->
