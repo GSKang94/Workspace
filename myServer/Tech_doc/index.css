@@ -47,7 +47,7 @@
 }
 
 .nav-link:hover{
-    background-color: #fd8c04;
+    background-color: #ff5722;
     -webkit-transform: scale(1.04);
     border-top-right-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
@@ -68,7 +68,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2em;
-    background-color: #321f28;
+    /* background-color: #321f28; */
     border-radius: 10px;
 }
 
