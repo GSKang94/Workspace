@@ -1,14 +1,29 @@
 .markdown-body{ 
     font-size: 1.2em;
+    color: #f4f4f4;
  }
 
  span.token.operator{
     background-color: #282a36;
  }
 
- .markdown-body hr{
+ /* .markdown-body hr{
     background: #fca652;
+ } */
+
+ .markdown-body h1, .markdown-body h2{
+     border-bottom: none;
  }
+
+ .markdown-body a{
+     color: tomato;
+ }
+ 
+
+
+
+
+
 
 /**
  * Dracula Theme originally by Zeno Rocha [@zenorocha]
