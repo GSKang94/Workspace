@@ -1,4 +1,3 @@
-
 [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ### Stash changes and apply to new branch
@@ -198,5 +197,5 @@ ln -s ../../notes ./
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTA0MTM1MV19
+eyJoaXN0b3J5IjpbOTYxNTIwNjY1XX0=
 -->
