@@ -6,13 +6,13 @@
  `sudo service nginx restart `
  
  * If failed to start nginx service
- ` 
+ ```git 
  sudo fuser -k 80/tcp
- sudo fuser -k 443/tcp`
+ sudo fuser -k 443/tcp
+ ```
  
 * To get ssl certificate
-
-```
+```git
 1.sudo nano /etc/nginx/sites-available/default  
 server_name [example.com](http://example.com/) www.example.com;  
 2. sudo apt install python-certbot-nginx -y  
@@ -152,6 +152,6 @@ request('http://www.google.com', function (error, response, body) {
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMyMTI2MDgsMTAzMDAzOTMxNSwyMD
-cwNjc3MjI0LDQ4OTYwMDYyNF19
+eyJoaXN0b3J5IjpbMjA3NDMyMzc2OCwxMDMwMDM5MzE1LDIwNz
+A2NzcyMjQsNDg5NjAwNjI0XX0=
 -->
