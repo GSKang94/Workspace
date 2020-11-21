@@ -1,3 +1,10 @@
+## Nginx
+* 
+
+
+
+
+
 # Land a Job!!
 
 - `Learn HTML,` 
@@ -104,3 +111,6 @@ request('http://www.google.com', function (error, response, body) {
 ## Locus
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg5NDQyNDU4XX0=
+-->
