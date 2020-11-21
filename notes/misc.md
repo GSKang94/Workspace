@@ -8,7 +8,13 @@
  sudo fuser -k 80/tcp
  sudo fuser -k 443/tcp
  ```
-
+* To get ssl certificate
+```
+1.sudo nano /etc/nginx/sites-available/default  
+server_name [example.com](http://example.com/) www.example.com;  
+2. sudo apt install python-certbot-nginx -y  
+3. sudo certbot --nginx -d [example.com](http://example.com/) -d [www.example.com](http://www.example.com/)
+```
 
 
 
@@ -120,5 +126,5 @@ request('http://www.google.com', function (error, response, body) {
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDkxMDEzMiw0ODk2MDA2MjRdfQ==
+eyJoaXN0b3J5IjpbMTQwMjEyNDU3Niw0ODk2MDA2MjRdfQ==
 -->
