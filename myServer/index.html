@@ -5,22 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Server</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: black;
-            color: white;
+            background-color: #222831;
+            text-align: center;
+            margin-top: 3em;
+            font-family: 'Alegreya', serif;
         }
 
-        a {
+        ul a {
             text-decoration: none;
+            color: aliceblue;
         }
+
+        li {
+            padding-left: 2.4em;
+            letter-spacing: 0.16em;
+            display: inline-block;
+            font-size: 1.6em;
+        }
+
+        ul a:hover {
+            color: #f05454;
+        }
+
+        @media only screen and (max-width : 480px) {
+            li {
+                display: block;
+                padding-top: 1.7em;
+                font-size: 1.9em;
+                letter-spacing: 0.1em;
+                padding-left: 0em;
+            }
     </style>
 </head>
 
 <body>
-    <h1>
-        <a href="/homepage/home.html" target="_self" rel="noopener noreferrer">Home</a>
-    </h1>
+    <ul>
+        <li><a href="/homepage/home.html" target="_self" rel="noopener noreferrer">portFolio</a>
+        </li>
+        <li><a href="/Tech_doc/index.html" target="_self" rel="noopener noreferrer">techDocs</a>
+        </li>
+        <li><a href="/Tribute_page/Tribute_page.html" target="_self" rel="noopener noreferrer">tributePage</a>
+        </li>
+        <li><a href="/Survey_Form/Survey_Form.html" target="_self" rel="noopener noreferrer">surveyForm</a>
+        </li>
+        <li><a href="/Landing_page/index.html" target="_self" rel="noopener noreferrer">landingPage</a>
+        </li>
+    </ul>
 </body>
 
 </html>
