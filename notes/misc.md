@@ -21,6 +21,18 @@ server_name [example.com](http://example.com/) www.example.com;
 443 for https (Lets encrypt)  
 51820 for pivpn (wireguard)
 ```
+* Client-side caching
+```location ~* \.(jpg|jpeg|png|gif|ico)$ {
+       expires 30d;
+    }
+    location ~* \.(css|js)$ {
+       expires 7d;
+    }
+
+#enable gzip compression
+gzip on;
+   gzip_types application/javascript image/* text/css;
+   gunzip on;
 
 
 # Land a Job!!
@@ -130,5 +142,6 @@ request('http://www.google.com', function (error, response, body) {
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDY3NzIyNCw0ODk2MDA2MjRdfQ==
+eyJoaXN0b3J5IjpbLTEzOTAzOTE5MzQsMjA3MDY3NzIyNCw0OD
+k2MDA2MjRdfQ==
 -->
