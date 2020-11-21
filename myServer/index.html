@@ -18,18 +18,26 @@
         ul a {
             text-decoration: none;
             color: aliceblue;
-            font-size: 1.6em;
         }
 
         li {
             padding-left: 2.4em;
             letter-spacing: 0.16em;
             display: inline-block;
+            font-size: 1.6em;
         }
 
         ul a:hover {
             color: #f05454;
         }
+
+        @media only screen and (max-width : 480px) {
+            li {
+                display: block;
+                padding-top: 1.7em;
+                font-size: 1.9em;
+                letter-spacing: 0.1em;
+            }
     </style>
 </head>
 
