@@ -1,5 +1,9 @@
 ## Nginx
-* To test 
+* To test errors in config
+ ```sudo nginx -t ```
+ * Restart server
+ ```sudo service nginx restart ```
+ 
 
 
 
@@ -112,5 +116,5 @@ request('http://www.google.com', function (error, response, body) {
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQxNTA4NTFdfQ==
+eyJoaXN0b3J5IjpbNDg5NjAwNjI0XX0=
 -->
