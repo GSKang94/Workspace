@@ -456,7 +456,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 ```
 ## Inline and block-level 
 
-<u>, <em>,<strong> are inline elements.They take little space.
+```<u>, <em>,<strong>``` are inline elements.They take little space.
 
  div   is a block-level element. They take width of their container.
 
@@ -896,5 +896,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMj
+k4OTEwNjZdfQ==
 -->
