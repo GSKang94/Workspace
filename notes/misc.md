@@ -1,6 +1,7 @@
 ## Nginx
 * To test errors in config
- ```sudo nginx -t ```
+ ```
+ sudo nginx -t ```
  * Restart server
  ```sudo service nginx restart ```
  * If failed to start nginx service
@@ -9,6 +10,7 @@
  sudo fuser -k 443/tcp
  ```
 * To get ssl certificate
+
 ```
 1.sudo nano /etc/nginx/sites-available/default  
 server_name [example.com](http://example.com/) www.example.com;  
@@ -149,6 +151,6 @@ request('http://www.google.com', function (error, response, body) {
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDAzOTMxNSwyMDcwNjc3MjI0LDQ4OT
-YwMDYyNF19
+eyJoaXN0b3J5IjpbLTIxMTE0ODA2OTEsMTAzMDAzOTMxNSwyMD
+cwNjc3MjI0LDQ4OTYwMDYyNF19
 -->
