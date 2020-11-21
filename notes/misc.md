@@ -37,8 +37,11 @@ gzip on;
    gzip_types application/javascript image/* text/css;
    gunzip on;
 ```
+* Enable http2
+```
     listen [::]:443 http2 
     listen 443 http2
+```
 # Land a Job!!
 
 - `Learn HTML,` 
@@ -146,6 +149,6 @@ request('http://www.google.com', function (error, response, body) {
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mjg5MDczMiwyMDcwNjc3MjI0LDQ4OT
+eyJoaXN0b3J5IjpbMTAzMDAzOTMxNSwyMDcwNjc3MjI0LDQ4OT
 YwMDYyNF19
 -->
