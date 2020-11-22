@@ -2,9 +2,9 @@
 
 ### Stash changes and apply to new branch
 ```
--   `git stash`
--   `git checkout -b xxx`
--   `git stash pop`
+-   git stash
+-   git checkout -b xxx
+-   git stash pop
 ```
 
 ### git common workflow
@@ -197,5 +197,5 @@ ln -s ../../notes ./
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxNTIwNjY1XX0=
+eyJoaXN0b3J5IjpbLTE5NjM5NTEyNTldfQ==
 -->
