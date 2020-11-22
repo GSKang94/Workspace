@@ -19,12 +19,14 @@ server_name [example.com](http://example.com/) www.example.com;
 2. sudo apt install python-certbot-nginx -y  
 3. sudo certbot --nginx -d [example.com](http://example.com/) -d [www.example.com](http://www.example.com/)
 ```
+
 * Ports to forward:  
 ```
 80 for http  
 443 for https (Lets encrypt)  
 51820 for pivpn (wireguard)
 ```
+
 * Client-side caching
 ```
 # after location block
@@ -37,10 +39,12 @@ location ~* \.(jpg|jpeg|png|gif|ico)$ {
 ```
 * Enable gzip compression
 ```
+
 gzip on;
    gzip_types application/javascript image/* text/css;
    gunzip on;
 ```
+
 * Enable http2
 ```
     listen [::]:443 http2 
@@ -153,6 +157,7 @@ request('http://www.google.com', function (error, response, body) {
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTc5Nzc1OSwyMDc0MzIzNzY4LDEwMz
-AwMzkzMTUsMjA3MDY3NzIyNCw0ODk2MDA2MjRdfQ==
+eyJoaXN0b3J5IjpbLTExMDU0NDgxNjMsLTY2OTc5Nzc1OSwyMD
+c0MzIzNzY4LDEwMzAwMzkzMTUsMjA3MDY3NzIyNCw0ODk2MDA2
+MjRdfQ==
 -->
