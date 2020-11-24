@@ -22,7 +22,7 @@
 
 #navbar{
     position: fixed;
-     top: 0;
+    top: 0;
     width:100% ;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@
     padding-top: 0.2em;
     padding-bottom: 2em;
     height: 1.8em;
-    
+    z-index: 1;
 }
 .nav-top{
     color: #f9f7d9;
@@ -40,7 +40,7 @@
 }
 
 .nav-active{
-    background-color: #31112c;
+    background-color: #1A1B32;
     color: #f9f7d9;
     }
 
@@ -53,11 +53,13 @@
  padding-left: 1.3em;
 }
 
-
+#right-bar li{
+    padding-right: 1.3em;
+}
 
 #projects{
     text-align: center;
-    background-color: #31112c;
+    background-color: #1A1B32;
     color: #f9f7d9;
     padding-top: 2em;
 }
@@ -69,19 +71,17 @@
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 2em;
-    /* border: crimson solid 2px; */
-    /* align-content: flex-start; */
 }
 
 .project-tile{
     margin-bottom: 4em;
-    background-color: #16213e;
+    background-color: #fca652;
     border-radius: 10px;
-    color: whitesmoke;
+    color: black;
 }
 
 .project-tile img{
-    border: #16213e solid 8px;
+    border: #fca652 solid 8px;
     border-radius: 10px;
 }
 .project-tile h3{

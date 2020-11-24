@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/portfolio.css">
+    <!-- animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -31,7 +34,7 @@
 
     <section id="projects">
         <h1>These are some of my projects</h1>
-        <div id="container">
+        <div id="container" data-aos="zoom-in">
             <div class="project-tile">
                 <img src="https://picsum.photos/350" alt="">
                 <h3>Lorem, ipsum dolor.</h3>
@@ -62,6 +65,12 @@
 
 
     <script type="text/javascript" src="portfolio.js"></script>
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!---->
 </body>
 
 </html>
