@@ -1348,7 +1348,7 @@ tag.innerHTML
 **We select an element and then add an event listener.**
 
 > **eg.** "Listen for a click on this <button>"
->        "Listen for a hover event on the **<H1>**
+>        "Listen for a hover event on the **h1**
 
 To add a listener, we use a method called:
 ```js
@@ -1673,5 +1673,5 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzE4OTQ1OV19
+eyJoaXN0b3J5IjpbOTA4NDA0NzM5XX0=
 -->
