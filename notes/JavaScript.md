@@ -10,7 +10,20 @@ http://www.developer-cheatsheets.com/es6
 ```js
 <script  type="text/javascript"  src="portfolio.js"></script>
 ```
+## Night mode
+```js
+// Select the button
+ const btn = document.querySelector('.btn-toggle');
 
+// Listen for a click on the button
+btn.addEventListener('click', function () {
+
+// Then toggle (add/remove) the .dark-theme class to the body
+document.body.classList.toggle('dark-theme');
+
+ })
+
+```
 
 ## Primitive Datatypes
 
@@ -1673,5 +1686,5 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NDA0NzM5XX0=
+eyJoaXN0b3J5IjpbLTE2Njg4NTIxNzMsOTA4NDA0NzM5XX0=
 -->
