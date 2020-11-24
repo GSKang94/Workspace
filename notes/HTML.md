@@ -20,7 +20,10 @@ http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 </html>               
 ```
 
-
+## <mall> tag
+```html
+The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
+```
 - ALL **METADATA** ELEMENTS GOES INSIDE HEAD ELEMENT.
 
      Metadata is information about the page that isn't displayed directly on the web page. 
@@ -381,7 +384,7 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Mjg2ODY1OSw0NTIxMjc0ODMsMjA2OD
-U4Nzg4OSw4MDY5NTc4MTksLTE3OTY1NDgwOTAsMzc4Mzk3OTY2
-XX0=
+eyJoaXN0b3J5IjpbLTE2MjExNzY4NzEsMjA3Mjg2ODY1OSw0NT
+IxMjc0ODMsMjA2ODU4Nzg4OSw4MDY5NTc4MTksLTE3OTY1NDgw
+OTAsMzc4Mzk3OTY2XX0=
 -->
