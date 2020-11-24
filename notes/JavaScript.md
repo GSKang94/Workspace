@@ -25,9 +25,27 @@ document.body.classList.toggle('dark-theme');
 //HTML
 <body class="dark-theme || light-theme">
 
-<button class="btn-toggle">Toggle Dark Mode</button>
+    <button class="btn-toggle">Toggle Dark Mode</button>
 
 </body>
+```
+## Add style on scroll
+```js
+const navbar = document.querySelector('#navbar');
+
+window.onscroll  = () => {
+
+if (window.scrollY >  530) {
+
+navbar.classList.add('nav-active');
+
+} else {
+
+navbar.classList.remove('nav-active');
+
+}
+
+};
 ```
 
 ## Primitive Datatypes
@@ -1691,5 +1709,5 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjcyOTMwNTQsOTA4NDA0NzM5XX0=
+eyJoaXN0b3J5IjpbMTczMjM4ODM0OCw5MDg0MDQ3MzldfQ==
 -->
