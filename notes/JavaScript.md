@@ -6,6 +6,10 @@ https://mbeaudru.github.io/modern-js-cheatsheet/
 
 http://www.developer-cheatsheets.com/es6
 
+## Add external js file
+```js
+<script  type="text/javascript"  src="portfolio.js"></script>
+
 ## Primitive Datatypes
 
 
@@ -1662,3 +1666,6 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 ## event.preventDefault ( )
 
 To prevent the default form submit behavior which will refresh the web page.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg5ODUzNDI2NF19
+-->
