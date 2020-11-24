@@ -20,9 +20,14 @@ btn.addEventListener('click', function () {
 
 // Then toggle (add/remove) the .dark-theme class to the body
 document.body.classList.toggle('dark-theme');
-
  })
 
+//HTML
+<body class="dark-theme || light-theme">
+
+<button class="btn-toggle">Toggle Dark Mode</button>
+
+</body>
 ```
 
 ## Primitive Datatypes
@@ -1686,5 +1691,5 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg4NTIxNzMsOTA4NDA0NzM5XX0=
+eyJoaXN0b3J5IjpbLTExNjcyOTMwNTQsOTA4NDA0NzM5XX0=
 -->
