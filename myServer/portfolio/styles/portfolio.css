@@ -6,7 +6,6 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-            scroll-behavior: smooth;
   }
 
 #welcome-section{
@@ -62,6 +61,11 @@
     background-color: #1A1B32;
     color: #f9f7d9;
     padding-top: 2em;
+    /* background-size:cover; */
+    /* margin-bottom: 10em; */
+    position: relative;
+    /* overflow: hidden; */
+    /* padding-bottom: 3em; */
 }
 
 #container{
@@ -81,22 +85,36 @@
 }
 
 .project-tile img{
-    border: #fca652 solid 8px;
-    border-radius: 10px;
+    border: #fca652 solid 5px;
+    border-radius: 7px;
 }
 .project-tile h3{
     font-size: 1.3em;
     padding: 0.5em;
 }
 
+#projects button{
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-size: 1.1em;
+    font-weight: bold;
+}
 
+#projects button:hover{
+    background-color: chocolate;
+    transition: 0.3s ease-in-out;
+}
 
+#contact{
+    padding-bottom: 4em;
+    background-color: chocolate;
+}
 
-
-
-
-
-
+#curve{
+    display: block;
+}
 
 
 
