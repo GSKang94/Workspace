@@ -9,8 +9,7 @@
   }
 
 #welcome-section{
-    background-color: #222831;
-    color: #f9f7d9;
+    background-image: radial-gradient(circle, #26121d, #231320, #201423, #1c1625, #181726, #151a28, #111c29, #0f1e29, #0d212a, #0e242a, #102729, #142928);    color: #f9f7d9;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -27,21 +26,23 @@
     justify-content: space-between;
     font-size: 1.4em;
     font-weight: bold;
-    padding-top: 0.2em;
-    padding-bottom: 2em;
-    height: 1.8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    /* height: 2em; */
     z-index: 1;
+    /* border: 1px green solid; */
 }
+
 .nav-top{
     color: #f9f7d9;
-    background-color: #222831;
+    /* background-color: #222831; */
     transition: 0.3s ease-in-out;
 }
 
 .nav-active{
     background-color: #1A1B32;
     color: #f9f7d9;
-    }
+}
 
 
 #navbar li{
@@ -50,24 +51,54 @@
 
 #left-bar li{
  padding-left: 1.3em;
+
 }
 
 #right-bar li{
     padding-right: 1.3em;
+    font-size: 1.12em;
+    padding-top: 0.03em;
 }
+.git-logo:hover{
+    color: #24292E;
+    background-color: white;
+    border-radius: 50%;
+}
+.link-logo:hover{
+    color: #0073B1;
+    /* --ionicon-stroke-width: 0.01px; */
+    /* border: solid 0.1px black; */
+    /* background-color: white; */
+}
+.mail-logo:hover{
+    color: #E34133;
+    
+    /* background-color: white; */
+}
+
+#right-bar ion-icon:hover{
+    -webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both
+}
+
+@-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
+
+#right-bar ion-icon:hover{
+    -webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both
+}
+
+@-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
+
 
 #projects{
     text-align: center;
     background-color: #1A1B32;
     color: #f9f7d9;
-    padding-top: 2em;
-    /* background-size:cover; */
-    /* margin-bottom: 10em; */
-    position: relative;
-    /* overflow: hidden; */
-    /* padding-bottom: 3em; */
+    padding-top: 4em;
 }
-
+#projects h1{
+    margin-bottom: 2.1em;
+    font-size: 2.7em;
+}
 #container{
     display: flex;
     flex-wrap: wrap;
@@ -96,28 +127,49 @@
 #projects button{
     padding: 1em;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: burlywood;
     font-size: 1.1em;
-    font-weight: bold;
+    font-weight: bold;margin-top: 4.1em;
 }
 
 #projects button:hover{
     background-color: chocolate;
     transition: 0.3s ease-in-out;
 }
-
-#contact{
-    padding-bottom: 4em;
-    background-color: chocolate;
+#projects button a{
+    color: white;
 }
 
 #curve{
     display: block;
 }
 
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+    background-color: chocolate;
+}
+#contact li{
+    display: inline;
+    font-size: 1.6em;
+    padding-right: 1.1em;
+}
+#contact ul{
+    margin-bottom: 1.9em;
+}
+#contact h1{
+    margin: 2.4em 0 1.2em 0;
+}
 
 
+#bottom-bar ion-icon:hover{
+    animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both
+
+}
+@keyframes scale-up-center{0%{transform:scale(1)}100%{transform:scale(1.2)}}
 
 
 
