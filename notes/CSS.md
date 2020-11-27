@@ -60,7 +60,19 @@ div.dark-theme a {
 ```
 
 ```js
+ //Select the button
 
+const btn = document.querySelector('.btn-toggle');
+
+//Listen for a click on the button
+
+btn.addEventListener('click', function () {
+
+//Then toggle (add/remove) the .dark-theme class  to  the  body
+
+document.body.classList.toggle('dark-theme');
+
+})
 ```
 ## Custom scrollbar
 ```css
@@ -930,6 +942,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDQ4NTg3OCwtMTYzNDI4NzMyNCwtMT
-Y1NTMwMDMwMSwxMDMzMTU2NDMsLTEyOTg5MTA2Nl19
+eyJoaXN0b3J5IjpbNzc1Njg4MDY2LC0xNjM0Mjg3MzI0LC0xNj
+U1MzAwMzAxLDEwMzMxNTY0MywtMTI5ODkxMDY2XX0=
 -->
