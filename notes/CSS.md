@@ -54,11 +54,13 @@ div.dark-theme {
    background: #121212;
 }
 
-body.dark-theme a {
+div.dark-theme a {
+   color: #809fff;
+} 
+```
 
-color: #809fff;
+```js
 
-} */
 ```
 ## Custom scrollbar
 ```css
@@ -928,6 +930,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDM2MTcxNDMsLTE2MzQyODczMjQsLT
-E2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbMjA1MDQ4NTg3OCwtMTYzNDI4NzMyNCwtMT
+Y1NTMwMDMwMSwxMDMzMTU2NDMsLTEyOTg5MTA2Nl19
 -->
