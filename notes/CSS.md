@@ -28,7 +28,17 @@ https://adam-marsden.co.uk/css-cheat-sheet
   ```
  * Add border gradient
  ```css
+{
+   background: linear-gradient(#900c3f, #900c3f),
 
+   linear-gradient(to right, #900c3f, #fa7d09);
+
+background-origin: padding-box, border-box;
+
+background-repeat: no-repeat; /* this is important */
+
+border: 4px solid transparent;
+}
 ```
 
 ## Custom scrollbar
@@ -899,6 +909,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNzg4OTUzLC0xNjU1MzAwMzAxLDEwMz
+eyJoaXN0b3J5IjpbNTcwMjIxNTU0LC0xNjU1MzAwMzAxLDEwMz
 MxNTY0MywtMTI5ODkxMDY2XX0=
 -->
