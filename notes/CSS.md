@@ -41,6 +41,7 @@ https://adam-marsden.co.uk/css-cheat-sheet
 }
 ```
 ## Dark mode
+HTML
 ```html
 <div class="dark-theme || light-theme">
 
@@ -48,6 +49,7 @@ https://adam-marsden.co.uk/css-cheat-sheet
 
 </div>
 ```
+CSS
 ```css
 div.dark-theme {
    color: #eee;
@@ -58,20 +60,15 @@ div.dark-theme a {
    color: #809fff;
 } 
 ```
-
+JS
 ```js
  //Select the button
-
 const btn = document.querySelector('.btn-toggle');
 
 //Listen for a click on the button
-
 btn.addEventListener('click', function () {
-
 //Then toggle (add/remove) the .dark-theme class  to  the  body
-
-document.body.classList.toggle('dark-theme');
-
+   document.body.classList.toggle('dark-theme');
 })
 ```
 ## Custom scrollbar
@@ -942,6 +939,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1Njg4MDY2LC0xNjM0Mjg3MzI0LC0xNj
-U1MzAwMzAxLDEwMzMxNTY0MywtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbLTEwMTc3MTgwMTUsLTE2MzQyODczMjQsLT
+E2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
 -->
