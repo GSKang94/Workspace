@@ -26,7 +26,10 @@ https://adam-marsden.co.uk/css-cheat-sheet
   ```css
   -webkit-transform: scale(1.2);
   ```
-  
+ * Add border gradient
+ ```css
+
+```
 
 ## Custom scrollbar
 ```css
@@ -896,6 +899,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMj
-k4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbMjcyNzg4OTUzLC0xNjU1MzAwMzAxLDEwMz
+MxNTY0MywtMTI5ODkxMDY2XX0=
 -->
