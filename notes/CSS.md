@@ -40,6 +40,12 @@ https://adam-marsden.co.uk/css-cheat-sheet
    border: 4px solid transparent;
 }
 ```
+## Dark mode
+```html
+<body class="dark-theme || light-theme">
+
+<button class="btn-toggle">Toggle Dark Mode</button>
+```
 
 ## Custom scrollbar
 ```css
@@ -909,6 +915,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMT
-AzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MTQxODEyNjcsLTE2MzQyODczMjQsLT
+E2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
 -->
