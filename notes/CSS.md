@@ -33,11 +33,11 @@ https://adam-marsden.co.uk/css-cheat-sheet
 
    linear-gradient(to right, #900c3f, #fa7d09);
 
-background-origin: padding-box, border-box;
+   background-origin: padding-box, border-box;
 
-background-repeat: no-repeat; /* this is important */
+   background-repeat: no-repeat; /* this is important */
 
-border: 4px solid transparent;
+   border: 4px solid transparent;
 }
 ```
 
@@ -909,6 +909,6 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMjIxNTU0LC0xNjU1MzAwMzAxLDEwMz
-MxNTY0MywtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMT
+AzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
 -->
