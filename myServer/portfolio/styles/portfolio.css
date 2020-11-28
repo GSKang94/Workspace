@@ -28,14 +28,11 @@
     font-weight: bold;
     padding-top: 0.4em;
     padding-bottom: 0.4em;
-    /* height: 2em; */
     z-index: 1;
-    /* border: 1px green solid; */
 }
 
 .nav-top{
     color: #f9f7d9;
-    /* background-color: #222831; */
     transition: 0.3s ease-in-out;
 }
 
@@ -43,7 +40,6 @@
     background-color: #1A1B32;
     color: #f9f7d9;
 }
-
 
 #navbar li{
     display: inline-block;
@@ -66,28 +62,15 @@
 }
 .link-logo:hover{
     color: #0073B1;
-    /* --ionicon-stroke-width: 0.01px; */
-    /* border: solid 0.1px black; */
-    /* background-color: white; */
 }
 .mail-logo:hover{
     color: #E34133;
-    
-    /* background-color: white; */
 }
 
 #right-bar ion-icon:hover{
     -webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both
 }
-
 @-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
-
-#right-bar ion-icon:hover{
-    -webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both
-}
-
-@-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
-
 
 #projects{
     text-align: center;
@@ -96,10 +79,12 @@
     padding-top: 4em;
     position: relative;
 }
+
 #projects h1{
     margin-bottom: 2.1em;
     font-size: 2.7em;
 }
+
 #project-container{
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +103,6 @@
     background-origin: padding-box, border-box;
     background-repeat: no-repeat; /* this is important */
     border: 4px solid transparent;
-
 }
 
 .project-tile h3{
@@ -160,44 +144,23 @@
     background-color: chocolate;
     transition: background 0.3s ease-out;
 }
+
 #contact li{
     display: inline;
     font-size: 1.6em;
     padding-right: 1.1em;
 }
+
 #contact ul{
     margin-bottom: 1.9em;
 }
+
 #contact h1{
     margin: 2.4em 0 1.2em 0;
 }
 
-
 #bottom-bar ion-icon:hover{
     animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both
-
 }
 @keyframes scale-up-center{0%{transform:scale(1)}100%{transform:scale(1.2)}}
 
-
-
-/* body {
-    color: #222;
-    background: #fff;
-}
-
-a {
-    color: #0033cc;
-} */
-
-/* Dark Mode styles */
-/* body.dark-theme {
-    color: #eee;
-    background: #121212;
-}
-
-body.dark-theme a {
-    color: #809fff;
-} */
-
-/* dark mode snippet end */
