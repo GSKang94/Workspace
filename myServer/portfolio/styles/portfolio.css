@@ -8,16 +8,6 @@
             box-sizing: border-box;
   }
 
-#welcome-section{
-    background-image: radial-gradient(circle, #26121d, #231320, #201423, #1c1625, #181726, #151a28, #111c29, #0f1e29, #0d212a, #0e242a, #102729, #142928);    color: #f9f7d9;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.4em;
-}
-
 #navbar{
     position: fixed;
     top: 0;
@@ -71,6 +61,16 @@
     -webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both
 }
 @-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
+
+#welcome-section{
+    background-image: radial-gradient(circle, #26121d, #231320, #201423, #1c1625, #181726, #151a28, #111c29, #0f1e29, #0d212a, #0e242a, #102729, #142928);    color: #f9f7d9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+}
 
 #projects{
     text-align: center;
@@ -164,3 +164,86 @@
 }
 @keyframes scale-up-center{0%{transform:scale(1)}100%{transform:scale(1.2)}}
 
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    
+    #navbar{
+        font-size: 1em;
+    }
+    
+    
+    #left-bar li{
+     padding-left: 0.4em;
+    
+    }
+    
+    #right-bar li{
+        padding-right: 0.4em;
+        font-size: 1em;
+    }
+    #right-bar{
+        padding-right: 0.6em;
+    }
+    
+    #welcome-section{
+        font-size: 1em;
+    }
+
+
+    #projects{
+        padding-top: 3em;
+    }
+
+    #projects h1{
+        font-size: 1.3em;
+    }
+
+    #project-container{
+        width: 100%;
+    }
+
+    #project-container .project-tile{
+        margin: 0 auto;
+        margin-bottom: 3em;
+        border: 4px solid transparent;
+    }
+
+    .project-tile h3{
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    #projects button{
+        padding: 0.7em;
+        font-size: 1em;
+        margin-top: 3em;
+        position: unset;
+    }
+
+    #contact{
+        font-size: 1.2em;
+    }
+    
+    #contact li{
+        font-size: 1.3em;
+        padding-right: 0.7em;
+    }
+    
+    #contact ul{
+        margin-bottom: 1.9em;
+    }
+    
+    #contact h1{
+        margin: 2.4em 0 0.6em 0;
+    }
+    
+
+}
+
+
+
+
+/* @media only screen and (min-width: 479px) and (max-width: 979px) {
+   code
+} */
