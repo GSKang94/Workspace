@@ -5,7 +5,8 @@
     text-decoration: none;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior:smooth
   }
 
 #navbar{
@@ -19,17 +20,91 @@
     padding-top: 0.4em;
     padding-bottom: 0.4em;
     z-index: 1;
+    color:#f9f7d9;
 }
 
-.nav-top{
-    color: #f9f7d9;
-    transition: 0.3s ease-in-out;
+.anime-nav{
+    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+
+}
+
+@-webkit-keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  @keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+    
+#navbar a{
+    color:inherit;
 }
 
 .nav-active{
-    background-color: #1A1B32;
-    color: #f9f7d9;
+    background-color: #101A28;
+    -webkit-animation: swing-out-top-bck 0.15s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+    animation: swing-out-top-bck 0.35s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
 }
+
+@-webkit-keyframes swing-out-top-bck {
+    0% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+  }
+  @keyframes swing-out-top-bck {
+    0% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+}
+    
 
 #navbar li{
     display: inline-block;
@@ -176,6 +251,10 @@ button ion-icon{
 
 #contact h1{
     margin: 1em 0 1.2em 0;
+}
+
+#bottom-bar a{
+    color: inherit;
 }
 
 #bottom-bar ion-icon:hover{
