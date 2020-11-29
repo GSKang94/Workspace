@@ -7,7 +7,9 @@
        -moz-box-sizing: border-box;
     box-sizing: border-box;
     scroll-behavior:smooth;
-  }
+    font-family: 'Lato', sans-serif;
+    
+}
 
 #navbar{
     position: fixed;
@@ -85,6 +87,10 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.4em;
+}
+#welcome-section h3{
+    margin-top: 0.7em;
+    
 }
 
 #projects{
