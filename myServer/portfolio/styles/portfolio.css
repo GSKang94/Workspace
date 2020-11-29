@@ -21,24 +21,28 @@
     padding-bottom: 0.4em;
     z-index: 1;
     color:#f9f7d9;
+    transition: top 0.5s;
+    background-color: #071F2A;
 }
 
-.anime-nav{
+/* .anime-nav{
     -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
     animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 
-}
+} */
     
 #navbar a{
     color:inherit;
 }
 
-.nav-active{
+/* .nav-active{
     background-color: #101A28;
     -webkit-animation: swing-out-top-bck 0.15s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
     animation: swing-out-top-bck 0.35s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+} */
+.nav-active{
+    background-color: red;
 }
-
   
 
 #navbar li{
@@ -71,7 +75,6 @@
     -webkit-animation:vibrate-1 .3s linear infinite both;
     animation:vibrate-1 .3s linear infinite both;
 }
-
 
 
 #welcome-section{
@@ -334,7 +337,7 @@ button ion-icon{
     100%{transform:scale(1.2)}
 }
 
-@-webkit-keyframes swing-in-top-fwd {
+/* @-webkit-keyframes swing-in-top-fwd {
     0% {
       -webkit-transform: rotateX(-100deg);
               transform: rotateX(-100deg);
@@ -400,7 +403,7 @@ button ion-icon{
       opacity: 0;
     }
 }
-  
+   */
 
 
 

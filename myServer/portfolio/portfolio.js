@@ -1,9 +1,22 @@
 const navbar = document.querySelector('#navbar');
-window.onscroll = () => {
-    if (window.scrollY > 910) {
-        navbar.classList.add('nav-active');
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        navbar.style.top = "0";
     } else {
-        navbar.classList.remove('nav-active');
+        navbar.style.top = "-50px";
     }
-};
+    prevScrollpos = currentScrollPos;
+}
+
+// window.onscroll = () => {
+//     if (window.scrollY > 400) {
+//         navbar.classList.add('nav-active');
+//     } else {
+//         navbar.classList.remove('nav-active');
+//     }
+// };
 
