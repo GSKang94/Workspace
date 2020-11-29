@@ -26,6 +26,12 @@ https://adam-marsden.co.uk/css-cheat-sheet
   ```css
   -webkit-transform: scale(1.2);
   ```
+* Remove link color
+```css
+a
+```
+
+
 ## Add border gradient
  ```css
 {
@@ -940,7 +946,7 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzA1ODMyNCwtMTAxNzcxODAxNSwtMT
-YzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEyOTg5
-MTA2Nl19
+eyJoaXN0b3J5IjpbLTE4MTQ1NjM4MTksLTM3MzA1ODMyNCwtMT
+AxNzcxODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMz
+MTU2NDMsLTEyOTg5MTA2Nl19
 -->
