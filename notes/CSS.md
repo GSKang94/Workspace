@@ -28,7 +28,9 @@ https://adam-marsden.co.uk/css-cheat-sheet
   ```
 * Remove link color
 ```css
-a
+a{
+   color:inherit;
+}
 ```
 
 
@@ -946,7 +948,7 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ1NjM4MTksLTM3MzA1ODMyNCwtMT
-AxNzcxODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMz
-MTU2NDMsLTEyOTg5MTA2Nl19
+eyJoaXN0b3J5IjpbMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMD
+E3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMx
+NTY0MywtMTI5ODkxMDY2XX0=
 -->
