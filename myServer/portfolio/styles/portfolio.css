@@ -89,7 +89,7 @@
     background-color: #101A28;
     color: #f9f7d9;
     padding-top: 4em;
-    position: relative;
+    /* position: relative; */
 }
 
 #projects h1{
@@ -130,10 +130,12 @@
     border-radius: 10px;
     background-color: burlywood;
     font-size: 1.1em;
-    font-weight: bold;margin-top: 4.1em;
-    position: absolute;
+    font-weight: bold;
+    margin-top: 2.1em;
+    /* position: absolute; */
     transition: background 0.3s ease-out;
-    right: 50%;
+    /* right: 50%; */
+    margin-bottom: 5em;
 }
 
 #projects button:hover{
@@ -149,12 +151,21 @@ button ion-icon{
     vertical-align: -0.2em;
 }
 
-#curve{
+/* #curve{
     display: block;
     stroke: none;
     fill: #db6400;
-}
+} */
 
+#curve{
+    height: 150px;
+    overflow: hidden;
+    background-color: #db6400;
+    stroke: none; fill: #101A28;
+}
+#curve svg{
+    height: 100%; width: 100%;
+}
 
 #contact{
     display: flex;
@@ -166,8 +177,8 @@ button ion-icon{
 }
 #contact .back-top{
     margin: 0 auto;
-    margin-top: 2em;
-    font-size: 1.1em;
+    /* margin-top: 2em; */
+    font-size: 1.4em;
     transition: background 0.3s ease-out;
 }
 #contact .back-top{
@@ -265,6 +276,7 @@ button ion-icon{
     }
 
     #contact{
+        padding-top: 2.5em;
         font-size: 1.2em;
     }
     
@@ -389,3 +401,6 @@ button ion-icon{
     }
 }
   
+
+
+
