@@ -26,7 +26,15 @@ https://adam-marsden.co.uk/css-cheat-sheet
   ```css
   -webkit-transform: scale(1.2);
   ```
- * Add border gradient
+* Remove link color
+```css
+a{
+   color:inherit;
+}
+```
+
+
+## Add border gradient
  ```css
 {
    background: linear-gradient(#900c3f, #900c3f),
@@ -432,7 +440,8 @@ It’ll give me a clean slate to work on.
   text-decoration: none;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box;
+   box-sizing: border-box;
+   scroll-behavior:smooth;
 }
 ```
 ## Visibility
@@ -939,6 +948,7 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc3MTgwMTUsLTE2MzQyODczMjQsLT
-E2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMD
+E3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMx
+NTY0MywtMTI5ODkxMDY2XX0=
 -->
