@@ -6,7 +6,7 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
     box-sizing: border-box;
-    scroll-behavior:smooth
+    scroll-behavior:smooth;
   }
 
 #navbar{
@@ -28,39 +28,6 @@
     animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 
 }
-
-@-webkit-keyframes swing-in-top-fwd {
-    0% {
-      -webkit-transform: rotateX(-100deg);
-              transform: rotateX(-100deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-  }
-  @keyframes swing-in-top-fwd {
-    0% {
-      -webkit-transform: rotateX(-100deg);
-              transform: rotateX(-100deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-  }
     
 #navbar a{
     color:inherit;
@@ -72,39 +39,7 @@
     animation: swing-out-top-bck 0.35s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
 }
 
-@-webkit-keyframes swing-out-top-bck {
-    0% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: rotateX(-100deg);
-              transform: rotateX(-100deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-  }
-  @keyframes swing-out-top-bck {
-    0% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: rotateX(-100deg);
-              transform: rotateX(-100deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-}
-    
+  
 
 #navbar li{
     display: inline-block;
@@ -133,9 +68,11 @@
 }
 
 #right-bar ion-icon:hover{
-    -webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both
+    -webkit-animation:vibrate-1 .3s linear infinite both;
+    animation:vibrate-1 .3s linear infinite both;
 }
-@-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
+
+
 
 #welcome-section{
     background-image: radial-gradient(circle, #26121d, #231320, #201423, #1c1625, #181726, #151a28, #111c29, #0f1e29, #0d212a, #0e242a, #102729, #142928);    color: #f9f7d9;
@@ -163,7 +100,7 @@
 #project-container{
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 75em;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 2em;
@@ -174,7 +111,6 @@
     color: black;
     border-radius: 5px;
     background: linear-gradient(#f05454, #f9813a), 
-    /* linear-gradient(to right, #900c3f, #fa7d09); */
     linear-gradient(to right, #f05454, #f9813a);
     background-origin: padding-box, border-box;
     background-repeat: no-repeat; /* this is important */
@@ -197,7 +133,7 @@
     font-weight: bold;margin-top: 4.1em;
     position: absolute;
     transition: background 0.3s ease-out;
-    right: 43em;
+    right: 50%;
 }
 
 #projects button:hover{
@@ -205,7 +141,7 @@
 }
 
 #projects button a{
-    color: black;
+    color: inherit;
 }
 
 button ion-icon{
@@ -234,8 +170,11 @@ button ion-icon{
     font-size: 1.1em;
     transition: background 0.3s ease-out;
 }
+#contact .back-top{
+    color: inherit;
+}
 #contact .back-top:hover{
-    color: brown;
+    color: white;
     animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both
 
 }
@@ -260,7 +199,6 @@ button ion-icon{
 #bottom-bar ion-icon:hover{
     animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both
 }
-@keyframes scale-up-center{0%{transform:scale(1)}100%{transform:scale(1.2)}}
 
 
 
@@ -291,7 +229,6 @@ button ion-icon{
     #welcome-section{
         font-size: 1em;
     }
-
 
     #projects{
         padding-top: 3em;
@@ -352,3 +289,103 @@ button ion-icon{
 /* @media only screen and (min-width: 479px) and (max-width: 979px) {
    code
 } */
+
+
+
+@keyframes vibrate-1{
+    0%{-webkit-transform:translate(0);
+        transform:translate(0)
+    }
+    20%{-webkit-transform:translate(-2px,2px);
+        transform:translate(-2px,2px)
+    }
+    40%{
+        -webkit-transform:translate(-2px,-2px);
+        transform:translate(-2px,-2px)
+    }
+    60%{
+        -webkit-transform:translate(2px,2px);
+        transform:translate(2px,2px)
+    }
+    80%{
+        -webkit-transform:translate(2px,-2px);
+        transform:translate(2px,-2px)
+    }
+    100%{-webkit-transform:translate(0);
+        transform:translate(0)
+    }
+}
+
+
+@keyframes scale-up-center{
+    0%{transform:scale(1)}
+    100%{transform:scale(1.2)}
+}
+
+@-webkit-keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  @keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+
+
+  @-webkit-keyframes swing-out-top-bck {
+    0% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+  }
+  @keyframes swing-out-top-bck {
+    0% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+}
+  
