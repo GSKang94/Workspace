@@ -83,6 +83,10 @@ tab
 
 ## Convert Non-number
 ```js
+alert( +true ); // 1
+alert( +"" ); // 0
+ ```
+ 
 ## String to number
 ```js
 Number(string);
@@ -1710,6 +1714,6 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEyMDkyMTQsMTkwODkyODU0MSwtNj
-U4ODc2NTQ4LDkwODQwNDczOV19
+eyJoaXN0b3J5IjpbLTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NT
+g4NzY1NDgsOTA4NDA0NzM5XX0=
 -->
