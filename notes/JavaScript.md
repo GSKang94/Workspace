@@ -70,7 +70,7 @@ window.onscroll  = () => {
 - null means non-existent
 - undentified (Means the value is not defined.)
 
-
+### ###Exponentiation **
 ## Literal Escaping
 ```js
 var name = 'Charlie\”Brown\”'
@@ -1707,5 +1707,6 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbLTE5MDU4MjI1MDEsLTY1ODg3NjU0OCw5MD
+g0MDQ3MzldfQ==
 -->
