@@ -80,6 +80,9 @@ New line
 tab
 'Charlie\tBrown'         
 ```
+
+## Convert Non-number
+```js
 ## String to number
 ```js
 Number(string);
@@ -1707,6 +1710,6 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwOD
-QwNDczOV19
+eyJoaXN0b3J5IjpbLTEyMDEyMDkyMTQsMTkwODkyODU0MSwtNj
+U4ODc2NTQ4LDkwODQwNDczOV19
 -->
