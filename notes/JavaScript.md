@@ -1710,7 +1710,11 @@ firstPromiseFunction()
 
 
 ### padding a number
-
+```js
+let str = "5";  
+str = str.padStart(4,0);  
+// result is 0005
+```
 ```js
 let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 ```
@@ -1719,6 +1723,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MD
-g5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbNTE0NTUyMDc0LC03NDA5NTA5ODgsLTQxMj
+c5NDc5MywxOTA4OTI4NTQxLC02NTg4NzY1NDgsOTA4NDA0NzM5
+XX0=
 -->
