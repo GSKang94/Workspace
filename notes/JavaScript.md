@@ -183,7 +183,12 @@ const myPet = 'Dog';
 console.log(`I own a pet ${myPet}.`);
 // Output: I own a pet Dog.
 ```
-## .substr()
+## .trim( )
+```js
+var str = " Hello World! ";  
+alert(str.trim());
+```
+## .substr( )
 
 The substr() method extracts parts of a string, beginning at the character at the specified position, and returns the specified number of characters.
 
@@ -1714,6 +1719,6 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NT
-g4NzY1NDgsOTA4NDA0NzM5XX0=
+eyJoaXN0b3J5IjpbLTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MD
+g5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
 -->
