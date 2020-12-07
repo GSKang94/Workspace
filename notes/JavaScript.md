@@ -188,6 +188,12 @@ console.log(`I own a pet ${myPet}.`);
 var str = " Hello World! ";  
 alert(str.trim());
 ```
+## charAt( )
+The  `charAt()`  method returns the character at a specified index (position) in a string:
+```js
+var str = "HELLO WORLD";  
+str.charAt(0); // returns H
+```
 ## .substr( )
 
 The substr() method extracts parts of a string, beginning at the character at the specified position, and returns the specified number of characters.
@@ -1723,7 +1729,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NTUyMDc0LC03NDA5NTA5ODgsLTQxMj
-c5NDc5MywxOTA4OTI4NTQxLC02NTg4NzY1NDgsOTA4NDA0NzM5
-XX0=
+eyJoaXN0b3J5IjpbODgzNzkzODI0LDUxNDU1MjA3NCwtNzQwOT
+UwOTg4LC00MTI3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4
+LDkwODQwNDczOV19
 -->
