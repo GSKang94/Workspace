@@ -864,7 +864,9 @@ console.log(words[3]);
 // expected output: "fox"
 
 txt.split(" "); // Split on spaces
-If the separator is omitted, the returned array will contain the whole string in index [0].
+
+* If the separator is omitted, the returned array will contain the whole string in index [0].
+* If the separator is "", the returned array will be an array of single characters:
 ```
 
 
@@ -1732,7 +1734,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjA2NTYwMSw1MTQ1NTIwNzQsLTc0MD
+eyJoaXN0b3J5IjpbLTc3ODIwNTAxOSw1MTQ1NTIwNzQsLTc0MD
 k1MDk4OCwtNDEyNzk0NzkzLDE5MDg5Mjg1NDEsLTY1ODg3NjU0
 OCw5MDg0MDQ3MzldfQ==
 -->
