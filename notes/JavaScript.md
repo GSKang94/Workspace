@@ -857,7 +857,7 @@ Method used to check the length of an array, string and no. of arguments passed 
 Method split a string into array.
 
 ```js
-var str = 'The quick brown fox jumps ;
+var str = 'The quick brown fox jumps' ;
 
 var words = str.split(' ');
 console.log(words[3]);
@@ -1729,7 +1729,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzNzkzODI0LDUxNDU1MjA3NCwtNzQwOT
-UwOTg4LC00MTI3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4
-LDkwODQwNDczOV19
+eyJoaXN0b3J5IjpbLTUyOTczODgyNyw1MTQ1NTIwNzQsLTc0MD
+k1MDk4OCwtNDEyNzk0NzkzLDE5MDg5Mjg1NDEsLTY1ODg3NjU0
+OCw5MDg0MDQ3MzldfQ==
 -->
