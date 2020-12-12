@@ -81,7 +81,7 @@ tab
 'Charlie\tBrown'         
 ```
 ## Check if num. is positive/negative
-`Math.sign(num)```
+`Math.sign(num)`
 
 ## Convert Non-number
 ```js
@@ -1736,7 +1736,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDAyODYwNSw3ODcyNzYzMjMsLTc3OD
-IwNTAxOSw1MTQ1NTIwNzQsLTc0MDk1MDk4OCwtNDEyNzk0Nzkz
-LDE5MDg5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4Mj
+A1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMs
+MTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
 -->
