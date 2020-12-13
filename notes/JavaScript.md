@@ -80,6 +80,8 @@ New line
 tab
 'Charlie\tBrown'         
 ```
+## Check if num. is positive/negative
+`Math.sign(num)`
 
 ## Convert Non-number
 ```js
@@ -1314,7 +1316,7 @@ Math.max(...arr);
 ### Generate Whole Number within Range
 
     function randomRange (min,max) {
-    Math.floor(Math.random() * (max-min-1) + min)
+    Math.floor(Math.random() * (max-min+1) + min)
     };
 # DOM Manipulation
 
@@ -1734,7 +1736,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODIwNTAxOSw1MTQ1NTIwNzQsLTc0MD
-k1MDk4OCwtNDEyNzk0NzkzLDE5MDg5Mjg1NDEsLTY1ODg3NjU0
-OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4Mj
+A1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMs
+MTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
 -->
