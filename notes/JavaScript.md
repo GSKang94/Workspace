@@ -1393,6 +1393,7 @@ tag.innerHTML
 ## Manipulating attributes
 - getAttribute();-----read attribute.
 - setAttribute(,);-----write attribute.
+```js
     <a href="www.google.com">I am a link</a>
     JS
     var link = document.querySelector("a");
@@ -1400,8 +1401,7 @@ tag.innerHTML
     //CHANGE HREF ATTRIBUTE
     link.setAttribute("href","www.dogs.com"); 
     ///<a href="www.dogs.com">I am a link</a>
-
-
+```
 ## **DOM Events**
 
 **We select an element and then add an event listener.**
@@ -1736,7 +1736,8 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4Mj
-A1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMs
-MTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
+eyJoaXN0b3J5IjpbLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mj
+c2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0LC03NDA5NTA5ODgs
+LTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NTg4NzY1NDgsOTA4ND
+A0NzM5XX0=
 -->
