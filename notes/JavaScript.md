@@ -1322,11 +1322,13 @@ Math.max(...arr);
 
 
 ## Select Methods
+```js
 - document.getElementById()
 - document.getElementsByClassName()
 - document.getElementsByTagName()
 - document.querySelector() {returns the first Element within the document that matches the specified selector, or group of selectors.}
 - document.querySelectorAll()
+```
 ## Manipulation Method
 - Style property
     let tag = document.getElementById(“highlight”);
@@ -1736,8 +1738,8 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjU0MTU3NCwtOTAzNjY2NjQ4LDkyOD
-Y1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAxOSw1MTQ1NTIwNzQs
-LTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MDg5Mjg1NDEsLTY1OD
-g3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbLTY4MzI3NDk0NywtOTM2NTQxNTc0LC05MD
+M2NjY2NDgsOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4MjA1MDE5
+LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMsMTkwOD
+kyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
 -->
