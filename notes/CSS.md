@@ -9,8 +9,8 @@ https://adam-marsden.co.uk/css-cheat-sheet
 * Sticky hover state problem on touch screen 
 ```css
 @media (hover: hover)  { 
- button:hover  { 
-  border:  3px solid green;  /* solves sticky problem */  
+ button:hover { 
+  border:  3px solid green;  
   }  
 }
 ```
@@ -961,7 +961,7 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDc1MzIzNSwtMjAzMzg0MzE3NiwxNj
+eyJoaXN0b3J5IjpbLTc4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNj
 MxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQy
 ODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNj
 ZdfQ==
