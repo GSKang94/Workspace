@@ -6,6 +6,14 @@ https://adam-marsden.co.uk/css-cheat-sheet
 
 ## Tips
 
+* Sticky hover state problem on touch screen 
+```css
+@media (hover: hover)  { 
+ button:hover { 
+  border:  3px solid green;  
+  }  
+}
+```
 * Hide white space on right side of page
 
   ```css
@@ -953,7 +961,8 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMz
-czMDU4MzI0LC0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1
-MzAwMzAxLDEwMzMxNTY0MywtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbLTc4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNj
+MxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQy
+ODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNj
+ZdfQ==
 -->

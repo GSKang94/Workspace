@@ -45,6 +45,8 @@ window.onscroll  = () => {
       }
 };
 ```
+### Hide keyboard on keypress
+`this.blur()`
 
 ## Primitive Datatypes
 
@@ -1738,8 +1740,9 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzI3NDk0NywtOTM2NTQxNTc0LC05MD
-M2NjY2NDgsOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4MjA1MDE5
-LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMsMTkwOD
-kyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
+eyJoaXN0b3J5IjpbNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNj
+U0MTU3NCwtOTAzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMs
+LTc3ODIwNTAxOSw1MTQ1NTIwNzQsLTc0MDk1MDk4OCwtNDEyNz
+k0NzkzLDE5MDg5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3Mzld
+fQ==
 -->
