@@ -10,9 +10,9 @@
     <style>
         body {
             background-color: #222831;
-            text-align: center;
-            margin-top: 3em;
             font-family: 'Alegreya', serif;
+            width: 80%;
+            margin: 0 auto;
         }
 
         ul a {
@@ -25,10 +25,7 @@
             letter-spacing: 0.16em;
             display: inline-block;
             font-size: 1.6em;
-        }
-
-        li:first-child {
-            margin-left: 0em;
+            line-height: 4rem;
         }
 
         ul a:hover {
@@ -36,12 +33,17 @@
         }
 
         @media only screen and (max-width : 480px) {
+            body {
+                width: 100%;
+            }
+
             li {
                 display: block;
                 padding-top: 1.7em;
                 font-size: 1.9em;
                 letter-spacing: 0.1em;
-                padding-left: 0em;
+                /* padding-left: 0em; */
+                line-height: inherit;
             }
         }
     </style>
@@ -60,6 +62,8 @@
         <li><a href="/Landing_page/index.html" target="_self" rel="noopener noreferrer">landingPage</a>
         </li>
         <li><a href="/Google_clone/Google_home.html" target="_self" rel="noopener noreferrer">Google</a></li>
+        <li><a href="/rps_game/index.html" target="_self" rel="noopener noreferrer">Rock-Paper-Scissors</a>
+        </li>
     </ul>
 </body>
 
