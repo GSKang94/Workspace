@@ -10,7 +10,8 @@ https://adam-marsden.co.uk/css-cheat-sheet
 ```css
 @media (hover: hover)  { 
  button:hover { 
-  border:  3px solid green;  
+  border:  3px solid green; '
+   
   }  
 }
 ```
@@ -961,8 +962,8 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNj
-MxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQy
-ODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNj
-ZdfQ==
+eyJoaXN0b3J5IjpbLTYwMjA1MzIzMCwtNzgwODkxMTU5LC0yMD
+MzODQzMTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcx
+ODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2ND
+MsLTEyOTg5MTA2Nl19
 -->
