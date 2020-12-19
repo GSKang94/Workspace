@@ -32,7 +32,12 @@ a{
    color:inherit;
 }
 ```
-
+* Hide placeholder on focus
+```css
+input:focus::placeholder {
+	color: transparent;
+}
+```
 
 ## Add border gradient
  ```css
@@ -948,7 +953,7 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMD
-E3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMx
-NTY0MywtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbLTIwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMz
+czMDU4MzI0LC0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1
+MzAwMzAxLDEwMzMxNTY0MywtMTI5ODkxMDY2XX0=
 -->
