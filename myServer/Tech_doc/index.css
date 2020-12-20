@@ -24,6 +24,13 @@
     background: #000;
 }
 
+#map{
+    width: 80%;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
 #main-doc{
     position: relative;
     display: flex;
