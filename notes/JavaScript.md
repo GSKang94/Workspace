@@ -52,7 +52,7 @@ window.onscroll  = () => {
 ```js
 //To one decimal
 	Math.round(num * 10) / 10;
-//add m
+//add zeros for more decimal places
 ```
 ## Primitive Datatypes
 
@@ -1746,7 +1746,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzc1OTQzNCw2NTcwMTc3NTIsLTY4Mz
+eyJoaXN0b3J5IjpbMTkwODM3MjA2MSw2NTcwMTc3NTIsLTY4Mz
 I3NDk0NywtOTM2NTQxNTc0LC05MDM2NjY2NDgsOTI4NjUzNzU3
 LDc4NzI3NjMyMywtNzc4MjA1MDE5LDUxNDU1MjA3NCwtNzQwOT
 UwOTg4LC00MTI3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4
