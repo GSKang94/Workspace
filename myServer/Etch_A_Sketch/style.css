@@ -1,3 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     scroll-behavior:smooth;
+  }
+
 body{
     background-color: teal;
 }
+
+:root{
+    --columns-row:12;
+}
+
+
+#container{
+    display: inline-grid;
+    border: gainsboro 1px solid;
+    grid-template-columns: repeat(var(--columns-row), 1fr );
+    grid-template-rows: repeat(var(--columns-row), 1fr );
+}
+
+
+
+.square{
+    background-color: blue;
+    width: 2rem;
+    height: 2rem;
+    border: salmon 1px dotted;
+}
+
+.square2{
+    background-color: green;
+    width: 2rem;
+    height: 2rem;
+    border: salmon 1px dotted;
+}
+
+
+/* .square{
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+} */
