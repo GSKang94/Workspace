@@ -48,6 +48,8 @@ window.onscroll  = () => {
 ### Hide keyboard on keypress
 `this.blur()`
 
+
+
 ## Round numbers
 ```js
 //To one decimal
@@ -1746,9 +1748,9 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODM3MjA2MSw2NTcwMTc3NTIsLTY4Mz
-I3NDk0NywtOTM2NTQxNTc0LC05MDM2NjY2NDgsOTI4NjUzNzU3
-LDc4NzI3NjMyMywtNzc4MjA1MDE5LDUxNDU1MjA3NCwtNzQwOT
-UwOTg4LC00MTI3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4
-LDkwODQwNDczOV19
+eyJoaXN0b3J5IjpbOTY2OTk3ODE3LDE5MDgzNzIwNjEsNjU3MD
+E3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOTAzNjY2NjQ4
+LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAxOSw1MTQ1NT
+IwNzQsLTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MDg5Mjg1NDEs
+LTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
 -->
