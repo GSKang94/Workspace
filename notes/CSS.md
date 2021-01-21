@@ -11,7 +11,7 @@ https://adam-marsden.co.uk/css-cheat-sheet
 @media (hover: hover)  { 
  button:hover { 
   border:  3px solid green;  
-  }  
+	}  
 }
 ```
 * Hide white space on right side of page
@@ -961,8 +961,8 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMD
-MzODQzMTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcx
-ODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2ND
-MsLTEyOTg5MTA2Nl19
+eyJoaXN0b3J5IjpbMTA1MTE4MDkyOSwtNzgwODkxMTU5LC03OD
+A4OTExNTksLTIwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4
+MzI0LC0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMz
+AxLDEwMzMxNTY0MywtMTI5ODkxMDY2XX0=
 -->
