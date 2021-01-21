@@ -29,6 +29,14 @@ document.body.classList.toggle('dark-theme');
 
 </body>
 ```
+## Get and set css variables
+```js
+let  style = getComputedStyle(document.body);
+let  gridColor = style.getPropertyValue('--grid-color');
+
+container.style.setProperty("--grid-row-column", rows);
+```
+
 ## Add style on scroll
 ```js
 const navbar = document.querySelector('#navbar');
@@ -1748,9 +1756,9 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2OTk3ODE3LDE5MDgzNzIwNjEsNjU3MD
-E3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOTAzNjY2NjQ4
-LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAxOSw1MTQ1NT
-IwNzQsLTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MDg5Mjg1NDEs
-LTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbLTE5ODY0NjgzODMsOTY2OTk3ODE3LDE5MD
+gzNzIwNjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3
+NCwtOTAzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3OD
+IwNTAxOSw1MTQ1NTIwNzQsLTc0MDk1MDk4OCwtNDEyNzk0Nzkz
+LDE5MDg5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
 -->
