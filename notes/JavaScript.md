@@ -33,6 +33,7 @@ document.body.classList.toggle('dark-theme');
 ```js
 let  style = getComputedStyle(document.body);
 let  gridColor = style.getPropertyValue('--grid-color');
+this.style.backgroundColor = gridColor;
 
 container.style.setProperty("--grid-row-column", rows);
 ```
@@ -1756,9 +1757,9 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY0NjgzODMsOTY2OTk3ODE3LDE5MD
-gzNzIwNjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3
-NCwtOTAzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3OD
-IwNTAxOSw1MTQ1NTIwNzQsLTc0MDk1MDk4OCwtNDEyNzk0Nzkz
-LDE5MDg5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbMTU0NzAxNDA1NCw5NjY5OTc4MTcsMTkwOD
+M3MjA2MSw2NTcwMTc3NTIsLTY4MzI3NDk0NywtOTM2NTQxNTc0
+LC05MDM2NjY2NDgsOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4Mj
+A1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMs
+MTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
 -->
