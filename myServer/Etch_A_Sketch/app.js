@@ -1,16 +1,22 @@
 let container = document.getElementById('container');
 
-let square = 64;
+function grid(rows, columns) {
+    container.style.setProperty("--grid-row-column", rows);
+    container.style.setProperty("--grid-row-column", columns);
 
-for (i = 0; i < square; i++) {
-    let e = document.createElement("div")
-    e.classList.add("square")
-    container.appendChild(e)
-    e.addEventListener('mouseenter', function () {
-        this.style.backgroundColor = "gray";
-    })
+    let result = rows * columns;
+
+    for (i = 0; i < result; i++) {
+        let e = document.createElement("div")
+        e.classList.add("square")
+        container.appendChild(e)
+        e.addEventListener('mouseenter', function () {
+            this.style.backgroundColor = "gray";
+        })
+    }
 }
 
+grid(10, 10)
 
 
 
@@ -24,13 +30,20 @@ for (i = 0; i < square; i++) {
 
 
 
+// let square = 49;
+
+// for (i = 0; i < square; i++) {
+//     let e = document.createElement("div")
+//     e.classList.add("square")
+//     container.appendChild(e)
+//     e.addEventListener('mouseenter', function () {
+//         this.style.backgroundColor = "gray";
+//     })
+// }
 
 
 
-
-
-
-
+// console.log(document.style.getPropertyValue("--grid-row-column"))
 
 
 

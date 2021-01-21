@@ -13,17 +13,19 @@ body{
     background-color: burlywood;
 }
 
+:root{
+    --grid-row-column: 7;
+}
 
 #container{
     display: inline-grid;
-    border: 1px solid red;
     margin: 1rem;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(var(--grid-row-column),1fr);
+    grid-template-rows: repeat(var(--grid-row-column),1fr);
 }
 
 .square{
-    border: 1px solid blue;
+    border: 1px solid rgb(57, 24, 134);
     width: 2rem;
     height: 2rem;
 }
