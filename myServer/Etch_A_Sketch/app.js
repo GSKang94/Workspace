@@ -1,5 +1,8 @@
 let container = document.getElementById('container');
 
+let style = getComputedStyle(document.body);
+let gridColor = style.getPropertyValue('--grid-color');
+
 function grid(rows, columns) {
     container.style.setProperty("--grid-row-column", rows);
     container.style.setProperty("--grid-row-column", columns);
@@ -11,7 +14,7 @@ function grid(rows, columns) {
         e.classList.add("square")
         container.appendChild(e)
         e.addEventListener('mouseenter', function () {
-            this.style.backgroundColor = "gray";
+            this.style.backgroundColor = gridColor;
         })
     }
 }
@@ -19,6 +22,8 @@ function grid(rows, columns) {
 grid(10, 10)
 
 
+
+console.log(gridColor)
 
 
 
