@@ -1,9 +1,13 @@
+let rowsInput = document.getElementById('rows-input');
+let columnsInput = document.getElementById('columns-input');
+let submitBtn = document.getElementById('submit-btn');
+
 let container = document.getElementById('container');
 
 let style = getComputedStyle(document.body);
 let gridColor = style.getPropertyValue('--grid-color');
 
-function grid(rows, columns) {
+function makeGrid(rows, columns) {
     container.style.setProperty("--grid-row-column", rows);
     container.style.setProperty("--grid-row-column", columns);
 
@@ -19,11 +23,12 @@ function grid(rows, columns) {
     }
 }
 
-grid(10, 10)
+submitBtn.addEventListener('click', function () {
+    makeGrid(rowsInput.value, columnsInput.value)
+})
 
 
 
-console.log(gridColor)
 
 
 
