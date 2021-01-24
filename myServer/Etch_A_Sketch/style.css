@@ -10,6 +10,57 @@
   }
 
 body{
+    background-color: burlywood;
+}
+
+:root{
+    --grid-row-column: 7;
+    --grid-color:rgb(31, 46, 40);
+}
+
+#container{
+    display: inline-grid;
+    margin: 1rem;
+    grid-template-columns: repeat(var(--grid-row-column),1fr);
+    grid-template-rows: repeat(var(--grid-row-column),1fr);
+}
+
+.square{
+    border:0.1px solid rgb(134, 73, 24);
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+
+
+
+
+
+
+/* #container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px solid red;
+    max-width: 20rem;
+    max-height: 20rem;
+    margin: 1rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 
+body{
     background-color: teal;
 }
 
@@ -40,7 +91,7 @@ body{
     height: 2rem;
     border: salmon 1px dotted;
 }
-
+ */
 
 /* .square{
     background-color: red;

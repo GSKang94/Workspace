@@ -36,7 +36,7 @@ position=1
 [com/solus-project/budgie-panel/applets/{4c90bf44-208a-11eb-b74b-4c34882c2356}]
 alignment='end'
 name='Calendar'
-position=5
+position=2
 
 [com/solus-project/budgie-panel/applets/{57c444b4-2231-11eb-a273-4c34882c2356}]
 alignment='center'
@@ -96,26 +96,71 @@ position=0
 [com/solus-project/budgie-panel/applets/{c13279b0-207a-11eb-9985-57597f45b249}]
 alignment='end'
 name='System Tray'
-position=3
+position=0
 
 [com/solus-project/budgie-panel/applets/{c13689a6-207a-11eb-9985-57597f45b249}]
 alignment='end'
 name='Status Indicator'
-position=4
+position=1
 
 [com/solus-project/budgie-panel/applets/{c139ed44-207a-11eb-9985-57597f45b249}]
 alignment='end'
 name='User Indicator'
-position=6
+position=4
+
+[com/solus-project/budgie-panel/applets/{ccaa30f6-590c-11eb-999c-3b5f150a653e}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[com/solus-project/budgie-panel/applets/{ccad1802-590c-11eb-999c-3b5f150a653e}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[com/solus-project/budgie-panel/applets/{ccb3f51e-590c-11eb-999c-3b5f150a653e}]
+alignment='end'
+name='System Tray'
+position=0
+
+[com/solus-project/budgie-panel/applets/{ccb41d64-590c-11eb-999c-3b5f150a653e}]
+alignment='end'
+name='Notifications'
+position=1
+
+[com/solus-project/budgie-panel/applets/{ccb6cfaa-590c-11eb-999c-3b5f150a653e}]
+alignment='end'
+name='Status Indicator'
+position=2
+
+[com/solus-project/budgie-panel/applets/{ccb8208a-590c-11eb-999c-3b5f150a653e}]
+alignment='end'
+name='User Indicator'
+position=3
+
+[com/solus-project/budgie-panel/applets/{ccb880ca-590c-11eb-999c-3b5f150a653e}]
+alignment='end'
+name='Clock'
+position=4
+
+[com/solus-project/budgie-panel/applets/{ccb8f4ba-590c-11eb-999c-3b5f150a653e}]
+alignment='end'
+name='Raven Trigger'
+position=5
+
+[com/solus-project/budgie-panel/applets/{e45d2a6a-5aff-11eb-9df4-9c2976e7e0af}]
+alignment='end'
+name='Raven Trigger'
+position=5
 
 [com/solus-project/budgie-panel/instance/budgie-menu/{c124476e-207a-11eb-9985-57597f45b249}]
 menu-compact=true
-menu-icon='/home/singh/Pictures/Budgie.png'
+menu-icon='/home/gagan/Pictures/Budgie.png'
 
 [com/solus-project/budgie-panel/instance/icon-tasklist/{04135224-208d-11eb-aa60-4c34882c2356}]
 grouping=false
 middle-click-launch-new-instance=true
-pinned-launchers=@as []
+pinned-launchers=['org.gnome.Nautilus.desktop']
 restrict-to-workspace=true
 show-all-windows-on-click=false
 
@@ -129,20 +174,28 @@ size=39
 transparency='none'
 
 [com/solus-project/budgie-panel/panels/{c11f1b36-207a-11eb-9985-57597f45b249}]
-applets=['c13689a6-207a-11eb-9985-57597f45b249', 'c124476e-207a-11eb-9985-57597f45b249', '04135224-208d-11eb-aa60-4c34882c2356', 'c139ed44-207a-11eb-9985-57597f45b249', '57c444b4-2231-11eb-a273-4c34882c2356', '2e1a5b2a-2dc7-11eb-98b2-4c34882c2356', '4c90bf44-208a-11eb-b74b-4c34882c2356', 'c13279b0-207a-11eb-9985-57597f45b249']
+applets=['c13689a6-207a-11eb-9985-57597f45b249', 'c124476e-207a-11eb-9985-57597f45b249', '04135224-208d-11eb-aa60-4c34882c2356', '57c444b4-2231-11eb-a273-4c34882c2356', 'c139ed44-207a-11eb-9985-57597f45b249', 'e45d2a6a-5aff-11eb-9df4-9c2976e7e0af', '4c90bf44-208a-11eb-b74b-4c34882c2356', 'c13279b0-207a-11eb-9985-57597f45b249']
 autohide='none'
 dock-mode=false
 enable-shadow=true
 location='top'
-size=37
+size=32
 theme-regions=true
-transparency='dynamic'
+transparency='none'
+
+[com/solus-project/budgie-panel/panels/{cca93e44-590c-11eb-999c-3b5f150a653e}]
+applets=['ccb6cfaa-590c-11eb-999c-3b5f150a653e', 'ccb8208a-590c-11eb-999c-3b5f150a653e', 'ccb3f51e-590c-11eb-999c-3b5f150a653e', 'ccb880ca-590c-11eb-999c-3b5f150a653e', 'ccaa30f6-590c-11eb-999c-3b5f150a653e', 'ccb8f4ba-590c-11eb-999c-3b5f150a653e', 'ccad1802-590c-11eb-999c-3b5f150a653e', 'ccb41d64-590c-11eb-999c-3b5f150a653e']
+location='bottom'
+size=39
+transparency='none'
 
 [com/solus-project/budgie-raven]
+enable-week-numbers=false
 show-calendar-widget=false
 show-mic-input-widget=false
-show-mpris-widget=false
-show-sound-output-widget=false
+show-mpris-widget=true
+show-power-strip=true
+show-sound-output-widget=true
 
 [com/solus-project/budgie-wm]
 attach-modal-dialogs=false
@@ -196,6 +249,21 @@ image-dir-uri='file:///home/g/Documents'
 filename='/home/g/Downloads/retropie-buster-4.7.1-rpi4_400.img'
 show-warning=false
 
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(761, 330)
+word-size=64
+
 [org/gnome/calendar]
 active-view='month'
 window-maximized=false
@@ -203,12 +271,12 @@ window-position=(550, 353)
 window-size=(1009, 569)
 
 [org/gnome/control-center]
-last-panel='display'
+last-panel='bluetooth'
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/singh/Pictures/Wallpapers/wallpaperflare.com_wallpaper.jpg'
+picture-uri='file:///home/gagan/Pictures/wallpaperflare.com_wallpaper.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -315,7 +383,7 @@ active-plugins=['filebrowser']
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///etc'
+virtual-root='file:///run/media/gagan/meiDrive/games/Hollow%20Knigh'
 
 [org/gnome/gedit/preferences/editor]
 auto-indent=true
@@ -380,7 +448,7 @@ show-image-thumbnails='always'
 
 [org/gnome/nautilus/window-state]
 geometry='890x536+249+278'
-initial-size=(1009, 553)
+initial-size=(890, 536)
 maximized=false
 
 [org/gnome/nm-applet]
@@ -393,6 +461,10 @@ ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/aaeeb302-481e-4e6c-925c-e9cb86b04c6f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/ad2e1f8b-22f1-4490-81ce-b3d60a02b8f7]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -469,13 +541,13 @@ location-mode='path-bar'
 show-hidden=false
 show-size-column=true
 show-type-column=true
-sidebar-width=189
+sidebar-width=186
 sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(556, 203)
-window-size=(809, 475)
+window-position=(483, 286)
+window-size=(953, 475)
 
 [org/ubuntubudgie/plugins/takeabreak]
 awaketime=25
