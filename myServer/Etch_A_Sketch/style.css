@@ -26,9 +26,9 @@ body{
 }
 
 .square{
-    border:0.5px solid rgb(134, 73, 24);
-    width: 2rem;
-    height: 2rem;
+    border:0.1px solid rgb(134, 73, 24);
+    width: 0.4rem;
+    height: 0.4rem;
 }
 
 

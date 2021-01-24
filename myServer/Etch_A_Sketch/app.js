@@ -27,6 +27,11 @@ submitBtn.addEventListener('click', function () {
     makeGrid(rowsInput.value, columnsInput.value)
 })
 
+columnsInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+        makeGrid(rowsInput.value, columnsInput.value)
+    }
+})
 
 
 
