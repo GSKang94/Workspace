@@ -1,5 +1,4 @@
-let rowsInput = document.getElementById('rows-input');
-let columnsInput = document.getElementById('columns-input');
+let userInput = document.getElementById('user-input');
 let submitBtn = document.getElementById('submit-btn');
 
 let container = document.getElementById('container');
@@ -23,7 +22,9 @@ function makeGrid(rows, columns) {
     }
 }
 
-submitBtn.addEventListener('click', () => makeGrid(rowsInput.value, columnsInput.value))
+submitBtn.addEventListener('click', function () {
+    (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;
+})
 
 
 
