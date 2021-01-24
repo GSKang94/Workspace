@@ -150,9 +150,9 @@ Or **ctrl+/**
     <form>
      </form>
     ```
+    ## Stop page reloading on submit button
+    `<form  onsubmit="return  false">`
     
-    
-
 
 ## **Form attributes**
 ## action 
@@ -389,7 +389,7 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMD
-cyODY4NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1Nzgx
-OSwtMTc5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
+eyJoaXN0b3J5IjpbLTgxOTc5ODY4MCwtMTAzNzgzNTU1MiwtND
+c1NTMzODY2LDIwNzI4Njg2NTksNDUyMTI3NDgzLDIwNjg1ODc4
+ODksODA2OTU3ODE5LC0xNzk2NTQ4MDkwLDM3ODM5Nzk2Nl19
 -->
