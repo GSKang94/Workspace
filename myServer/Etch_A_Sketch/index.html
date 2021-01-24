@@ -14,10 +14,10 @@
             Enter size
         </div>
 
-        <form action="">
-            <input id="rows-input" type="text" placeholder="rows" required>
-            <input id="columns-input" type="text" placeholder="columns" required>
-            <button id="submit-btn" type="button">Create</button>
+        <form onsubmit="return false" action="">
+            <input id="rows-input" type="text" placeholder="rows" min="10" max="100" required>
+            <input id="columns-input" type="text" placeholder="columns" min="10" max="100" required>
+            <button id="submit-btn">Create</button>
         </form>
 
     </header>
@@ -28,3 +28,11 @@
 </body>
 
 </html>
+
+<!-- 
+TODO
+- Validate user input
+@ Button to erase everything
+@ Add eraser
+@ Add styles
+ -->
