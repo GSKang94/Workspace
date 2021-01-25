@@ -1,16 +1,17 @@
 let userInput = document.getElementById('user-input');
+let output = document.getElementById("output");
+let container = document.getElementById('container');
+let clearGrid = document.getElementById("clear");
 
-var output = document.getElementById("output");
 output.innerHTML = userInput.value;
+
+let sliderValue = 10;
 
 userInput.oninput = function () {
     container.innerHTML = '';
-    output.innerHTML = this.value;
-    (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;
+    sliderValue = this.value;
+    output.innerHTML = sliderValue;
 }
-
-let container = document.getElementById('container');
-
 
 function makeGrid(rows, columns) {
     container.style.setProperty("--grid-row-column", rows);
@@ -31,6 +32,10 @@ function makeGrid(rows, columns) {
 
 makeGrid(10, 10);
 
+clearGrid.addEventListener('click', function () {
+    container.innerHTML = '';
+    makeGrid(sliderValue, sliderValue);
+})
 
 
 
@@ -42,6 +47,7 @@ makeGrid(10, 10);
 
 
 
+    // (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;
 
 
 // let style = getComputedStyle(document.body);

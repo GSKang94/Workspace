@@ -51,7 +51,6 @@ h1{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
-
 .my-slider {
     -webkit-appearance: none;
     background: #351f39  ;
@@ -73,7 +72,14 @@ h1{
     border:0.1px solid rgb(211, 202, 193);
 }
 
-
+#clear{
+    display: block;
+    width: 4rem;
+    height: 2rem;
+    margin: 1.5rem auto;
+    border-radius: 5px;
+    outline: none;
+}
 
 
 
