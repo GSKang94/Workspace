@@ -1,5 +1,13 @@
 let userInput = document.getElementById('user-input');
-let submitBtn = document.getElementById('submit-btn');
+
+var output = document.getElementById("demo");
+output.innerHTML = userInput.value;
+
+userInput.oninput = function () {
+    container.innerHTML = '';
+    output.innerHTML = this.value;
+    (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;
+}
 
 let container = document.getElementById('container');
 
@@ -14,7 +22,6 @@ function makeGrid(rows, columns) {
 
     for (i = 0; i < result; i++) {
         let e = document.createElement("div")
-        // e.classList.add("square")
         container.appendChild(e)
         e.addEventListener('mouseenter', function () {
             this.style.backgroundColor = gridColor;
@@ -22,9 +29,23 @@ function makeGrid(rows, columns) {
     }
 }
 
-submitBtn.addEventListener('click', function () {
-    (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;
-})
+
+
+
+
+
+
+
+
+
+// let submitBtn = document.getElementById('submit-btn');
+
+
+        // e.classList.add("square")
+
+// submitBtn.addEventListener('click', function () {
+//     (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;
+// })
 
 
 

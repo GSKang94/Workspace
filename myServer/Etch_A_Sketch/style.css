@@ -30,6 +30,40 @@ body{
     cursor: crosshair;
 }
 
+.range-slider{
+    width: 50%;
+}
+
+.my-slider {
+    -webkit-appearance: none;
+    background: #FCF3CF  ;
+    width: 50%;
+    height: 20px;
+    opacity: 2;
+}
+
+.my-slider:hover {
+    opacity: 1;
+}
+
+
+.my-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #34495E  ;
+    width: 5%;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 /* .square{
     border:0.5px dotted rgb(134, 73, 24);
 } */
