@@ -7,9 +7,9 @@ options=(
     2 "Git" off
     3 "VScode" off
     4 "menulibre" off
-    5 "Fonts & emojis" off
-    6 "Peek" off
-    7 "Powertop" off
+    5 "Fonts" off
+   # 6 "Peek" off
+   # 7 "Powertop" off
     8 "Budgie-calendar-applet" off
     9 "generate ssh key" off
     10 "install Oh my ZSH" off
@@ -19,16 +19,16 @@ options=(
     14 "Slack" off
     15 "transmission" off
     16 "tldr" off
-    17 "Add Cantaloupe and flathub repo" off
-    18 "Stremio" off
-    19 "Teamviewer" off
-    20 "Stacer" off
-    21 "Zoom" off
+    17 "Add flathub repo" off
+   # 18 "Stremio" off
+   # 19 "Teamviewer" off
+   # 20 "Stacer" off
+   # 21 "Zoom" off
     22 "Cleaning" off
     23 "Restore backup" off
     24 "Make Backup" off
-    25 "App-outlet" off
-    26 "Typora" off)
+   # 25 "App-outlet" off
+   # 26 "Typora" off)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 clear
 for choice in $choices; do
@@ -63,6 +63,7 @@ for choice in $choices; do
 
     5)
         #Install Fonts & emojis
+        sudo eopkg it -y gnome-fonts
         sudo eopkg it -y font-firacode-ttf
         #echo "Adding emoji-support"
         #emoji-support
@@ -149,8 +150,8 @@ for choice in $choices; do
     17)
 
         #Add Cantaloupe repo
-        echo "Adding Cantaloupe repository"
-        sudo eopkg add-repo Cantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz
+       # echo "Adding Cantaloupe repository"
+       # sudo eopkg add-repo Cantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz
         echo "Adding Flathub Repo"
         flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         ;;
