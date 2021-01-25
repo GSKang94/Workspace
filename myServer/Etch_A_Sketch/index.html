@@ -9,17 +9,14 @@
 </head>
 
 <body>
-    <header id="header">
-        <div>
-            Enter size
+    <header>
+        <div id="top-panel">
+            <h1>Etch-A-Sketch</h1>
+            <p>Size: <span id="output"></span></p>
+            <div class="range-slider">
+                <input id="user-input" type="range" min="1" max="64" value="10" required class="my-slider">
+            </div>
         </div>
-
-        <p>Value: <span id="demo"></span></p>
-        <div class="range-slider">
-            <input id="user-input" type="range" min="1" max="64" value="10" required class="my-slider">
-        </div>
-
-
     </header>
 
     <div id="container"></div>
@@ -34,7 +31,7 @@ TODO
 - Validate user input
 @ Button to erase everything
 @ Add eraser
-@ Add styles
+- Add styles
 @ choose colors
 
  -->

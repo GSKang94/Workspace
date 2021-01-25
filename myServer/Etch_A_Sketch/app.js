@@ -1,6 +1,6 @@
 let userInput = document.getElementById('user-input');
 
-var output = document.getElementById("demo");
+var output = document.getElementById("output");
 output.innerHTML = userInput.value;
 
 userInput.oninput = function () {
@@ -10,10 +10,6 @@ userInput.oninput = function () {
 }
 
 let container = document.getElementById('container');
-
-let style = getComputedStyle(document.body);
-let gridColor = style.getPropertyValue('--grid-color');
-
 
 
 function makeGrid(rows, columns) {
@@ -33,12 +29,23 @@ function makeGrid(rows, columns) {
     }
 }
 
+makeGrid(10, 10);
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+// let style = getComputedStyle(document.body);
+// let gridColor = style.getPropertyValue('--grid-color');
 
 
 
