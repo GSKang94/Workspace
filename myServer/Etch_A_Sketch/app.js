@@ -14,6 +14,8 @@ let container = document.getElementById('container');
 let style = getComputedStyle(document.body);
 let gridColor = style.getPropertyValue('--grid-color');
 
+
+
 function makeGrid(rows, columns) {
     container.style.setProperty("--grid-row-column", rows);
     container.style.setProperty("--grid-row-column", columns);
@@ -22,9 +24,11 @@ function makeGrid(rows, columns) {
 
     for (i = 0; i < result; i++) {
         let e = document.createElement("div")
+        e.classList.add("square")
         container.appendChild(e)
         e.addEventListener('mouseenter', function () {
-            this.style.backgroundColor = gridColor;
+            let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+            this.style.backgroundColor = '#' + randomColor;
         })
     }
 }
@@ -41,7 +45,7 @@ function makeGrid(rows, columns) {
 // let submitBtn = document.getElementById('submit-btn');
 
 
-        // e.classList.add("square")
+        // 
 
 // submitBtn.addEventListener('click', function () {
 //     (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;

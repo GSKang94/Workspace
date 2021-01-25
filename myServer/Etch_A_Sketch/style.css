@@ -15,7 +15,7 @@ body{
 
 :root{
     --grid-row-column: 7;
-    --grid-color:rgb(31, 46, 40);
+    /* --grid-color:rgb(31, 46, 40); */
 }
 
 #container{
@@ -59,14 +59,10 @@ body{
 
 
 
-
-
-
-
-
-/* .square{
-    border:0.5px dotted rgb(134, 73, 24);
-} */
+.square{
+    border:0.5px solid rgb(211, 202, 193);
+    /* border-radius: 10%; */
+}
 
 
 
