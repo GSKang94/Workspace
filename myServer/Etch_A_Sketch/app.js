@@ -14,7 +14,7 @@ function makeGrid(rows, columns) {
 
     for (i = 0; i < result; i++) {
         let e = document.createElement("div")
-        e.classList.add("square")
+        // e.classList.add("square")
         container.appendChild(e)
         e.addEventListener('mouseenter', function () {
             this.style.backgroundColor = gridColor;
