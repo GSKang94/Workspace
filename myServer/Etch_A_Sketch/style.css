@@ -79,9 +79,13 @@ h1{
     margin: 1.5rem auto;
     border-radius: 5px;
     outline: none;
+    border: none;
+    background-color: thistle;
 }
 
-
+#clear:hover{
+    background-color: wheat;
+}
 
 
 
