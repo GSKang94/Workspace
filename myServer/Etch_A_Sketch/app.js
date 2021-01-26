@@ -11,6 +11,7 @@ userInput.oninput = function () {
     container.innerHTML = '';
     sliderValue = this.value;
     output.innerHTML = sliderValue;
+    makeGrid(sliderValue, sliderValue);
 }
 
 function makeGrid(rows, columns) {
@@ -47,7 +48,6 @@ clearGrid.addEventListener('click', function () {
 
 
 
-    // (userInput.value <= 64) ? makeGrid(userInput.value, userInput.value) : null;
 
 
 // let style = getComputedStyle(document.body);
