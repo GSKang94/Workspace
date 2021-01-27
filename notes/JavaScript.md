@@ -1281,16 +1281,10 @@ Our function `paintIt()` permanently changed the color of our `spaceship` object
 
 
 ## For….in Loop 
-    var obj = {a: 1, b: 2, c: 3};    
-    for (const prop in obj) {
-      console.log(`obj.${prop} = ${obj[prop]}`);
-    }
-    // Output:
-    // "obj.a = 1"
-    // "obj.b = 2"
-    // "obj.c = 3"
-
-
+  ```js 
+   for  (key in object)  {  // executes the body for each key among object properties  }
+   
+```
 ## “This” Keyword
 - ‘this’ keyword always points to the global object except when we use ‘new’ keyword.
 - This keyword only assigns a value when a method calls an object.
@@ -1765,10 +1759,10 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg2NDkxMzIsMTU0NzAxNDA1NCw5Nj
-Y5OTc4MTcsMTkwODM3MjA2MSw2NTcwMTc3NTIsLTY4MzI3NDk0
-NywtOTM2NTQxNTc0LC05MDM2NjY2NDgsOTI4NjUzNzU3LDc4Nz
-I3NjMyMywtNzc4MjA1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4
-LC00MTI3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwOD
-QwNDczOV19
+eyJoaXN0b3J5IjpbLTE0MzAyOTY3MDEsLTE3Mjg2NDkxMzIsMT
+U0NzAxNDA1NCw5NjY5OTc4MTcsMTkwODM3MjA2MSw2NTcwMTc3
+NTIsLTY4MzI3NDk0NywtOTM2NTQxNTc0LC05MDM2NjY2NDgsOT
+I4NjUzNzU3LDc4NzI3NjMyMywtNzc4MjA1MDE5LDUxNDU1MjA3
+NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMsMTkwODkyODU0MSwtNj
+U4ODc2NTQ4LDkwODQwNDczOV19
 -->
