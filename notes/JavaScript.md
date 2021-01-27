@@ -1284,12 +1284,17 @@ Our function `paintIt()` permanently changed the color of our `spaceship` object
   ```js 
    for  (key in object)  {  // executes the body for each key among object properties  }
    
-let user =  { name:  "John", age:  30, isAdmin:  true  };  
+let user =  {
+ name:  "John",
+ age:  30,
+  isAdmin:  true  
+  };  
+  
 for  (let key in user)  {  
 // keys 
  alert( key );  // name, age, isAdmin  
  // values for the keys 
-  alert( user[key]);  // John, 30, true  }
+  alert( user[key] );  // John, 30, true  }
 ```
 ## “This” Keyword
 - ‘this’ keyword always points to the global object except when we use ‘new’ keyword.
@@ -1765,10 +1770,10 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MzY4OTg0LC0xNzI4NjQ5MTMyLDE1ND
-cwMTQwNTQsOTY2OTk3ODE3LDE5MDgzNzIwNjEsNjU3MDE3NzUy
-LC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOTAzNjY2NjQ4LDkyOD
-Y1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAxOSw1MTQ1NTIwNzQs
-LTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MDg5Mjg1NDEsLTY1OD
-g3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNT
+Q3MDE0MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1
+MiwtNjgzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mj
+g2NTM3NTcsNzg3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0
+LC03NDA5NTA5ODgsLTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NT
+g4NzY1NDgsOTA4NDA0NzM5XX0=
 -->
