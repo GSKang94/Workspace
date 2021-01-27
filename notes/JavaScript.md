@@ -1211,7 +1211,11 @@ alienShip.takeOff()
 ```
 ## Testing Objects for keys
 ```js
+let user =  { name:  "John", age:  30  }; 
+ alert(  "age"  in user );  // true, user.age exists 
+ alert(  "blabla"  in user );  // false, user.blabla doesn't exist
 
+alert( user.noSuchProperty === undefined ); // true means "no such property"
 ```
 
 ## Testing Objects for Properties
@@ -1761,10 +1765,10 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjkzNTE4NiwxNTQ3MDE0MDU0LDk2Nj
-k5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3
-LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mj
-c2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0LC03NDA5NTA5ODgs
-LTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NTg4NzY1NDgsOTA4ND
-A0NzM5XX0=
+eyJoaXN0b3J5IjpbLTE3Mjg2NDkxMzIsMTU0NzAxNDA1NCw5Nj
+Y5OTc4MTcsMTkwODM3MjA2MSw2NTcwMTc3NTIsLTY4MzI3NDk0
+NywtOTM2NTQxNTc0LC05MDM2NjY2NDgsOTI4NjUzNzU3LDc4Nz
+I3NjMyMywtNzc4MjA1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4
+LC00MTI3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwOD
+QwNDczOV19
 -->
