@@ -1209,11 +1209,15 @@ let alienShip = {
 alienShip.retreat()
 alienShip.takeOff()
 ```
+## Testing Objects for keys
+```js
 
+```
 
 ## Testing Objects for Properties
     objName.hasOwnProperty(propname)
     //true  or false
+    
 ## Nested Objects
 - An object might have another object as a property which in turn could have a property that's an array of even more objects.
 - We can chain operators to access nested properties. 
@@ -1757,9 +1761,10 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzAxNDA1NCw5NjY5OTc4MTcsMTkwOD
-M3MjA2MSw2NTcwMTc3NTIsLTY4MzI3NDk0NywtOTM2NTQxNTc0
-LC05MDM2NjY2NDgsOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4Mj
-A1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMs
-MTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
+eyJoaXN0b3J5IjpbMjA5MjkzNTE4NiwxNTQ3MDE0MDU0LDk2Nj
+k5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3
+LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mj
+c2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0LC03NDA5NTA5ODgs
+LTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NTg4NzY1NDgsOTA4ND
+A0NzM5XX0=
 -->
