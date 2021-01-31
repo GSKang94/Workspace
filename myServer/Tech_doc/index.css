@@ -24,7 +24,12 @@
     background: #000;
 }
 
-#map{
+li a{
+    display: block;
+    padding:1.1em 1em;
+}
+
+#roadmap{
     width: 80%;
     margin-left: 8rem;
     margin-top: 1rem;
@@ -46,16 +51,18 @@
 
 #navbar header{
     font-size: 1.5em;
-    padding: 1em 0em 0.9em 2.8em;
-    background-color: #7d0633;
+    background-color: #74163a;
 }
+
 #navbar header a{
     font-weight: bolder;
     color:#fbf6f0;
+    display: block;
+    padding: 1em 0em 0.9em 2.8em;
 }
 
 #navbar .nav-link{
-    padding:1.1em 1em;
+    
     font-weight: bold;
     font-size: 1.4em;
     letter-spacing: 0.1em;
@@ -68,13 +75,16 @@
     color: #fbf6f0;
 }
 
+.selected{
+    background-color: #1a1a2e;
+}
+
 .nav-link:hover{
-    background-color: #ff5722;
+    background-color: #c26245;
     -webkit-transform: scale(1.04);
     border-top-right-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
 }
-
 
 #main-doc #main-content{
     margin-left: 14em;
@@ -84,7 +94,6 @@
     overflow-x: hidden;
     min-height: 100vh;
 }
-
 
 #home{
     display: flex;
@@ -102,7 +111,7 @@
     color: #f6eec9;
 }
 #home button{
-    padding: 0.9em;
+    
     font-size: 1em;
     font-weight: bold;
     border: none;
@@ -110,7 +119,9 @@
     border-radius: 7px;
 }
 #home button a{
+    display: block;
     color: #000000;
+    padding: 0.9em;
 }
 
 #home button:hover{
