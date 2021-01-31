@@ -1209,11 +1209,19 @@ let alienShip = {
 alienShip.retreat()
 alienShip.takeOff()
 ```
+## Testing Objects for keys
+```js
+let user =  { name:  "John", age:  30  }; 
+ alert(  "age"  in user );  // true, user.age exists 
+ alert(  "blabla"  in user );  // false, user.blabla doesn't exist
 
+alert( user.noSuchProperty === undefined ); // true means "no such property"
+```
 
 ## Testing Objects for Properties
     objName.hasOwnProperty(propname)
     //true  or false
+    
 ## Nested Objects
 - An object might have another object as a property which in turn could have a property that's an array of even more objects.
 - We can chain operators to access nested properties. 
@@ -1273,16 +1281,21 @@ Our function `paintIt()` permanently changed the color of our `spaceship` object
 
 
 ## For….in Loop 
-    var obj = {a: 1, b: 2, c: 3};    
-    for (const prop in obj) {
-      console.log(`obj.${prop} = ${obj[prop]}`);
-    }
-    // Output:
-    // "obj.a = 1"
-    // "obj.b = 2"
-    // "obj.c = 3"
-
-
+  ```js 
+   for  (key in object)  {  // executes the body for each key among object properties  }
+   
+let user =  {
+ name:  "John",
+ age:  30,
+  isAdmin:  true  
+  };  
+  
+for  (let key in user)  {  
+// keys 
+ alert( key );  // name, age, isAdmin  
+ // values for the keys 
+  alert( user[key] );  // John, 30, true  }
+```
 ## “This” Keyword
 - ‘this’ keyword always points to the global object except when we use ‘new’ keyword.
 - This keyword only assigns a value when a method calls an object.
@@ -1757,9 +1770,10 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzAxNDA1NCw5NjY5OTc4MTcsMTkwOD
-M3MjA2MSw2NTcwMTc3NTIsLTY4MzI3NDk0NywtOTM2NTQxNTc0
-LC05MDM2NjY2NDgsOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4Mj
-A1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMs
-MTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDczOV19
+eyJoaXN0b3J5IjpbLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNT
+Q3MDE0MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1
+MiwtNjgzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mj
+g2NTM3NTcsNzg3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0
+LC03NDA5NTA5ODgsLTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NT
+g4NzY1NDgsOTA4NDA0NzM5XX0=
 -->
