@@ -61,8 +61,11 @@ li a{
     padding: 1em 0em 0.9em 2.8em;
 }
 
+#navbar header:hover{
+    background-color: #6e042d;
+}
+
 #navbar .nav-link{
-    
     font-weight: bold;
     font-size: 1.4em;
     letter-spacing: 0.1em;
@@ -81,7 +84,7 @@ li a{
 
 .nav-link:hover{
     background-color: #c26245;
-    -webkit-transform: scale(1.04);
+    -webkit-transform: scale(1.08);
     border-top-right-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
 }
@@ -99,7 +102,6 @@ li a{
     display: flex;
     justify-content: space-between;
     padding: 2em;
-    /* background-color: #321f28; */
     border-radius: 10px;
 }
 
@@ -107,7 +109,7 @@ li a{
     font-size: 2.7em;
     font-family: 'Balsamiq Sans', cursive;
     letter-spacing: 0.02em;
-    padding-left: 5em;
+    padding-left: 9em;
     color: #f6eec9;
 }
 #home button{
@@ -128,11 +130,6 @@ li a{
     background-color: #af2d2d;
 }
 
-
-
-/* @media only screen and (min-width: 320px) and (max-width: 479px) {
-    code
-  } */
 
 @media only screen and (min-width: 479px) and (max-width: 979px) {
     #main-doc #navbar{
@@ -157,3 +154,8 @@ li a{
         padding: 1.2em;
     }
 }
+
+
+/* @media only screen and (min-width: 320px) and (max-width: 479px) {
+    code
+  } */
