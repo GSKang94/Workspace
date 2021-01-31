@@ -15,7 +15,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #393812;
+    background: #74163a;
     -webkit-border-radius: 1ex;
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
@@ -99,35 +99,22 @@ li a{
 }
 
 #home{
-    display: flex;
-    justify-content: space-between;
     padding: 2em;
     border-radius: 10px;
+    text-align: center;
+    color: #f6eec9;
 }
 
 #home span{
     font-size: 2.7em;
     font-family: 'Balsamiq Sans', cursive;
     letter-spacing: 0.02em;
-    padding-left: 9em;
-    color: #f6eec9;
-}
-#home button{
-    
-    font-size: 1em;
-    font-weight: bold;
-    border: none;
-    background-color: #01c5c4;
-    border-radius: 7px;
-}
-#home button a{
-    display: block;
-    color: #000000;
-    padding: 0.9em;
 }
 
-#home button:hover{
-    background-color: #af2d2d;
+#home ion-icon{
+    color: #f6eec9;
+    font-size: 1.4em;
+    padding-left: 3em;
 }
 
 
