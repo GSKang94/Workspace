@@ -127,27 +127,16 @@ let  fib = [];
 const  fibonacci = function (num) {
 
 if (Math.sign(+num) === -1) {
-
-return  "OOPS"
-
+	return  "OOPS"
 } else {
+	fib[0] = 1;
+	fib[1] = 1;
 
-fib[0] = 1;
-
-fib[1] = 1;
-
-for (i = 2; i < +num; i++) {
-
-fib[i] = fib[i - 2] + fib[i - 1]
-
+	for (i = 2; i < +num; i++) {
+		fib[i] = fib[i - 2] + fib[i - 1]
+		}
+	return  fib[+num - 1]
 }
-
-return  fib[+num - 1]
-
-}
-
-  
-
 }
 ```
 
@@ -1799,7 +1788,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODMwNzcwMiwtMzY4OTQ0NzU0LC0xNz
+eyJoaXN0b3J5IjpbLTYzMjEyNDc1MiwtMzY4OTQ0NzU0LC0xNz
 I4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgzNzIw
 NjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOT
 AzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAx
