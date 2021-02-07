@@ -120,8 +120,25 @@ var age = parseInt(prompt('Enter your age'))
 var a = 88;
 var b = a.toString();
 ```
+## fibonacci array
+```js
+let  fib = [];
 
+const  fibonacci = function (num) {
 
+if (Math.sign(+num) === -1) {
+	return  "OOPS"
+} else {
+	fib[0] = 1;
+	fib[1] = 1;
+
+	for (i = 2; i < +num; i++) {
+		fib[i] = fib[i - 2] + fib[i - 1]
+		}
+	return  fib[+num - 1]
+	}
+}
+```
 
 ## string of random numbers.
 
@@ -1770,10 +1787,10 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNT
-Q3MDE0MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1
-MiwtNjgzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mj
-g2NTM3NTcsNzg3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0
-LC03NDA5NTA5ODgsLTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NT
-g4NzY1NDgsOTA4NDA0NzM5XX0=
+eyJoaXN0b3J5IjpbMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC0xNz
+I4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgzNzIw
+NjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOT
+AzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAx
+OSw1MTQ1NTIwNzQsLTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MD
+g5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
 -->
