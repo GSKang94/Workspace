@@ -13,12 +13,16 @@
 
 #container{
     display: grid;
-    width: 20rem;
+    width: 15rem;
     margin-top: 3rem;
-    border: 2px solid salmon;
     grid-template-columns: repeat(5,1fr);
+    grid-gap: 0.5rem;
 }
-.display{
-    grid-column-start: 1;
-    grid-column-end:6;
+#display{
+    grid-column:1/6;
+}
+
+.equal-btn{
+    grid-row:4/6;
+    grid-column:5;
 }
