@@ -25,48 +25,79 @@ numbers[8] = document.getElementById("eight");
 numbers[9] = document.getElementById("nine");
 
 
-numbers.forEach(function (num) {
-    num.onclick = function () {
-        display.innerText = display.innerText + num.value;
+
+let displayText = "";
+
+let showDisplay = function () {
+    return display.innerText = displayText;
+}
+
+
+let main = function () {
+
+    // let lastDigit = "";
+    // displayText[displayText.length - 1] = lastDigit;
+
+    numbers.forEach(function (num) {
+        num.onclick = function () {
+            displayText = displayText + num.value;
+            showDisplay()
+        }
+    })
+
+
+    plusBtn.onclick = function () {
+        displayText = displayText + "+";
+        showDisplay()
     }
-})
+    minusBtn.onclick = function () {
+        displayText = displayText + "-";
+        showDisplay()
+    }
+    divideBtn.onclick = function () {
+        displayText = displayText + "/";
+        showDisplay()
+    }
+    decimal.onclick = function () {
+        displayText = displayText + ".";
+        showDisplay()
+    }
+    multiBtn.onclick = function () {
+        displayText = displayText + "x";
+        showDisplay()
+    }
 
-clearAll.onclick = function () {
-    display.innerText = "";
+    equalBtn.onclick = function () {
+        displayText = eval(displayText);
+        showDisplay()
+    }
+
+    edit.onclick = function () {
+        display.innerText = display.innerText.substring(0, display.innerText.length - 1);
+    }
+
+    clearAll.onclick = function () {
+        displayText = ""
+        showDisplay()
+    }
 }
 
-plusBtn.onclick = function () {
-    display.innerText = display.innerText + "+";
-}
-minusBtn.onclick = function () {
-    display.innerText = display.innerText + "-";
-}
-divideBtn.onclick = function () {
-    display.innerText = display.innerText + "/";
-}
-decimal.onclick = function () {
-    display.innerText = display.innerText + ".";
-}
-multiBtn.onclick = function () {
-    display.innerText = display.innerText + "*";
-}
-
-equalBtn.onclick = function () {
-    display.innerText = eval(display.innerText);
-}
-
-edit.onclick = function () {
-    display.innerText = display.innerText.substring(0, display.innerText.length - 1);
-}
-
-
-let add = (a, b) => a + b;
-let subtract = (a, b) => a - b;
-let multiply = (a, b) => a * b;
-let divide = (a, b) => a / b;
+main();
 
 
 
+
+
+
+// let add = (a, b) => a + b;
+// let subtract = (a, b) => a - b;
+// let multiply = (a, b) => a * b;
+// let divide = (a, b) => a / b;
+
+
+// function(){
+//     display.innerText 
+// }
 
 
 
