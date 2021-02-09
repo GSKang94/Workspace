@@ -20,9 +20,11 @@
 }
 #display{
     grid-column:1/6;
+    background-color: burlywood;
+    height: 1.5rem;
 }
 
-.equal-btn{
+#equal-btn{
     grid-row:4/6;
     grid-column:5;
 }
