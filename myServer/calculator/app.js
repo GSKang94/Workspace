@@ -1,31 +1,4 @@
-
 let display = document.getElementById("display");
-
-let clearAll = document.getElementById("clear-all");
-let edit = document.getElementById("edit");
-let sign = document.getElementById("sign");
-let multiBtn = document.getElementById("multi-btn");
-let divideBtn = document.getElementById("divide-btn");
-let minusBtn = document.getElementById("minus-btn");
-let plusBtn = document.getElementById("plus-btn");
-let decimal = document.getElementById("decimal");
-let equalBtn = document.getElementById("equal-btn");
-
-
-let numbers = []
-numbers[0] = document.getElementById("zero");
-numbers[1] = document.getElementById("one");
-numbers[2] = document.getElementById("two");
-numbers[3] = document.getElementById("three");
-numbers[4] = document.getElementById("four");
-numbers[5] = document.getElementById("five");
-numbers[6] = document.getElementById("six");
-numbers[7] = document.getElementById("seven");
-numbers[8] = document.getElementById("eight");
-numbers[9] = document.getElementById("nine");
-
-
-
 let displayText = "";
 
 let showDisplay = function () {
@@ -33,56 +6,165 @@ let showDisplay = function () {
 }
 
 
-let main = function () {
+let numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 
-    // let lastDigit = "";
-    // displayText[displayText.length - 1] = lastDigit;
+numbers.forEach(function (num, index) {
+    numbers[index] = document.getElementById(num)
+    num = numbers[index]
+    num.onclick = function () {
+        displayText += num.value;
+        showDisplay()
+    }
+})
 
-    numbers.forEach(function (num) {
-        num.onclick = function () {
-            displayText = displayText + num.value;
+
+let main = {
+    plusBtn() {
+        document.getElementById("plus-btn").onclick = function () {
+            displayText += "+";
             showDisplay()
         }
-    })
+    },
+    minusBtn() {
+        document.getElementById("minus-btn").onclick = function () {
+            displayText += "-";
+            showDisplay()
+        }
+    },
+    divideBtn() {
+        document.getElementById("divide-btn").onclick = function () {
+            displayText += "/";
+            showDisplay()
+        }
+    },
+    multiBtn() {
+        document.getElementById("multi-btn").onclick = function () {
+            displayText += "*";
+            showDisplay()
+        }
+    },
+    decimal() {
+        document.getElementById("decimal").onclick = function () {
+            displayText = displayText + ".";
+            showDisplay()
+        }
+    },
+    equalBtn() {
+        document.getElementById("equal-btn").onclick = function () {
+            displayText = eval(displayText);
+            // console.log(displayText)
+            showDisplay()
+        }
+    },
+    sign() {
+        document.getElementById("sign").onclick = function () {
+            console.log("sign-btn")
+        }
+    },
+    edit() {
+        document.getElementById("edit").onclick = function () {
+            display.innerText = display.innerText.substring(0, display.innerText.length - 1);
+        }
+    },
+    clearAll() {
+        document.getElementById("clear-all").onclick = function () {
+            displayText = ""
+            showDisplay()
+        }
+    },
 
 
-    plusBtn.onclick = function () {
-        displayText = displayText + "+";
-        showDisplay()
-    }
-    minusBtn.onclick = function () {
-        displayText = displayText + "-";
-        showDisplay()
-    }
-    divideBtn.onclick = function () {
-        displayText = displayText + "/";
-        showDisplay()
-    }
-    decimal.onclick = function () {
-        displayText = displayText + ".";
-        showDisplay()
-    }
-    multiBtn.onclick = function () {
-        displayText = displayText + "x";
-        showDisplay()
-    }
-
-    equalBtn.onclick = function () {
-        displayText = eval(displayText);
-        showDisplay()
-    }
-
-    edit.onclick = function () {
-        display.innerText = display.innerText.substring(0, display.innerText.length - 1);
-    }
-
-    clearAll.onclick = function () {
-        displayText = ""
-        showDisplay()
-    }
 }
 
-main();
+let callMainFn = function () {
+    Object.values(main).forEach(s => s())
+}
+
+callMainFn()
+
+
+
+
+// numbers[0] = document.getElementById("zero");
+// numbers[1] = document.getElementById("one");
+// numbers[2] = document.getElementById("two");
+// numbers[3] = document.getElementById("three");
+// numbers[4] = document.getElementById("four");
+// numbers[5] = document.getElementById("five");
+// numbers[6] = document.getElementById("six");
+// numbers[7] = document.getElementById("seven");
+// numbers[8] = document.getElementById("eight");
+// numbers[9] = document.getElementById("nine");
+
+
+
+// let clearAll = document.getElementById("clear-all");
+// let edit = document.getElementById("edit");
+// let sign = document.getElementById("sign");
+// let multiBtn = document.getElementById("multi-btn");
+// let divideBtn = document.getElementById("divide-btn");
+// let minusBtn = document.getElementById("minus-btn");
+// let plusBtn = document.getElementById("plus-btn");
+// let decimal = document.getElementById("decimal");
+// let equalBtn = document.getElementById("equal-btn");
+
+
+// test.plusBtn()
+
+
+
+
+
+// let main = function () {
+
+// let lastDigit = "";
+// displayText[displayText.length - 1] = lastDigit;
+
+
+
+
+
+
+
+// showDisplay()
+// plusBtn.onclick = function () {
+//     displayText = displayText + "+";
+//     console.log(this)
+//     showDisplay()
+// }
+// minusBtn.onclick = function () {
+//     displayText = displayText + "-";
+//     showDisplay()
+// }
+// divideBtn.onclick = function () {
+//     displayText = displayText + "/";
+//     showDisplay()
+// }
+// decimal.onclick = function () {
+//     displayText = displayText + ".";
+//     showDisplay()
+// }
+// multiBtn.onclick = function () {
+//     displayText = displayText + "x";
+//     showDisplay()
+// }
+
+// equalBtn.onclick = function () {
+//     displayText = eval(displayText);
+//     showDisplay()
+// }
+
+// edit.onclick = function () {
+//     display.innerText = display.innerText.substring(0, display.innerText.length - 1);
+// }
+
+// clearAll.onclick = function () {
+//     displayText = ""
+//     showDisplay()
+// }
+// }
+
+// main();
 
 
 
