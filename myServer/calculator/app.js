@@ -17,20 +17,20 @@ let operator = ["+", "-", "*", "/", "."];
 let main = {
     plusBtn() {
         document.getElementById("plus-btn").onclick = function () {
-            // check if lastNum is one of the operator to avoid subsequent operator entry.
-            !(operator.indexOf(lastNum) > -1) ? displayText += "+" : null;
+            if (displayText) {
+                // check if lastNum is one of the operator to avoid subsequent operator entry.
+                !(operator.indexOf(lastNum) > -1) ? displayText += "+" : null;
+            }
         }
     },
     minusBtn() {
         document.getElementById("minus-btn").onclick = function () {
             !(operator.indexOf(lastNum) > -1) ? displayText += "-" : null;
-
         }
     },
     divideBtn() {
         document.getElementById("divide-btn").onclick = function () {
             !(operator.indexOf(lastNum) > -1) ? displayText += "/" : null;
-
         }
     },
     multiBtn() {
@@ -42,18 +42,18 @@ let main = {
     decimal() {
         document.getElementById("decimal").onclick = function () {
             !(operator.indexOf(lastNum) > -1) ? displayText += "." : null;
-
         }
     },
     equalBtn() {
         document.getElementById("equal-btn").onclick = function () {
             displayText = eval(displayText);
-
         }
     },
     sign() {
         document.getElementById("sign").onclick = function () {
-            console.log("sign-btn")
+            displayText[0] !== "-" ?
+                displayText = "-" + displayText
+                : displayText = displayText.replace("-", "");
         }
     },
     edit() {
@@ -64,10 +64,8 @@ let main = {
     clearAll() {
         document.getElementById("clear-all").onclick = function () {
             displayText = ""
-
         }
     },
-
 }
 
 let callMainFn = function () {
@@ -100,6 +98,9 @@ let showDisplay = function () {
 
 
 
+            // console.log(displayText[0])
+            // displayText[0] !== "-" ? displayText[0] = "-" : displayText[0] = "";
+            // console.log(displayText[0])
 
 // numbers[0] = document.getElementById("zero");
 // numbers[1] = document.getElementById("one");
