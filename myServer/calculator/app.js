@@ -1,17 +1,14 @@
-let selectAll = document.querySelectorAll(".btn")
-
 let display = document.getElementById("display");
 let displayText = "";
-// let lastNum;
+let lastNum;
 
 let numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-
 numbers.forEach(function (num, index) {
     numbers[index] = document.getElementById(num)
     num = numbers[index]
     num.onclick = function () {
         displayText += num.value;
-        // showDisplay()
+
     }
 })
 
@@ -19,39 +16,39 @@ numbers.forEach(function (num, index) {
 let main = {
     plusBtn() {
         document.getElementById("plus-btn").onclick = function () {
-            displayText += "+";
-            // console.log(displayText.length)
-            // showDisplay()
+            // To avoid entering same operator again subsequently
+            lastNum !== "+" ? displayText += "+" : null;
+
         }
     },
     minusBtn() {
         document.getElementById("minus-btn").onclick = function () {
-            displayText += "-";
-            // showDisplay()
+            lastNum !== "-" ? displayText += "-" : null;
+
         }
     },
     divideBtn() {
         document.getElementById("divide-btn").onclick = function () {
-            displayText += "/";
-            // showDisplay()
+            lastNum !== "/" ? displayText += "/" : null;
+
         }
     },
     multiBtn() {
         document.getElementById("multi-btn").onclick = function () {
-            displayText += "*";
-            // showDisplay()
+            lastNum !== "*" ? displayText += "*" : null;
+
         }
     },
     decimal() {
         document.getElementById("decimal").onclick = function () {
-            displayText = displayText + ".";
-            // showDisplay()
+            lastNum !== "." ? displayText += "." : null;
+
         }
     },
     equalBtn() {
         document.getElementById("equal-btn").onclick = function () {
             displayText = eval(displayText);
-            // showDisplay()
+
         }
     },
     sign() {
@@ -67,7 +64,7 @@ let main = {
     clearAll() {
         document.getElementById("clear-all").onclick = function () {
             displayText = ""
-            // showDisplay()
+
         }
     },
 
@@ -76,9 +73,10 @@ let main = {
 let callMainFn = function () {
     Object.values(main).forEach(s => s())
 }
-
 callMainFn()
 
+
+let selectAll = document.querySelectorAll(".btn");
 for (i = 0; i < selectAll.length; i++) {
     selectAll[i].addEventListener('click', function () {
         showDisplay()
@@ -86,9 +84,17 @@ for (i = 0; i < selectAll.length; i++) {
 }
 
 let showDisplay = function () {
-    // lastNum = displayText[displayText.length - 1]
+    lastNum = displayText[displayText.length - 1]
     display.innerText = displayText;
 }
+
+
+
+
+
+
+
+
 
 
 
