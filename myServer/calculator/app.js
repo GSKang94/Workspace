@@ -12,36 +12,36 @@ numbers.forEach(function (num, index) {
     }
 })
 
+let operator = ["+", "-", "*", "/", "."];
 
 let main = {
     plusBtn() {
         document.getElementById("plus-btn").onclick = function () {
-            // To avoid entering same operator again subsequently
-            lastNum !== "+" ? displayText += "+" : null;
-
+            // check if lastNum is one of the operator to avoid subsequent operator entry.
+            !(operator.indexOf(lastNum) > -1) ? displayText += "+" : null;
         }
     },
     minusBtn() {
         document.getElementById("minus-btn").onclick = function () {
-            lastNum !== "-" ? displayText += "-" : null;
+            !(operator.indexOf(lastNum) > -1) ? displayText += "-" : null;
 
         }
     },
     divideBtn() {
         document.getElementById("divide-btn").onclick = function () {
-            lastNum !== "/" ? displayText += "/" : null;
+            !(operator.indexOf(lastNum) > -1) ? displayText += "/" : null;
 
         }
     },
     multiBtn() {
         document.getElementById("multi-btn").onclick = function () {
-            lastNum !== "*" ? displayText += "*" : null;
+            !(operator.indexOf(lastNum) > -1) ? displayText += "*" : null;
 
         }
     },
     decimal() {
         document.getElementById("decimal").onclick = function () {
-            lastNum !== "." ? displayText += "." : null;
+            !(operator.indexOf(lastNum) > -1) ? displayText += "." : null;
 
         }
     },
@@ -86,6 +86,7 @@ for (i = 0; i < selectAll.length; i++) {
 let showDisplay = function () {
     lastNum = displayText[displayText.length - 1]
     display.innerText = displayText;
+    // console.log(lastNum)
 }
 
 
