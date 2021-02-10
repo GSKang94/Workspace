@@ -8,7 +8,6 @@ numbers.forEach(function (num, index) {
     num = numbers[index]
     num.onclick = function () {
         displayText += num.value;
-
     }
 })
 
@@ -17,6 +16,7 @@ let operator = ["+", "-", "*", "/", "."];
 let main = {
     plusBtn() {
         document.getElementById("plus-btn").onclick = function () {
+            // check if displayText is not empty
             if (displayText) {
                 // check if lastNum is one of the operator to avoid subsequent operator entry.
                 !(operator.indexOf(lastNum) > -1) ? displayText += "+" : null;
@@ -25,23 +25,30 @@ let main = {
     },
     minusBtn() {
         document.getElementById("minus-btn").onclick = function () {
-            !(operator.indexOf(lastNum) > -1) ? displayText += "-" : null;
+            if (displayText) {
+                !(operator.indexOf(lastNum) > -1) ? displayText += "-" : null;
+            }
         }
     },
     divideBtn() {
         document.getElementById("divide-btn").onclick = function () {
-            !(operator.indexOf(lastNum) > -1) ? displayText += "/" : null;
+            if (displayText) {
+                !(operator.indexOf(lastNum) > -1) ? displayText += "/" : null;
+            }
         }
     },
     multiBtn() {
         document.getElementById("multi-btn").onclick = function () {
-            !(operator.indexOf(lastNum) > -1) ? displayText += "*" : null;
-
+            if (displayText) {
+                !(operator.indexOf(lastNum) > -1) ? displayText += "*" : null;
+            }
         }
     },
     decimal() {
         document.getElementById("decimal").onclick = function () {
-            !(operator.indexOf(lastNum) > -1) ? displayText += "." : null;
+            if (displayText) {
+                !(operator.indexOf(lastNum) > -1) ? displayText += "." : null;
+            }
         }
     },
     equalBtn() {
@@ -84,7 +91,6 @@ for (i = 0; i < selectAll.length; i++) {
 let showDisplay = function () {
     lastNum = displayText[displayText.length - 1]
     display.innerText = displayText;
-    // console.log(lastNum)
 }
 
 
