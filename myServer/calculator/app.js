@@ -53,7 +53,7 @@ let main = {
     },
     equalBtn() {
         document.getElementById("equal-btn").onclick = function () {
-            displayText = eval(displayText);
+            displayText = eval(displayText).toString();
         }
     },
     sign() {
