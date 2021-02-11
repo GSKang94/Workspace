@@ -111,7 +111,7 @@ btn.addEventListener('click', function () {
 }
 ```
 ## Disable text selection
-`user-select:none;
+`user-select:none;`
 
 ## inline style in  HTML
 
@@ -962,7 +962,7 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDA3MjQ3MSwxMDUxMTgwOTI5LC03OD
+eyJoaXN0b3J5IjpbLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03OD
 A4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0
 MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQyODczMj
 QsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
