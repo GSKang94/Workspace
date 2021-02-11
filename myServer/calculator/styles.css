@@ -1,13 +1,12 @@
 *{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        text-decoration: none;
-        -webkit-box-sizing: border-box;
-           -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         scroll-behavior:smooth;
-      
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     scroll-behavior:smooth;
     background-color: blanchedalmond;
 }
 
@@ -28,4 +27,8 @@
 #equal-btn{
     grid-row:4/6;
     grid-column:5;
+}
+
+.btn{
+    user-select: none;
 }

@@ -33,14 +33,14 @@ let main = {
     divideBtn() {
         document.getElementById("divide-btn").onclick = function () {
             if (displayText) {
-                !(operator.indexOf(lastNum) > -1) ? displayText += "/" : null;
+                !(operator.indexOf(lastNum) > -1) ? displayText += "\u00f7" : null;
             }
         }
     },
     multiBtn() {
         document.getElementById("multi-btn").onclick = function () {
             if (displayText) {
-                !(operator.indexOf(lastNum) > -1) ? displayText += "*" : null;
+                !(operator.indexOf(lastNum) > -1) ? displayText += "\u00D7" : null;
             }
         }
     },
@@ -53,6 +53,8 @@ let main = {
     },
     equalBtn() {
         document.getElementById("equal-btn").onclick = function () {
+            displayText = displayText.replace(/\u00f7/g, "/")
+            displayText = displayText.replace(/\u00D7/g, "*")
             displayText = eval(displayText).toString();
         }
     },
@@ -91,6 +93,7 @@ for (i = 0; i < selectAll.length; i++) {
 let showDisplay = function () {
     lastNum = displayText[displayText.length - 1]
     display.innerText = displayText;
+    // displayText = displayText.replace("*", "x")
 }
 
 
