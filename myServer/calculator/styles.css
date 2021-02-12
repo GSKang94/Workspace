@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,28 +8,59 @@
        -moz-box-sizing: border-box;
      box-sizing: border-box;
      scroll-behavior:smooth;
-    background-color: blanchedalmond;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
+body{
+    background:linear-gradient(to right, #d9a7c7, #fffcdc); 
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
 #container{
     display: grid;
-    width: 15rem;
+    width: 20rem;
+    height: 22rem;
     margin-top: 3rem;
     grid-template-columns: repeat(5,1fr);
-    grid-gap: 0.5rem;
+    grid-gap: 0.3rem;
+    padding: 1.2rem;
+    border-radius: 5px;
+    background-color: #0f1123;
+    margin: 0 auto;
+    margin-top: 2rem;
 }
 #display{
     grid-column:1/6;
-    background-color: burlywood;
-    height: 1.5rem;
+    background-color: #f7f6e7;
     overflow: hidden;
+    border-radius: 2px;
+    text-align: right;
+    height: 4rem;
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+    font-size: 2rem;
 }
 
 #equal-btn{
     grid-row:4/6;
     grid-column:5;
+    background-color: #75cfb8
 }
 
 .btn{
     user-select: none;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    background-color: #d3e0dc;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #ffeebb;
+}
+#clear-all{
+    background-color: #e97878;
 }

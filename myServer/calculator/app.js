@@ -11,7 +11,7 @@ numbers.forEach(function (num, index) {
     }
 })
 
-let operator = ["+", "-", "*", "/", "."];
+let operator = ["+", "-", "\u00D7", "\u00f7", "."];
 
 let main = {
     plusBtn() {
@@ -47,15 +47,17 @@ let main = {
     decimal() {
         document.getElementById("decimal").onclick = function () {
             if (displayText) {
-                !(operator.indexOf(lastNum) > -1) ? displayText += "." : null;
+                // To avoid using more than one decimal 
+                !(operator.indexOf(lastNum) > -1) && !displayText.includes(".") ? displayText += "." : null;
             }
         }
     },
     equalBtn() {
         document.getElementById("equal-btn").onclick = function () {
-            displayText = displayText.replace(/\u00f7/g, "/")
-            displayText = displayText.replace(/\u00D7/g, "*")
+            displayText = displayText.replace(/\u00f7/g, "/").replace(/\u00D7/g, "*");
+            // displayText = displayText.replace(/\u00D7/g, "*")
             displayText = eval(displayText).toString();
+            displayText = Math.round(displayText * 1000) / 1000;
         }
     },
     sign() {
@@ -93,10 +95,7 @@ for (i = 0; i < selectAll.length; i++) {
 let showDisplay = function () {
     lastNum = displayText[displayText.length - 1]
     display.innerText = displayText;
-    // displayText = displayText.replace("*", "x")
 }
-
-
 
 
 
