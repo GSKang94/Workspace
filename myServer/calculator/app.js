@@ -56,8 +56,8 @@ let main = {
         document.getElementById("equal-btn").onclick = function () {
             displayText = displayText.replace(/\u00f7/g, "/").replace(/\u00D7/g, "*");
             // displayText = displayText.replace(/\u00D7/g, "*")
-            displayText = eval(displayText).toString();
-            displayText = Math.round(displayText * 1000) / 1000;
+            displayText = eval(displayText)
+            displayText = (Math.round(displayText * 1000) / 1000).toString();
         }
     },
     sign() {
