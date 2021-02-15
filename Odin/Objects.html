@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+
+<body>
+    <script>
+        // Write a constructor for making “Book” objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book’s title, author, the number of pages, and whether or not you have read the book
+        function book(title, author, pages, haveRead) {
+            this.title = title;
+            this.author = author;
+            this.pages = pages;
+            this.haveRead = haveRead;
+            this.info = () => {
+                return `${title} by ${author} contain ${pages} pages`
+            }
+        }
+        const theHobbit = new book("The Hobbit", "J.R.R. Tolkien", 295, "not read yet")
+
+
+        console.log(theHobbit.info())
+
+
+    </script>
+</body>
+
+</html>
