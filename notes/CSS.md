@@ -124,7 +124,8 @@ input::-webkit-inner-spin-button {
 ## Disable autocomplete
 `<form autocomplete="off">`
 
-## prevent su
+## prevent submit button page refreshing
+`<form onsubmit="return  false">`
 
 ## inline style in  HTML
 
@@ -975,9 +976,9 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5ODExMzAyLC0xMzc0Mjc2ODc0LC00Mz
-IxNjg1NjUsMTA1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTEx
-NTksLTIwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC
-0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEw
-MzMxNTY0MywtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbMTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtND
+MyMTY4NTY1LDEwNTExODA5MjksLTc4MDg5MTE1OSwtNzgwODkx
+MTU5LC0yMDMzODQzMTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNC
+wtMTAxNzcxODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwx
+MDMzMTU2NDMsLTEyOTg5MTA2Nl19
 -->
