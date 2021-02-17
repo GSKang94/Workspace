@@ -124,6 +124,8 @@ input::-webkit-inner-spin-button {
 ## Disable autocomplete
 `<form autocomplete="off">`
 
+## prevent su
+
 ## inline style in  HTML
 
     <p style="color:red; font-size:20 px;">
@@ -973,9 +975,9 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQyNzY4NzQsLTQzMjE2ODU2NSwxMD
-UxMTgwOTI5LC03ODA4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0
-MzE3NiwxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMT
-UsLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0x
-Mjk4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbOTM5ODExMzAyLC0xMzc0Mjc2ODc0LC00Mz
+IxNjg1NjUsMTA1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTEx
+NTksLTIwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC
+0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEw
+MzMxNTY0MywtMTI5ODkxMDY2XX0=
 -->
