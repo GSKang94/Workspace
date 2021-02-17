@@ -113,6 +113,16 @@ btn.addEventListener('click', function () {
 ## Disable text selection
 `user-select:none;`
 
+## Disable input spinner
+```css
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	 margin: 0;
+}
+```
+##Disable
+
 ## inline style in  HTML
 
     <p style="color:red; font-size:20 px;">
@@ -962,9 +972,9 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03OD
-A4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0
-MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQyODczMj
-QsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
-
+eyJoaXN0b3J5IjpbMTIyOTgwMDc2MiwtNDMyMTY4NTY1LDEwNT
+ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
+MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
+wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
+OTg5MTA2Nl19
 -->
