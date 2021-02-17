@@ -113,6 +113,17 @@ btn.addEventListener('click', function () {
 ## Disable text selection
 `user-select:none;`
 
+## Disable input spinner
+```css
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	 margin: 0;
+}
+```
+## Disable autocomplete
+`<form autocomplete="off">`
+
 ## inline style in  HTML
 
     <p style="color:red; font-size:20 px;">
@@ -962,9 +973,9 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03OD
-A4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0
-MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQyODczMj
-QsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
-
+eyJoaXN0b3J5IjpbLTEzNzQyNzY4NzQsLTQzMjE2ODU2NSwxMD
+UxMTgwOTI5LC03ODA4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0
+MzE3NiwxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMT
+UsLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0x
+Mjk4OTEwNjZdfQ==
 -->
