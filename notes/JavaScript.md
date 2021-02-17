@@ -1701,6 +1701,14 @@ The place where the computer stores a function's context is the call stack. Ever
 
 It is just like cleaning the house, we carry on cleaning while dishwasher is cleaning dishes and washing machine is cleaning clothes. We don't need to wait for one task to finish to start the another one.
 
+## API call
+```js
+fetch("https://api.hatchways.io/assessment/students")
+    .then(response => response.json())
+    .then(data => appendData(data))
+    .catch(err => console.log(err));
+```
+
 ## Promise
 
 Promises are objects that represent the eventual outcome of an asynchronous operation. A `Promise` object can be in one of three states:
@@ -1787,10 +1795,11 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC0xNz
-I4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgzNzIw
-NjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOT
-AzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAx
-OSw1MTQ1NTIwNzQsLTc0MDk1MDk4OCwtNDEyNzk0NzkzLDE5MD
-g5Mjg1NDEsLTY1ODg3NjU0OCw5MDg0MDQ3MzldfQ==
+eyJoaXN0b3J5IjpbLTU4MjU2MzU4NSwxNTIxNDkxMzU0LC0zNj
+g5NDQ3NTQsLTE3Mjg2NDkxMzIsMTU0NzAxNDA1NCw5NjY5OTc4
+MTcsMTkwODM3MjA2MSw2NTcwMTc3NTIsLTY4MzI3NDk0NywtOT
+M2NTQxNTc0LC05MDM2NjY2NDgsOTI4NjUzNzU3LDc4NzI3NjMy
+MywtNzc4MjA1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MT
+I3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDcz
+OV19
 -->
