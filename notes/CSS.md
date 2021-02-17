@@ -121,7 +121,8 @@ input::-webkit-inner-spin-button {
 	 margin: 0;
 }
 ```
-##Disable
+## Disable autocomplete
+`<form autocomplete="off">`
 
 ## inline style in  HTML
 
@@ -972,9 +973,9 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTgwMDc2MiwtNDMyMTY4NTY1LDEwNT
-ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
-MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
-wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
-OTg5MTA2Nl19
+eyJoaXN0b3J5IjpbLTEzNzQyNzY4NzQsLTQzMjE2ODU2NSwxMD
+UxMTgwOTI5LC03ODA4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0
+MzE3NiwxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMT
+UsLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0x
+Mjk4OTEwNjZdfQ==
 -->
