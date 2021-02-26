@@ -11,12 +11,3 @@ window.onscroll = function () {
     }
     prevScrollpos = currentScrollPos;
 }
-
-// window.onscroll = () => {
-//     if (window.scrollY > 400) {
-//         navbar.classList.add('nav-active');
-//     } else {
-//         navbar.classList.remove('nav-active');
-//     }
-// };
-
