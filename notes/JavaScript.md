@@ -1685,13 +1685,25 @@ Object instanceOf Object
 <-true
 ```
 
-## Object.create
+## Object.create()
+The **Object.create()** method creates a new object, using an existing object as the prototype of the newly created object.
+```js
+const person = {
+  isHuman: false,
+  printIntroduction: function() {
+    console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+  }
+};
 
+const me = Object.create(person);
 
+me.name = 'Matthew'; // "name" is a property set on "me", but not on "person"
+me.isHuman = true; // inherited properties can be overwritten
 
+me.printIntroduction();
+// expected output: "My name is Matthew. Am I human? true"
 
-
-
+```
 
 ## Call Stack
 
@@ -1795,11 +1807,11 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjU2MzU4NSwxNTIxNDkxMzU0LC0zNj
-g5NDQ3NTQsLTE3Mjg2NDkxMzIsMTU0NzAxNDA1NCw5NjY5OTc4
-MTcsMTkwODM3MjA2MSw2NTcwMTc3NTIsLTY4MzI3NDk0NywtOT
-M2NTQxNTc0LC05MDM2NjY2NDgsOTI4NjUzNzU3LDc4NzI3NjMy
-MywtNzc4MjA1MDE5LDUxNDU1MjA3NCwtNzQwOTUwOTg4LC00MT
-I3OTQ3OTMsMTkwODkyODU0MSwtNjU4ODc2NTQ4LDkwODQwNDcz
-OV19
+eyJoaXN0b3J5IjpbLTEyMDIwNjEzOCwtNTgyNTYzNTg1LDE1Mj
+E0OTEzNTQsLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNTQ3MDE0
+MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1MiwtNj
+gzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mjg2NTM3
+NTcsNzg3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0LC03ND
+A5NTA5ODgsLTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NTg4NzY1
+NDhdfQ==
 -->
