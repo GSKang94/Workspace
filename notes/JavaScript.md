@@ -937,6 +937,7 @@ Add the elements of existing array into a new array.
     petNames = [...petNames, ...catNames];
 - We can also copy arrays
     var arr2 = [...arr1];
+    
 ## Rest operator
 
 In array destructuring, if we want to collect the rest of the elements into a seperate array.
@@ -1806,11 +1807,11 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODY4MjEwMCwtNTgyNTYzNTg1LDE1Mj
-E0OTEzNTQsLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNTQ3MDE0
-MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1MiwtNj
-gzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mjg2NTM3
-NTcsNzg3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0LC03ND
-A5NTA5ODgsLTQxMjc5NDc5MywxOTA4OTI4NTQxLC02NTg4NzY1
-NDhdfQ==
+eyJoaXN0b3J5IjpbMzc5MDkyODcwLDExMzg2ODIxMDAsLTU4Mj
+U2MzU4NSwxNTIxNDkxMzU0LC0zNjg5NDQ3NTQsLTE3Mjg2NDkx
+MzIsMTU0NzAxNDA1NCw5NjY5OTc4MTcsMTkwODM3MjA2MSw2NT
+cwMTc3NTIsLTY4MzI3NDk0NywtOTM2NTQxNTc0LC05MDM2NjY2
+NDgsOTI4NjUzNzU3LDc4NzI3NjMyMywtNzc4MjA1MDE5LDUxND
+U1MjA3NCwtNzQwOTUwOTg4LC00MTI3OTQ3OTMsMTkwODkyODU0
+MV19
 -->
