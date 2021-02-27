@@ -1702,7 +1702,6 @@ me.isHuman = true; // inherited properties can be overwritten
 
 me.printIntroduction();
 // expected output: "My name is Matthew. Am I human? true"
-
 ```
 
 ## Call Stack
@@ -1807,7 +1806,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDIwNjEzOCwtNTgyNTYzNTg1LDE1Mj
+eyJoaXN0b3J5IjpbMTEzODY4MjEwMCwtNTgyNTYzNTg1LDE1Mj
 E0OTEzNTQsLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNTQ3MDE0
 MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1MiwtNj
 gzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mjg2NTM3
