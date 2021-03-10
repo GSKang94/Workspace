@@ -168,9 +168,24 @@ module.exports  =  {
 	},
 };
 ```
-## Webpac
+## Webpack
+### Build and watch 
+```js
+"scripts":  {
+	"build":  "webpack",
+	"watch":  "npm-watch"
+},
+"watch":  {
+	"build":  {
+		"patterns":  [
+		"src"
+		],
+		"extensions":  "js,jsx"
+	}
+},
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNDYzNjY2LDEzNTc1MjQwNTQsLTExMD
-U0NDgxNjMsLTY2OTc5Nzc1OSwyMDc0MzIzNzY4LDEwMzAwMzkz
-MTUsMjA3MDY3NzIyNCw0ODk2MDA2MjRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzE1NjczNTYsMTM1NzUyNDA1NCwtMT
+EwNTQ0ODE2MywtNjY5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMDAz
+OTMxNSwyMDcwNjc3MjI0LDQ4OTYwMDYyNF19
 -->
