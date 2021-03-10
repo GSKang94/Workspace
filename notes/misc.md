@@ -169,6 +169,7 @@ module.exports  =  {
 };
 ```
 ## Webpack
+
 ### Build and watch 
 ```js
 "scripts":  {
@@ -185,7 +186,7 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE1NjczNTYsMTM1NzUyNDA1NCwtMT
-EwNTQ0ODE2MywtNjY5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMDAz
-OTMxNSwyMDcwNjc3MjI0LDQ4OTYwMDYyNF19
+eyJoaXN0b3J5IjpbMTYyNzIxNzIzOCwxMzU3NTI0MDU0LC0xMT
+A1NDQ4MTYzLC02Njk3OTc3NTksMjA3NDMyMzc2OCwxMDMwMDM5
+MzE1LDIwNzA2NzcyMjQsNDg5NjAwNjI0XX0=
 -->
