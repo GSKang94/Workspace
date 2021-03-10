@@ -156,8 +156,25 @@ request('http://www.google.com', function (error, response, body) {
 ## Locus
 
 Locus is a debugging module which allows you to execute commands at runtime via a REPL.
+
+## webpack.config.js
+```node
+const path  =  require('path');
+module.exports  =  {
+mode:'production',entry:  './src/index.js',
+
+output:  {
+
+filename:  'main.js',
+
+path: path.resolve(__dirname,  'dist'),
+
+},
+
+};
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDU0NDgxNjMsLTY2OTc5Nzc1OSwyMD
-c0MzIzNzY4LDEwMzAwMzkzMTUsMjA3MDY3NzIyNCw0ODk2MDA2
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTgwOTcwOTI2NywtMTEwNTQ0ODE2MywtNj
+Y5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMDAzOTMxNSwyMDcwNjc3
+MjI0LDQ4OTYwMDYyNF19
 -->
