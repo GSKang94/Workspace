@@ -1,156 +1,176 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    scroll-behavior:smooth;
-    font-family: 'Lato', sans-serif;
-    
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
 }
 
-#navbar{
-    position: fixed;
-    top: 0;
-    width:100% ;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.4em;
-    font-weight: bold;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-    z-index: 1;
-    color:#f9f7d9;
-    transition: top 0.5s;
-    background-color: #071F2A;
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  z-index: 1;
+  color: #f9f7d9;
+  transition: top 0.5s;
+  background-color: #071f2a;
 }
 
-    
-#navbar a{
-    color:inherit;
+#navbar a {
+  color: inherit;
 }
 
-.nav-active{
-    background-color: red;
-}
-  
-
-#navbar li{
-    display: inline-block;
+.nav-active {
+  background-color: red;
 }
 
-#left-bar li{
- padding-left: 1.3em;
-
+#navbar li {
+  display: inline-block;
 }
 
-#right-bar li{
-    padding-right: 1.3em;
-    font-size: 1.12em;
-    padding-top: 0.03em;
-}
-.git-logo:hover{
-    color: #24292E;
-    background-color: white;
-    border-radius: 50%;
-}
-.link-logo:hover{
-    color: #0073B1;
-}
-.mail-logo:hover{
-    color: #E34133;
+#left-bar li {
+  padding-left: 1.3em;
+  transition: all 0.3s ease;
 }
 
-#right-bar ion-icon:hover{
-    -webkit-animation:vibrate-1 .3s linear infinite both;
-    animation:vibrate-1 .3s linear infinite both;
+#left-bar li:hover {
+  color: #f9813a;
 }
 
-
-#welcome-section{
-    background-image: radial-gradient(circle, #26121d, #231320, #201423, #1c1625, #181726, #151a28, #111c29, #0f1e29, #0d212a, #0e242a, #102729, #142928);    color: #f9f7d9;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.4em;
+#right-bar li {
+  padding-right: 1.3em;
+  font-size: 1.12em;
+  padding-top: 0.03em;
 }
-#welcome-section h3{
-    margin-top: 0.7em;
-    
+.git-logo:hover {
+  color: #24292e;
+  background-color: white;
+  border-radius: 50%;
 }
-
-#projects{
-    text-align: center;
-    background-color: #101A28;
-    color: #f9f7d9;
-    padding-top: 4em;
-    /* position: relative; */
+.link-logo:hover {
+  color: #0073b1;
+}
+.mail-logo:hover {
+  color: #e34133;
 }
 
-#projects h1{
-    margin-bottom: 2.1em;
-    font-size: 2.7em;
+#right-bar ion-icon:hover {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
 }
 
-#project-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 75em;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 2em;
+#welcome-section {
+  background-image: radial-gradient(
+    circle,
+    #26121d,
+    #231320,
+    #201423,
+    #1c1625,
+    #181726,
+    #151a28,
+    #111c29,
+    #0f1e29,
+    #0d212a,
+    #0e242a,
+    #102729,
+    #142928
+  );
+  color: #f9f7d9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4em;
+}
+#welcome-section h3 {
+  margin-top: 0.7em;
 }
 
-#project-container .project-tile{
-    margin-bottom: 4em;
-    color: black;
-    border-radius: 5px;
-    background: linear-gradient(#f05454, #f9813a), 
+#projects {
+  text-align: center;
+  background-color: #101a28;
+  color: #f9f7d9;
+  padding-top: 4em;
+  /* position: relative; */
+}
+
+#projects h1 {
+  margin-bottom: 2.1em;
+  font-size: 2.7em;
+}
+
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75em;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#project-container .project-tile {
+  margin-bottom: 4em;
+  color: black;
+  border-radius: 5px;
+  background: linear-gradient(#f05454, #f9813a),
     linear-gradient(to right, #f05454, #f9813a);
-    background-origin: padding-box, border-box;
-    background-repeat: no-repeat; /* this is important */
-    border: 4px solid transparent;
+  background-origin: padding-box, border-box;
+  background-repeat: no-repeat; /* this is important */
+  border: 4px solid transparent;
 }
 
-.project-tile h3{
-    font-size: 1.3em;
-    padding: 0.5em;
-    background-color: #00263b;
-    color: white;
+.project-tile h3 {
+  font-size: 1.3em;
+  padding: 0.5em;
+  background-color: #00263b;
+  color: white;
 }
 
-#projects button{
-    padding: 1em;
-    border: none;
-    border-radius: 10px;
-    background-color: burlywood;
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-top: 2.1em;
-    /* position: absolute; */
-    /* transition: background-image 0.3s ease-out; */
-    /* transition: background-image 0.5s linear; */
-    /* right: 50%; */
-    margin-bottom: 5em;
+#projects button {
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: burlywood;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 2.1em;
+  /* position: absolute; */
+  /* transition: background-image 0.3s ease-out; */
+  /* transition: background-image 0.5s linear; */
+  /* right: 50%; */
+  margin-bottom: 5em;
 }
 
-#projects button:hover{
-    /* background-color: chocolate; */
-    background-image: linear-gradient(to right bottom, #f05454, #f45f4d, #f76a47, #f87640, #f9813a);
-
+#projects button:hover {
+  /* background-color: chocolate; */
+  background-image: linear-gradient(
+    to right bottom,
+    #f05454,
+    #f45f4d,
+    #f76a47,
+    #f87640,
+    #f9813a
+  );
 }
 
-#projects button a{
-    color: inherit;
+#projects button a {
+  color: inherit;
 }
 
-button ion-icon{
-    font-size: 1.1em;
-    vertical-align: -0.2em;
+button ion-icon {
+  font-size: 1.1em;
+  vertical-align: -0.2em;
 }
 
 /* #curve{
@@ -159,184 +179,181 @@ button ion-icon{
     fill: #db6400;
 } */
 
-#curve{
-    height: 150px;
-    overflow: hidden;
-    /* background-color: #db6400; */
-    /* background-image: linear-gradient(to right bottom, #f05454, #f45f4d, #f76a47, #f87640, #f9813a); */
+#curve {
+  height: 150px;
+  overflow: hidden;
+  /* background-color: #db6400; */
+  /* background-image: linear-gradient(to right bottom, #f05454, #f45f4d, #f76a47, #f87640, #f9813a); */
 
-    stroke: none;
-    fill: #101A28;
+  stroke: none;
+  fill: #101a28;
 }
-#curve svg{
-    height: 100%; width: 100%;
-}
-
-#contact{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 2em;
-    /* background-color: #db6400; */
-    background-image: linear-gradient(to right bottom, #f05454, #f45f4d, #f76a47, #f87640, #f9813a);
-    /* transition: background 0.6s ease-out; */
-}
-#contact .back-top{
-    margin: 0 auto;
-    /* margin-top: 2em; */
-    font-size: 1.4em;
-    transition: background 0.3s ease-out;
-}
-#contact .back-top{
-    color: inherit;
-}
-#contact .back-top:hover{
-    color: white;
-    animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both
-
-}
-#contact li{
-    display: inline;
-    font-size: 1.6em;
-    padding-right: 1.1em;
+#curve svg {
+  height: 100%;
+  width: 100%;
 }
 
-#contact ul{
-    margin-bottom: 1.9em;
+#contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2em;
+  /* background-color: #db6400; */
+  background-image: linear-gradient(
+    to right bottom,
+    #f05454,
+    #f45f4d,
+    #f76a47,
+    #f87640,
+    #f9813a
+  );
+  /* transition: background 0.6s ease-out; */
+}
+#contact .back-top {
+  margin: 0 auto;
+  /* margin-top: 2em; */
+  font-size: 1.4em;
+  transition: background 0.3s ease-out;
+}
+#contact .back-top {
+  transition: all 0.3s ease;
+  color: inherit;
+}
+#contact .back-top:hover {
+  color: white;
+  transform: scale(1.2);
+}
+#contact li {
+  display: inline;
+  font-size: 1.6em;
+  padding-right: 1.1em;
 }
 
-#contact h1{
-    margin: 1em 0 1.2em 0;
+#contact ul {
+  margin-bottom: 1.9em;
 }
 
-#bottom-bar a{
-    color: inherit;
+#contact h1 {
+  margin: 1em 0 1.2em 0;
 }
 
-#bottom-bar ion-icon:hover{
-    animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both
+#bottom-bar a {
+  color: inherit;
+}
+#bottom-bar ion-icon {
+  transition: 0.3s all ease;
 }
 
-
+#bottom-bar ion-icon:hover {
+  transform: scale(1.3);
+}
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    
-    #navbar{
-        font-size: 1em;
-        padding-top: 0.8em;
-        padding-bottom: 0.7em;
-    }
-    
-    #curve{
-        display: none;
-    }
-    #left-bar li{
-     padding-left: 0.4em;
-    
-    }
-    
-    #right-bar li{
-        padding-right: 0.4em;
-        font-size: 1em;
-    }
-    #right-bar{
-        padding-right: 0.6em;
-    }
-    
-    #welcome-section{
-        font-size: 1em;
-    }
+  #navbar {
+    font-size: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.7em;
+  }
 
-    #projects{
-        padding-top: 3em;
-    }
-    #projects img{
-        width: 300px;
-    }
+  #curve {
+    display: none;
+  }
+  #left-bar li {
+    padding-left: 0.4em;
+  }
 
-    #projects h1{
-        font-size: 1.3em;
-    }
+  #right-bar li {
+    padding-right: 0.4em;
+    font-size: 1em;
+  }
+  #right-bar {
+    padding-right: 0.6em;
+  }
 
-    #project-container{
-        width: 100%;
-    }
+  #welcome-section {
+    font-size: 1em;
+  }
 
-    #project-container .project-tile{
-        margin: 0 auto;
-        margin-bottom: 3em;
-        border: 4px solid transparent;
-    }
+  #projects {
+    padding-top: 3em;
+  }
+  #projects img {
+    width: 300px;
+  }
 
-    .project-tile h3{
-        font-size: 1em;
-        padding: 0.5em;
-    }
+  #projects h1 {
+    font-size: 1.3em;
+  }
 
-    #projects button{
-        padding: 0.7em;
-        font-size: 1em;
-        margin-top: 1.6em;
-        position: unset;
-        margin-bottom: 3.2em;
-    }
+  #project-container {
+    width: 100%;
+  }
 
-    #contact{
-        padding-top: 2.5em;
-        font-size: 1.2em;
-    }
-    
-    #contact li{
-        font-size: 1.3em;
-        padding-right: 0.7em;
-    }
-    
-    #contact ul{
-        margin-bottom: 2.9em;
-    }
-    
-    #contact h1{
-        margin: 1em 0 0.6em 0;
-    }
+  #project-container .project-tile {
+    margin: 0 auto;
+    margin-bottom: 3em;
+    border: 4px solid transparent;
+  }
 
+  .project-tile h3 {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+
+  #projects button {
+    padding: 0.7em;
+    font-size: 1em;
+    margin-top: 1.6em;
+    position: unset;
+    margin-bottom: 3.2em;
+  }
+
+  #contact {
+    padding-top: 2.5em;
+    font-size: 1.2em;
+  }
+
+  #contact li {
+    font-size: 1.3em;
+    padding-right: 0.7em;
+  }
+
+  #contact ul {
+    margin-bottom: 2.9em;
+  }
+
+  #contact h1 {
+    margin: 1em 0 0.6em 0;
+  }
 }
-
-
-
 
 /* @media only screen and (min-width: 479px) and (max-width: 979px) {
    code
 } */
 
-
-
-@keyframes vibrate-1{
-    0%{-webkit-transform:translate(0);
-        transform:translate(0)
-    }
-    20%{-webkit-transform:translate(-2px,2px);
-        transform:translate(-2px,2px)
-    }
-    40%{
-        -webkit-transform:translate(-2px,-2px);
-        transform:translate(-2px,-2px)
-    }
-    60%{
-        -webkit-transform:translate(2px,2px);
-        transform:translate(2px,2px)
-    }
-    80%{
-        -webkit-transform:translate(2px,-2px);
-        transform:translate(2px,-2px)
-    }
-    100%{-webkit-transform:translate(0);
-        transform:translate(0)
-    }
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 }
-
-
-@keyframes scale-up-center{
-    0%{transform:scale(1)}
-    100%{transform:scale(1.2)}
-}
-
