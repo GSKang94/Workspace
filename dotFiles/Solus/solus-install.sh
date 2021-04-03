@@ -1,16 +1,11 @@
-#!/bin/bash
-
-#if [[ $EUID -ne 0 ]]; then
-  #  echo "This script must be run as root"
-   # exit 1
-#else
     #Update and Upgrade
     echo "Updating and Upgrading"
     eopkg up -y
 
     eopkg it dialog
     cmd=(dialog --separate-output --checklist "Please Select Software you want to install:" 22 76 16)
-    options=(1 "zsh & wget" off # any option can be set to default to "on"
+    options=(
+        1 "zsh & wget" off # any option can be set to default to "on"
         2 "Git" off
         3 "VScode" off
         4 "menulibre" off
@@ -48,8 +43,6 @@
         2)
             #Install Git
             echo "Installing Git"
-            sudo eopkg it -y git
-            ;;
         3)
             #Install VScode
             echo "Installing VScode"
@@ -65,7 +58,7 @@
         5)
             #Install Fonts
             sudo eopkg it -y font-firacode-ttf gnome-font-viewer
-            cd ~/dotFiles/Common && xdg-open MesloLGS\ NF\ Regular.ttf
+       #     cd ~/dotFiles/Common && xdg-open MesloLGS\ NF\ Regular.ttf
             ;;
         6)
             #install Peek
@@ -97,25 +90,24 @@
             sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
             echo "installing zsh-autosuggestions"
-            git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
+            git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+           
             echo "installing zsh-syntax-highlighting"
-            git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
+            git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+            
             echo "installing Powerlevel10k theme"
-            git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+	    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-            echo "Finale"
-            echo "ZSH_THEME="powerlevel10k/powerlevel10k"
-                   plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-                    source $HOME/.aliases"
-            gedit .zshrc
+          #  echo "Finale"
+          #  echo "ZSH_THEME="powerlevel10k/powerlevel10k"
+           #        plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+           #         source $HOME/.aliases"
+           # gedit .zshrc
             ;;
         11)
             #Move files
             echo "Moving files"
-            cd ~/dotFiles/Common && cp dracula.xml ~/.local/share/gedit/styles/ && cp .aliases ~/ && cp -a ./img ~/Pictures
-            #cd ~/dotFiles/Solus && cp Solus-backup ~/
+            cd 
             ;;
         12)
 
